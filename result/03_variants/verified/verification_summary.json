@@ -1,0 +1,70 @@
+{
+  "total_candidates": 223,
+  "confident": 4,
+  "ambiguous": 215,
+  "confident_variants": [
+    {
+      "contig": "NC_003228.3",
+      "pos": "530487",
+      "ref": "G",
+      "alt": "GT",
+      "type": "INS",
+      "methods": 2,
+      "callers": "bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer",
+      "observed_alt_percent": "",
+      "observed_depth": "86"
+    },
+    {
+      "contig": "NC_003228.3",
+      "pos": "669715",
+      "ref": "TTA",
+      "alt": "T",
+      "type": "DEL",
+      "methods": 2,
+      "callers": "bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer",
+      "observed_alt_percent": "",
+      "observed_depth": "93"
+    },
+    {
+      "contig": "NC_003228.3",
+      "pos": "683862",
+      "ref": "G",
+      "alt": "A",
+      "type": "SNP",
+      "methods": 3,
+      "callers": "bcftools_asm;bcftools_sim_snp;freebayes_asm;freebayes_sim;mummer",
+      "observed_alt_percent": "100.0",
+      "observed_depth": "112"
+    },
+    {
+      "contig": "NC_003228.3",
+      "pos": "1709303",
+      "ref": "G",
+      "alt": "GT",
+      "type": "INS",
+      "methods": 2,
+      "callers": "bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer",
+      "observed_alt_percent": "",
+      "observed_depth": "97"
+    }
+  ],
+  "ambiguity_reasons": {
+    "ref_multicopy": 215,
+    "nucmer_overlap_RQ": 154,
+    "reads_contradict_alt0pct": 108,
+    "two_independent_methods": 24,
+    "multi_caller": 24,
+    "multi_contig_alignment": 19,
+    "two_assembly_callers": 17,
+    "well_within_alignment": 16,
+    "reads_contradict_alt2pct": 11,
+    "low_read_mapq": 4,
+    "reads_contradict_alt1pct": 4,
+    "reads_contradict_alt3pct": 2,
+    "reads_contradict_alt34pct": 1,
+    "reads_contradict_alt33pct": 1,
+    "reads_contradict_alt31pct": 1,
+    "reads_contradict_alt44pct": 1,
+    "reads_contradict_alt32pct": 1
+  }
+}

@@ -1,0 +1,63 @@
+00:00:00 SnpEff version SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+00:00:00 Command: 'ann'
+00:00:00 Reading configuration file '/home/cz/WGS/work/snpeff.config'. Genome: 'Bfragilis_NCTC9343'
+00:00:00 Looking for config file: '/home/cz/WGS/work/snpeff.config'
+00:00:00 Reading config file: /home/cz/WGS/work/snpeff.config
+00:00:00 done
+00:00:00 Reading database for genome version 'Bfragilis_NCTC9343' from file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/snpEffectPredictor.bin' (this might take a while)
+00:00:00 done
+00:00:00 Loading Motifs and PWMs
+00:00:00 Building interval forest
+00:00:00 done.
+00:00:00 Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Bacteroides fragilis NCTC9343'
+# Genome version             : 'Bfragilis_NCTC9343'
+# Genome ID                  : 'Bfragilis_NCTC9343[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 4326
+# Protein coding genes       : 4233
+#-----------------------------------------------
+# Transcripts                : 4324
+# Avg. transcripts per gene  : 1.00
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 4233
+#              Length errors :     57 ( 1.35% )
+#  STOP codons in CDS errors :     13 ( 0.31% )
+#         START codon errors :    204 ( 4.82% )
+#        STOP codon warnings :     16 ( 0.38% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    204 ( 4.82% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 4231
+# Exons                      : 4325
+# Exons with sequence        : 4325
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 1.00
+# WARNING                    : No mitochondrion chromosome found
+#-----------------------------------------------
+# Number of chromosomes      : 2
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'NC_003228.3'	5205140	Standard
+#		'NC_006873.1'	36560	Standard
+#-----------------------------------------------
+
+00:00:00 Predicting variants
+00:00:00 Loading sequences for chromosome 'NC_003228.3' from file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/sequence.NC_003228.3.bin'
+00:00:00 Building sequence tree for chromosome 'NC_003228.3'
+00:00:00 Done. Loaded 3843 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	1
+
+
+00:00:00 done.
+00:00:00 Done.

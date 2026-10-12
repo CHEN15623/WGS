@@ -1,0 +1,52 @@
+
+[1;34m==> 06-EX (a): plasmid comparison (reference plasmid vs query plasmid)[0m
+[plasmid] ref NC_006873.1 36,560 bp vs qry NZ_CP036556.1 36,560 bp; orientation=reverse_complement; identity=100.0%; differences=0
+
+[1;34m==> 06-EX (b): prophage detection[0m
+   [FAIL] phispy_reference (rc=2) -- see /home/cz/WGS/logs/phispy_reference.log
+[1;33m[WARN] phispy reference failed[0m
+   [FAIL] phispy_query (rc=2) -- see /home/cz/WGS/logs/phispy_query.log
+[1;33m[WARN] phispy query failed[0m
+
+[1;34m==> 06-EX (c): CRISPR arrays and cas genes[0m
+   [ok]   minced_reference
+   [ok]   minced_query
+[crispr] 6 cas-like genes
+
+[1;34m==> 06-EX (d): mobile genetic elements / transposase landscape[0m
+[mobile] 67 mobile-element genes
+
+[1;34m==> 06-EX (e): phylogenomic placement among B. fragilis genomes[0m
+
+[1;34m==>   downloading B. fragilis RefSeq assemblies ...[0m
+[1;33m[WARN] not enough genomes downloaded -- phylogenomics skipped[0m
+
+[1;34m==> 06-EX (f): pan-genome statistics[0m
+
+[1;34m==> 06-Extra analyses complete -> /home/cz/WGS/result/06_extra[0m
+
+[1;34m==> 06-EX (a): plasmid comparison (reference plasmid vs query plasmid)[0m
+[plasmid] ref NC_006873.1 36,560 bp vs qry NZ_CP036556.1 36,560 bp; orientation=reverse_complement; identity=100.0%; differences=0
+
+[1;34m==> 06-EX (b): prophage detection[0m
+   [FAIL] phispy_reference (rc=2) -- see /home/cz/WGS/logs/phispy_reference.log
+[1;33m[WARN] phispy reference failed[0m
+   [FAIL] phispy_query (rc=2) -- see /home/cz/WGS/logs/phispy_query.log
+[1;33m[WARN] phispy query failed[0m
+
+[1;34m==> 06-EX (c): CRISPR arrays and cas genes[0m
+   [ok]   minced_reference
+   [ok]   minced_query
+[crispr] 6 cas-like genes
+
+[1;34m==> 06-EX (d): mobile genetic elements / transposase landscape[0m
+[mobile] 67 mobile-element genes
+
+[1;34m==> 06-EX (e): phylogenomic placement among B. fragilis genomes[0m
+
+[1;34m==>   downloading B. fragilis RefSeq assemblies ...[0m
+[1;33m[WARN] not enough genomes downloaded -- phylogenomics skipped[0m
+
+[1;34m==> 06-EX (f): pan-genome statistics[0m
+
+[1;34m==> 06-Extra analyses complete -> /home/cz/WGS/result/06_extra[0m

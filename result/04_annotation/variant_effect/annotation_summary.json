@@ -1,0 +1,57 @@
+{
+  "total_variants": 4,
+  "effects": {
+    "frameshift_variant": 2,
+    "upstream_gene_variant": 1,
+    "missense_variant": 1
+  },
+  "impacts": {
+    "HIGH": 2,
+    "LOW": 1,
+    "MODERATE": 1
+  },
+  "affected_genes": 3,
+  "affected_gene_list": [
+    {
+      "locus": "BF9343_RS02095",
+      "gene": "",
+      "product": "BamA/OMP85 family outer membrane protein",
+      "n_variants": 1
+    },
+    {
+      "locus": "BF9343_RS02670",
+      "gene": "WP_010992101.1",
+      "product": "RagB/SusD family nutrient uptake outer membrane protein",
+      "n_variants": 1
+    },
+    {
+      "locus": "BF9343_RS06655",
+      "gene": "",
+      "product": "FtsX-like permease family protein",
+      "n_variants": 1
+    }
+  ],
+  "high_impact_genes": [
+    {
+      "locus": "BF9343_RS02095",
+      "gene": "",
+      "product": "BamA/OMP85 family outer membrane protein",
+      "effect": "frameshift_variant",
+      "protein_change": ""
+    },
+    {
+      "locus": "BF9343_RS02670",
+      "gene": "WP_010992101.1",
+      "product": "RagB/SusD family nutrient uptake outer membrane protein",
+      "effect": "missense_variant",
+      "protein_change": "p.A141T"
+    },
+    {
+      "locus": "BF9343_RS06655",
+      "gene": "",
+      "product": "FtsX-like permease family protein",
+      "effect": "frameshift_variant",
+      "protein_change": ""
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+locus_tag	gene	product	start	end	strand
+BF9343_RS21315	WP_004295368.1	recombinase family protein	129	722	+
+BF9343_RS21320	WP_005780952.1	ArdC family protein	1147	2157	+
+BF9343_RS21330	WP_011264135.1	hypothetical protein	3264	3515	+
+BF9343_RS21335	WP_011264136.1	hypothetical protein	3580	3798	+
+BF9343_RS21340	WP_005812717.1	hypothetical protein	3830	4168	+
+BF9343_RS21345	WP_011264137.1	hypothetical protein	4193	4411	+
+BF9343_RS21350	WP_005812583.1	hypothetical protein	4429	4737	+
+BF9343_RS21355	WP_011264138.1	hypothetical protein	4748	4969	+
+BF9343_RS21360	WP_041926351.1	hypothetical protein	5045	5527	+
+BF9343_RS21365	WP_008765230.1	hypothetical protein	5517	5729	+
+BF9343_RS21375	WP_008765232.1	replication initiation protein	5893	7050	+
+BF9343_RS21380	WP_007557662.1	plasmid mobilization protein	8217	8573	+
+BF9343_RS21385	WP_011264141.1	relaxase/mobilization nuclease domain-containing protein	9008	10570	+
+BF9343_RS21390	WP_011264142.1	ParA family protein	10586	11209	+
+BF9343_RS21395	WP_007557648.1	hypothetical protein	11268	11702	+
+BF9343_RS21400	WP_011264143.1	helix-turn-helix domain-containing protein	12009	12395	-
+BF9343_RS21405	WP_011264144.1	type IV secretory system conjugative DNA transfer family protein	12388	14343	-
+BF9343_RS21410	WP_008765235.1	hypothetical protein	14347	14571	-
+BF9343_RS21415	WP_041926350.1	hypothetical protein	14745	15188	-
+BF9343_RS21420	WP_011264146.1	hypothetical protein	15268	15540	-
+BF9343_RS21425	WP_008765238.1	HU family DNA-binding protein	15531	15809	-
+BF9343_RS21430	WP_011264148.1	hypothetical protein	15821	16174	-
+BF9343_RS21435	WP_011264149.1	topoisomerase C-terminal repeat-containing protein	16171	17007	-
+BF9343_RS21440	WP_011264150.1	hypothetical protein	17008	17712	-
+BF9343_RS21445	WP_011264151.1	PH domain-containing protein	17693	18196	-
+BF9343_RS21450	WP_011264152.1	DUF3991 domain-containing protein	18193	19302	-
+BF9343_RS21455	WP_011264153.1	DUF3945 domain-containing protein	19307	20866	-
+BF9343_RS21460	WP_011264154.1	DUF4099 domain-containing protein	20868	21587	-
+BF9343_RS21465	WP_011264155.1	M23 family metallopeptidase	21628	22293	+
+BF9343_RS21470	WP_008765240.1	zeta toxin family protein	22340	23206	-
+BF9343_RS21475	WP_005647331.1	hypothetical protein	23193	23453	-
+BF9343_RS21480	WP_005647329.1	DUF3990 domain-containing protein	23475	23954	-
+BF9343_RS21485	WP_004295329.1	DUF3791 domain-containing protein	23951	24400	-
+BF9343_RS21495	WP_004295385.1	OmpA family protein	25508	26149	-
+BF9343_RS21500	WP_007559134.1	hypothetical protein	26152	26811	-
+BF9343_RS21505	WP_007559132.1	hypothetical protein	26814	27317	-
+BF9343_RS21510	traN	conjugative transposon protein TraN	27330	28169	-
+BF9343_RS21515	traM	conjugative transposon protein TraM	28171	29280	-
+BF9343_RS21520	WP_011264156.1	hypothetical protein	29284	29715	-
+BF9343_RS21525	traK	conjugative transposon protein TraK	29715	30329	-
+BF9343_RS21530	WP_008765219.1	plasmid transfer protein	30362	31384	-
+BF9343_RS21535	WP_011264157.1	hypothetical protein	31377	32033	-
+BF9343_RS21540	WP_032840796.1	hypothetical protein	32035	32709	-
+BF9343_RS21545	WP_011264158.1	TraG/VirB4 family ATPase	32721	35561	-
+BF9343_RS21550	WP_008765223.1	DUF4133 domain-containing protein	35567	35866	-
+BF9343_RS21555	WP_008765224.1	DUF4134 domain-containing protein	35868	36182	-
+BF9343_RS21560	WP_007559113.1	hypothetical protein	36202	36543	-

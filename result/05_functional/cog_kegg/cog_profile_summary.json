@@ -1,0 +1,67 @@
+{
+  "reference": {
+    "proteins_with_hit": 2884,
+    "assigned": 2783,
+    "category_counts": {
+      "J": 209,
+      "C": 155,
+      "L": 172,
+      "M": 378,
+      "K": 198,
+      "U": 49,
+      "O": 136,
+      "D": 50,
+      "I": 98,
+      "G": 244,
+      "E": 188,
+      "V": 144,
+      "R": 194,
+      "H": 179,
+      "S": 95,
+      "T": 187,
+      "Q": 23,
+      "P": 229,
+      "N": 28,
+      "F": 76,
+      "W": 11,
+      "Z": 3
+    }
+  },
+  "query": {
+    "proteins_with_hit": 2922,
+    "assigned": 2821,
+    "category_counts": {
+      "J": 209,
+      "M": 382,
+      "Q": 23,
+      "V": 147,
+      "L": 182,
+      "C": 155,
+      "P": 232,
+      "H": 179,
+      "G": 248,
+      "D": 50,
+      "I": 99,
+      "F": 77,
+      "N": 28,
+      "S": 98,
+      "R": 194,
+      "E": 189,
+      "T": 189,
+      "K": 200,
+      "U": 49,
+      "O": 136,
+      "W": 11,
+      "Z": 3
+    }
+  },
+  "metabolism_category_totals": {
+    "reference": 1192,
+    "query": 1202
+  },
+  "cog_ids_reference_only": [],
+  "cog_ids_query_only": [
+    "COG1505",
+    "COG3293"
+  ]
+}

@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+#  Regenerable intermediates — deliberately NOT version-controlled
+# ---------------------------------------------------------------------------
+#  `work/` holds everything that WGS.sh rebuilds on demand:
+#     * bwa / minimap2 BAMs and their indices
+#     * the simulated Illumina reads (fastq)
+#     * the downloaded B. fragilis genome panel used for phylogenomics
+#     * the NCBI COG2020 database (~1.4 GB fa + ~1.4 GB DIAMOND index)
+#  ≈5.3 GB in total.  The finished analysis it produces IS committed, under
+#  result/.
+work/
+nohup.out
+*.log.tmp
+
+# ---------------------------------------------------------------------------
+#  Tool-generated index files (rebuilt by `samtools faidx` / `bwa index`)
+# ---------------------------------------------------------------------------
+*.fai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# ---------------------------------------------------------------------------
+#  Python / editor noise
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/

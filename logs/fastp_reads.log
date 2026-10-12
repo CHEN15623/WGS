@@ -1,0 +1,46 @@
+Read1 before filtering:
+total reads: 1747231
+total bases: 262084650
+Q20 bases: 262084650(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 1747231
+total bases: 262084650
+Q20 bases: 262084650(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 1747201
+total bases: 262075930
+Q20 bases: 262075930(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 1747201
+total bases: 262075930
+Q20 bases: 262075930(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 3494402
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 60
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 274
+bases trimmed due to adapters: 15208
+
+Duplication rate: 0.00228934%
+
+Insert size peak (evaluated by paired-end reads): 266
+
+JSON report: /home/cz/WGS/result/01_qc/reads_qc/fastp.json
+HTML report: /home/cz/WGS/result/01_qc/reads_qc/fastp.html
+
+fastp -i /home/cz/WGS/work/reads/CCUG4856_SIM_R1.fastq -I /home/cz/WGS/work/reads/CCUG4856_SIM_R2.fastq -o /home/cz/WGS/work/reads/CCUG4856_SIM_R1.clean.fq.gz -O /home/cz/WGS/work/reads/CCUG4856_SIM_R2.clean.fq.gz -j /home/cz/WGS/result/01_qc/reads_qc/fastp.json -h /home/cz/WGS/result/01_qc/reads_qc/fastp.html -w 32 -q 20 -u 30 -l 50 
+fastp v1.4.0, time used: 3 seconds

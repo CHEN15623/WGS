@@ -1,0 +1,13 @@
+Parsing /home/cz/WGS/reference/unzipped/reference.gff ...
+Warning: Ignoring transcript with unknown biotype .. NC_003228.3	tRNAscan-SE	tRNA	79576	79646	.	+	.	ID=rna-BF9343_RS00355;Parent=gene-BF9343_RS00355;Dbxref=GeneID:60370033;anticodon=(pos:79608..79610);gbkey=tRNA;inference=COORDINATES: profile:tRNAscan-SE:2.0.12;locus_tag=BF9343_RS00355;product=tRNA-Gln
+Warning: Ignoring GFF feature with unknown phase .. NC_003228.3	tRNAscan-SE	exon	79576	79646	.	+	.	ID=exon-BF9343_RS00355-1;Parent=rna-BF9343_RS00355;Dbxref=GeneID:60370033;anticodon=(pos:79608..79610);gbkey=tRNA;inference=COORDINATES: profile:tRNAscan-SE:2.0.12;locus_tag=BF9343_RS00355;product=tRNA-Gln
+Indexed 19 transcripts, 19 exons, 0 CDSs, 0 UTRs
+Warning: 167 warnings were suppressed, increase verbosity to see them all
+Calling...
+[W::vcf_parse_info] INFO 'freebayes_asm' at NC_003228.3:530490 is not defined in the header, assuming Type=String
+[W::vcf_parse_info] Missing headers may cause later processing to fail
+[W::vcf_parse_info] INFO 'freebayes_sim' at NC_003228.3:530490 is not defined in the header, assuming Type=String
+[W::vcf_parse_info] INFO 'mummer' at NC_003228.3:530490 is not defined in the header, assuming Type=String
+[W::vcf_parse_format_dict2] FORMAT 'GT' at NC_003228.3:530490 is not defined in the header, assuming Type=String
+[W::vcf_parse_info] INFO 'bcftools_sim_snp' at NC_003228.3:683862 is not defined in the header, assuming Type=String
+[W::vcf_parse_info] Missing headers may cause later processing to fail

@@ -1,0 +1,60 @@
+/home/cz/miniconda3/envs/WGS/bin/quast.py -o /home/cz/WGS/result/01_qc/quast/reference -t 32 --no-icarus --silent /home/cz/WGS/reference/unzipped/reference.fna
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-7.0.0-30-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.11.17
+  CPUs number: 192
+
+Started: 2026-10-12 17:27:38
+
+Logging to /home/cz/WGS/result/01_qc/quast/reference/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /home/cz/WGS
+Main parameters: 
+  MODE: default, threads: 32, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  /home/cz/WGS/reference/unzipped/reference.fna ==> reference
+
+2026-10-12 17:27:38
+Running Basic statistics processor...
+  Contig files: 
+    reference
+  Calculating N50 and L50...
+    reference, N50 = 5205140, L50 = 1, auN = 5169090.0, Total length = 5241700, GC % = 43.11, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/cz/WGS/result/01_qc/quast/reference/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/cz/WGS/result/01_qc/quast/reference/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/cz/WGS/result/01_qc/quast/reference/basic_stats/GC_content_plot.pdf
+  Drawing reference GC content plot...
+    saved to /home/cz/WGS/result/01_qc/quast/reference/basic_stats/reference_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-10-12 17:27:39
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+Done
+
+2026-10-12 17:27:39
+RESULTS:
+  Text versions of total report are saved to /home/cz/WGS/result/01_qc/quast/reference/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cz/WGS/result/01_qc/quast/reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/cz/WGS/result/01_qc/quast/reference/report.html
+  PDF version (tables and plots) is saved to /home/cz/WGS/result/01_qc/quast/reference/report.pdf
+  Log is saved to /home/cz/WGS/result/01_qc/quast/reference/quast.log
+
+Finished: 2026-10-12 17:27:39
+Elapsed time: 0:00:01.489216
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

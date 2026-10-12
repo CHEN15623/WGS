@@ -1,0 +1,121 @@
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 18:53:38
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+------------------------------------------------------------------
+ toolchain check  (conda env: WGS)
+------------------------------------------------------------------
+  [ ok ]  samtools       /home/cz/miniconda3/envs/WGS/bin/samtools
+  [ ok ]  bcftools       /home/cz/miniconda3/envs/WGS/bin/bcftools
+  [ ok ]  bwa            /home/cz/miniconda3/envs/WGS/bin/bwa
+  [ ok ]  minimap2       /home/cz/miniconda3/envs/WGS/bin/minimap2
+  [ ok ]  nucmer         /home/cz/miniconda3/envs/WGS/bin/nucmer
+  [ ok ]  show-snps      /home/cz/miniconda3/envs/WGS/bin/show-snps
+  [ ok ]  python3        /home/cz/miniconda3/envs/WGS/bin/python3
+  [ ok ]  freebayes     
+  [ ok ]  dnadiff       
+  [ -- ]  prokka         optional, step will be skipped
+  [ ok ]  bakta         
+  [ ok ]  snpEff        
+  [ -- ]  abricate       optional, step will be skipped
+  [ ok ]  amrfinder     
+  [ ok ]  quast.py      
+  [ ok ]  seqkit        
+  [ -- ]  bandage        optional, step will be skipped
+  [ ok ]  mafft         
+  [ ok ]  iqtree        
+  [ ok ]  diamond       
+  [ -- ]  Rscript        optional, step will be skipped
+------------------------------------------------------------------
+ core toolchain complete
+-- skipping step 0 (prepare)
+-- skipping step 1 (qc)
+
+###################################################################
+#  STEP 2  :  alignment
+#  script    :  /home/cz/WGS/scripts/02_alignment.sh
+#  started   :  2026-10-12 18:53:38
+###################################################################
+
+[1;34m==> 02-ALN (0): index the reference[0m
+
+[1;34m==> 02-ALN (A): whole-genome alignment with NUCmer[0m
+   [ok]   show_coords
+   [ok]   show_coords_all
+   [ok]   show_align
+
+[1;34m==> 02-ALN (A2): structural rearrangements from the 1-to-1 blocks[0m
+[sv] 9 alignment blocks; 1 confirmed inversion(s), largest 88,340 bp; 1 replicon(s) with an origin shift
+
+[1;34m==> 02-ALN (B): dnadiff whole-genome difference report[0m
+
+[1;34m==> 02-ALN (C): contig-to-reference mapping (minimap2 asm5)[0m
+   [ok]   samtools_flagstat
+   [ok]   samtools_stats
+   [ok]   samtools_idxstats
+   [ok]   samtools_coverage
+   [ok]   samtools_depth
+
+[1;34m==> 02-ALN (D): simulated-read mapping (depth-supported confirmation layer)[0m
+   [ok]   samtools_flagstat_sim
+   [ok]   samtools_stats_sim
+   [ok]   samtools_coverage_sim
+   [ok]   samtools_depth_sim
+
+[1;34m==> 02-ALN (E): coverage / uncovered-region summary[0m
+[coverage] wrote /home/cz/WGS/result/02_alignment/coverage/coverage_report.tsv and /home/cz/WGS/result/02_alignment/coverage/uncovered_regions.tsv
+
+[1;34m==> 02-Alignment complete -> /home/cz/WGS/result/02_alignment[0m
+--> STEP 2 (alignment) finished OK in 175s
+-- skipping step 3 (variants)
+-- skipping step 4 (annotation)
+-- skipping step 5 (functional)
+-- skipping step 6 (extra)
+
+###################################################################
+#  STEP 7  :  visualize
+#  script    :  /home/cz/WGS/scripts/07_visualize.sh
+#  started   :  2026-10-12 18:56:33
+###################################################################
+
+[1;34m==> 07-VIZ: generating figures[0m
+  [fig] /home/cz/WGS/result/07_visualization/fig01_assembly_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig02_read_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig03_synteny_dotplot.png
+  [fig] /home/cz/WGS/result/07_visualization/fig04_structural_variants.png
+  [fig] /home/cz/WGS/result/07_visualization/fig05_genome_circos.png
+  [fig] /home/cz/WGS/result/07_visualization/fig06_coverage.png
+  [fig] /home/cz/WGS/result/07_visualization/fig07_variant_landscape.png
+  [fig] /home/cz/WGS/result/07_visualization/fig08_variant_confidence.png
+  [fig] /home/cz/WGS/result/07_visualization/fig09_substitution_spectrum.png
+  [fig] /home/cz/WGS/result/07_visualization/fig10_variant_verification.png
+  [fig] /home/cz/WGS/result/07_visualization/fig11_gene_impact.png
+  [fig] /home/cz/WGS/result/07_visualization/fig12_functional_profile.png
+  [fig] /home/cz/WGS/result/07_visualization/fig13_amr_determinants.png
+[figures] 13/13 figures written to /home/cz/WGS/result/07_visualization
+
+[1;34m==> 07-Visualisation complete: 13 figure(s) -> /home/cz/WGS/result/07_visualization[0m
+--> STEP 7 (visualize) finished OK in 31s
+-- skipping step 8 (report)
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    OK               175
+ variants     not run          
+ annotation   not run          
+ functional   not run          
+ extra        not run          
+ visualize    OK               31
+ report       not run          
+-------------------------------------------------------------------
+ total wall time: 206 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 18:57:04
+===================================================================

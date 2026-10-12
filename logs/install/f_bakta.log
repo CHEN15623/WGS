@@ -1,0 +1,126 @@
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch          Using cache
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+Pinned packages:
+
+  - python=3.11
+
+
+Transaction
+
+  Prefix: /home/cz/miniconda3/envs/WGS
+
+  Updating specs:
+
+   - bakta
+
+
+  Package                   Version  Build             Channel          Size
+──────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────
+
+  + _python_abi3_support        1.0  hd8ed1ab_3        conda-forge       8kB
+  + about-time                4.2.1  pyhd8ed1ab_1      conda-forge      16kB
+  + alive-progress            3.0.1  pyhd8ed1ab_0      conda-forge      63kB
+  + aragorn                  1.2.41  h7b50bb2_5        bioconda        148kB
+  + archspec                  0.2.6  pyhd8ed1ab_0      conda-forge      60kB
+  + backports.zstd            1.8.0  py311h6f959d0_0   conda-forge     249kB
+  + bakta                    1.11.4  pyhdfd78af_0      bioconda        105kB
+  + brotli-python             1.2.0  py311heb3be6f_4   conda-forge     367kB
+  + certifi               2026.7.22  pyhd8ed1ab_0      conda-forge     137kB
+  + charset-normalizer        3.5.2  h1114479_0        conda-forge     217kB
+  + cpython                 3.11.17  py311hd8ed1ab_1   conda-forge      49kB
+  + diamond                   2.2.8  he361c42_0        bioconda          3MB
+  + grapheme                  0.6.0  pyhd8ed1ab_1      conda-forge     113kB
+  + h2                        4.4.1  pyhcf101f3_0      conda-forge     101kB
+  + hmmer                       3.4  h503566f_3        bioconda         12MB
+  + hpack                     4.2.0  pyhd8ed1ab_0      conda-forge      33kB
+  + hyperframe                6.1.0  pyhd8ed1ab_0      conda-forge      17kB
+  + idna                       3.20  pyh5ded981_0      conda-forge     179kB
+  + infernal                  1.1.5  pl5321h7b50bb2_4  bioconda          4MB
+  + ncbi-amrfinderplus        4.2.7  hf69ffd2_0        bioconda          1MB
+  + pbzip2                   1.1.13  h1fcc475_2        conda-forge      42kB
+  + piler-cr                   1.06  hd63eeec_7        bioconda        114kB
+  + psutil                    7.2.2  py311h194be0f_3   conda-forge     232kB
+  + pycirclize               1.10.1  pyhd8ed1ab_0      conda-forge      72kB
+  + pyhmmer                  0.12.3  py311hc303176_0   bioconda          3MB
+  + pyrodigal                 3.7.1  py311h26ae33e_1   bioconda          3MB
+  + pysocks                   1.7.1  pyha55dd90_7      conda-forge      21kB
+  + python-gil              3.11.17  hd8ed1ab_1        conda-forge      49kB
+  + python-isal               1.8.0  py311h0d48ccd_3   conda-forge      70kB
+  + python-zlib-ng            1.0.0  py311haf77c50_3   conda-forge      61kB
+  + pyyaml                    6.0.3  py311h3778330_1   conda-forge     206kB
+  + requests                 2.34.2  pyhcf101f3_0      conda-forge      69kB
+  + trnascan-se              2.0.13  pl5321hab16a5f_0  bioconda          3MB
+  + urllib3                   2.8.0  pyhd8ed1ab_0      conda-forge     107kB
+  + xopen                     2.1.0  pyh707e725_0      conda-forge      23kB
+
+  Summary:
+
+  Install: 35 packages
+
+  Total download: 32MB
+
+──────────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking pyyaml-6.0.3-py311h3778330_1
+Linking psutil-7.2.2-py311h194be0f_3
+Linking backports.zstd-1.8.0-py311h6f959d0_0
+Linking pbzip2-1.1.13-h1fcc475_2
+Linking python-isal-1.8.0-py311h0d48ccd_3
+Linking python-zlib-ng-1.0.0-py311haf77c50_3
+Linking brotli-python-1.2.0-py311heb3be6f_4
+Linking pycirclize-1.10.1-pyhd8ed1ab_0
+Linking archspec-0.2.6-pyhd8ed1ab_0
+Linking idna-3.20-pyh5ded981_0
+Linking certifi-2026.7.22-pyhd8ed1ab_0
+Linking about-time-4.2.1-pyhd8ed1ab_1
+warning  libmamba [about-time-4.2.1-pyhd8ed1ab_1] The following files were already present in the environment:
+    - LICENSE
+Linking grapheme-0.6.0-pyhd8ed1ab_1
+Linking cpython-3.11.17-py311hd8ed1ab_1
+Linking pysocks-1.7.1-pyha55dd90_7
+Linking hpack-4.2.0-pyhd8ed1ab_0
+Linking hyperframe-6.1.0-pyhd8ed1ab_0
+Linking xopen-2.1.0-pyh707e725_0
+Linking alive-progress-3.0.1-pyhd8ed1ab_0
+warning  libmamba [alive-progress-3.0.1-pyhd8ed1ab_0] The following files were already present in the environment:
+    - LICENSE
+Linking python-gil-3.11.17-hd8ed1ab_1
+Linking h2-4.4.1-pyhcf101f3_0
+Linking _python_abi3_support-1.0-hd8ed1ab_3
+Linking urllib3-2.8.0-pyhd8ed1ab_0
+Linking diamond-2.2.8-he361c42_0
+Linking piler-cr-1.06-hd63eeec_7
+Linking aragorn-1.2.41-h7b50bb2_5
+Linking infernal-1.1.5-pl5321h7b50bb2_4
+Linking hmmer-3.4-h503566f_3
+Linking pyhmmer-0.12.3-py311hc303176_0
+Linking pyrodigal-3.7.1-py311h26ae33e_1
+Linking trnascan-se-2.0.13-pl5321hab16a5f_0
+Linking ncbi-amrfinderplus-4.2.7-hf69ffd2_0
+Linking charset-normalizer-3.5.2-h1114479_0
+Linking requests-2.34.2-pyhcf101f3_0
+Linking bakta-1.11.4-pyhdfd78af_0
+
+Transaction finished
+

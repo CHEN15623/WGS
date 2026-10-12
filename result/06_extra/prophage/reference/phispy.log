@@ -1,0 +1,13 @@
+usage: phispy [-h] [-o OUTPUT_DIR] [-m MAKE_TRAINING_DATA] [-t TRAINING_SET]
+              [-l {short,long}] [-p FILE_PREFIX] [-e [EVALUATE]] [-n NUMBER]
+              [-u MIN_CONTIG_SIZE] [-w WINDOW_SIZE] [-g NONPROPHAGE_GENEGAPS]
+              [--phage_genes PHAGE_GENES] [--metrics METRICS [METRICS ...]]
+              [-r RANDOMFOREST_TREES] [--expand_slope]
+              [--kmers_type {all,codon,simple}] [--phmms PHMMS]
+              [--include_annotations | --ignore_annotations] [--color]
+              [--threads THREADS] [--output_choice OUTPUT_CHOICE]
+              [--include_all_repeats] [--keep_dropped_predictions]
+              [--extra_dna EXTRA_DNA] [--min_repeat_len MIN_REPEAT_LEN]
+              [--log LOG] [--quiet] [-k [KEEP]] [-v]
+              [infile]
+phispy: error: argument infile: Checking for validity: /home/cz/WGS/result/06_extra/prophage/reference/phispy_out does not exist

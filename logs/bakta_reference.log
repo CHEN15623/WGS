@@ -1,0 +1,2 @@
+ERROR: database version file (version.json) not readable!
+Please check if /home/cz/WGS/work/bakta_db is the correct path. Maybe there is another 'db' subdirectory?

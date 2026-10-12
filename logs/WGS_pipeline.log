@@ -1,0 +1,156 @@
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:27:35
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           OK               27
+ alignment    OK               167
+ variants     OK               4
+ annotation   OK               59
+ functional   OK               18
+ extra        OK               7
+ visualize    OK               29
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 313 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:32:48
+===================================================================
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:36:28
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    not run          
+ variants     OK               179
+ annotation   OK               58
+ functional   OK               69
+ extra        not run          
+ visualize    not run          
+ report       not run          
+-------------------------------------------------------------------
+ total wall time: 306 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:41:34
+===================================================================
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:42:39
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    not run          
+ variants     not run          
+ annotation   not run          
+ functional   not run          
+ extra        not run          
+ visualize    OK               29
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 29 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:43:08
+===================================================================
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:43:37
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    OK               168
+ variants     not run          
+ annotation   not run          
+ functional   OK               32
+ extra        not run          
+ visualize    OK               29
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 229 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:47:26
+===================================================================
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:47:48
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    not run          
+ variants     not run          
+ annotation   not run          
+ functional   not run          
+ extra        OK               7
+ visualize    not run          
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 7 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:47:55
+===================================================================
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 18:53:38
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    OK               175
+ variants     not run          
+ annotation   not run          
+ functional   not run          
+ extra        not run          
+ visualize    OK               31
+ report       not run          
+-------------------------------------------------------------------
+ total wall time: 206 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 18:57:04
+===================================================================

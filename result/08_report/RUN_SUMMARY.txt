@@ -1,0 +1,46 @@
+WGS run summary -- 2026-10-12 17:48:02
+================================================================
+
+-- variant reconciliation (03_variants/merged/merge_summary.json)
+   total_distinct_variants: 223
+   high_confidence: 4
+   medium_confidence: 0
+   low_confidence: 219
+   SNPs: 166
+   insertions: 18
+   deletions: 34
+   MNV: 5
+   mummer_raw_calls: 203
+   per_caller: {'mummer': 199, 'bcftools_asm': 35, 'freebayes_asm': 31, 'bcftools_sim_indel': 4, 'bcftools_sim_snp': 1, 'freebayes_sim': 4}
+
+-- verified variants (03_variants/verified/variants_confident.tsv)
+   NC_003228.3:530487 G>GT (INS) methods=2
+   NC_003228.3:669715 TTA>T (DEL) methods=2
+   NC_003228.3:683862 G>A (SNP) methods=3
+   NC_003228.3:1709303 G>GT (INS) methods=2
+
+-- affected genes (04_annotation/variant_effect/gene_impact.tsv)
+   BF9343_RS02095  BamA/OMP85 family outer membrane protein  INS:1 / frameshift_variant  query_ORF_restored
+   BF9343_RS02670  RagB/SusD family nutrient uptake outer membrane protein  SNP:1 / missense_variant  intact_in_both
+   BF9343_RS06655  FtsX-like permease family protein  INS:1 / frameshift_variant  query_ORF_restored
+
+-- structural differences (02_alignment/synteny/structural_variants.tsv)
+   inversion                            NC_003228.3:2005600-2093939  88340 bp
+   whole_replicon_reverse_orientation   NC_006873.1:5151-36560  31410 bp
+   small_reverse_block                  NC_006873.1:1-5150  5150 bp
+   small_reverse_block                  NC_003228.3:2831958-2833449  1492 bp
+
+-- figures
+   fig01_assembly_qc.png
+   fig02_read_qc.png
+   fig03_synteny_dotplot.png
+   fig04_structural_variants.png
+   fig05_genome_circos.png
+   fig06_coverage.png
+   fig07_variant_landscape.png
+   fig08_variant_confidence.png
+   fig09_substitution_spectrum.png
+   fig10_variant_verification.png
+   fig11_gene_impact.png
+   fig12_functional_profile.png
+   fig13_amr_determinants.png

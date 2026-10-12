@@ -1,0 +1,33 @@
+{
+  "determinants_in_catalogue": 39,
+  "determinants_found_in_reference": 27,
+  "determinants_found_in_query": 27,
+  "reference_genes_examined": 750,
+  "genes_with_aa_changes": 2,
+  "present_in_reference_only": [],
+  "present_in_query_only": [],
+  "aa_change_detail": [
+    {
+      "determinant": "ermF",
+      "locus_tag": "BF9343_RS06655",
+      "product": "FtsX-like permease family protein",
+      "gene": "",
+      "category": "resistance",
+      "ref_len": 416,
+      "qry_len": 416,
+      "identity": "63.0",
+      "aa_changes": "reference_is_pseudogene__reading_frame_restored__(query internal stops: 0)"
+    },
+    {
+      "determinant": "susD",
+      "locus_tag": "BF9343_RS02670",
+      "product": "RagB/SusD family nutrient uptake outer membrane protein",
+      "gene": "WP_010992101.1",
+      "category": "virulence",
+      "ref_len": 522,
+      "qry_len": 522,
+      "identity": "99.8",
+      "aa_changes": "p.A141T(BLOSUM62=0)"
+    }
+  ]
+}

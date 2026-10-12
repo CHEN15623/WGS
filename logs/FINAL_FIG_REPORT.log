@@ -1,0 +1,99 @@
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:42:39
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+------------------------------------------------------------------
+ toolchain check  (conda env: WGS)
+------------------------------------------------------------------
+  [ ok ]  samtools       /home/cz/miniconda3/envs/WGS/bin/samtools
+  [ ok ]  bcftools       /home/cz/miniconda3/envs/WGS/bin/bcftools
+  [ ok ]  bwa            /home/cz/miniconda3/envs/WGS/bin/bwa
+  [ ok ]  minimap2       /home/cz/miniconda3/envs/WGS/bin/minimap2
+  [ ok ]  nucmer         /home/cz/miniconda3/envs/WGS/bin/nucmer
+  [ ok ]  show-snps      /home/cz/miniconda3/envs/WGS/bin/show-snps
+  [ ok ]  python3        /home/cz/miniconda3/envs/WGS/bin/python3
+  [ ok ]  freebayes     
+  [ ok ]  dnadiff       
+  [ -- ]  prokka         optional, step will be skipped
+  [ ok ]  bakta         
+  [ ok ]  snpEff        
+  [ -- ]  abricate       optional, step will be skipped
+  [ ok ]  amrfinder     
+  [ ok ]  quast.py      
+  [ ok ]  seqkit        
+  [ -- ]  bandage        optional, step will be skipped
+  [ ok ]  mafft         
+  [ ok ]  iqtree        
+  [ ok ]  diamond       
+  [ -- ]  Rscript        optional, step will be skipped
+------------------------------------------------------------------
+ core toolchain complete
+-- skipping step 0 (prepare)
+-- skipping step 1 (qc)
+-- skipping step 2 (alignment)
+-- skipping step 3 (variants)
+-- skipping step 4 (annotation)
+-- skipping step 5 (functional)
+-- skipping step 6 (extra)
+
+###################################################################
+#  STEP 7  :  visualize
+#  script    :  /home/cz/WGS/scripts/07_visualize.sh
+#  started   :  2026-10-12 17:42:39
+###################################################################
+
+[1;34m==> 07-VIZ: generating figures[0m
+  [fig] /home/cz/WGS/result/07_visualization/fig01_assembly_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig02_read_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig03_synteny_dotplot.png
+  [fig] /home/cz/WGS/result/07_visualization/fig04_structural_variants.png
+  [fig] /home/cz/WGS/result/07_visualization/fig05_genome_circos.png
+  [fig] /home/cz/WGS/result/07_visualization/fig06_coverage.png
+  [fig] /home/cz/WGS/result/07_visualization/fig07_variant_landscape.png
+  [fig] /home/cz/WGS/result/07_visualization/fig08_variant_confidence.png
+  [fig] /home/cz/WGS/result/07_visualization/fig09_substitution_spectrum.png
+  [fig] /home/cz/WGS/result/07_visualization/fig10_variant_verification.png
+  [fig] /home/cz/WGS/result/07_visualization/fig11_gene_impact.png
+  [fig] /home/cz/WGS/result/07_visualization/fig12_functional_profile.png
+  [fig] /home/cz/WGS/result/07_visualization/fig13_amr_determinants.png
+[figures] 13/13 figures written to /home/cz/WGS/result/07_visualization
+
+[1;34m==> 07-Visualisation complete: 13 figure(s) -> /home/cz/WGS/result/07_visualization[0m
+--> STEP 7 (visualize) finished OK in 29s
+
+###################################################################
+#  STEP 8  :  report
+#  script    :  /home/cz/WGS/scripts/08_report.sh
+#  started   :  2026-10-12 17:43:08
+###################################################################
+
+[1;34m==> 08-REPORT: assembling the final report[0m
+[report] wrote /home/cz/WGS/result/08_report/WGS_report.md (25963 bytes) and WGS_report.html
+[report] key findings: 9
+
+[1;34m==> 08-Report complete -> /home/cz/WGS/result/08_report/WGS_report.html[0m
+-rw-rw-r-- 1 cz cz 5775391 10月 12 17:43 /home/cz/WGS/result/08_report/WGS_report.html
+-rw-rw-r-- 1 cz cz   26023 10月 12 17:43 /home/cz/WGS/result/08_report/WGS_report.md
+--> STEP 8 (report) finished OK in 0s
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    not run          
+ variants     not run          
+ annotation   not run          
+ functional   not run          
+ extra        not run          
+ visualize    OK               29
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 29 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:43:08
+===================================================================

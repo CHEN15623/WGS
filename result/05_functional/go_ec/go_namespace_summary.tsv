@@ -1,0 +1,6 @@
+metric	reference	query	difference
+distinct_GO_terms	1188	1188	+0
+total_GO_annotations	5969	5969	+0
+distinct_EC_numbers	0	0	+0
+total_EC_annotations	0	0	+0
+CDS_annotated	4231	4231	+0

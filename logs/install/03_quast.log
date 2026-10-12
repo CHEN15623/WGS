@@ -1,0 +1,56 @@
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch          Using cache
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+Pinned packages:
+
+  - python=3.14
+
+error    libmamba Could not solve for environment specs
+    The following packages are incompatible
+    ├─ pin on python =3.14 * is installable and it requires
+    │  └─ python =3.14 *, which can be installed;
+    └─ quast =* * is not installable because there are no viable options
+       ├─ quast [3.2|4.1|...|5.2.0] would require
+       │  └─ python [=2.7 *|>=2.7,<2.8.0a0 *], which conflicts with any installable versions previously reported;
+       ├─ quast [5.0.1|5.0.2] would require
+       │  └─ python >=3.5,<3.6.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.0.1|5.0.2|5.2.0] would require
+       │  └─ python >=3.6,<3.7.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.0.2|5.2.0] would require
+       │  └─ python >=3.7,<3.8.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.2.0|5.3.0] would require
+       │  └─ python >=3.10,<3.11.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.2.0|5.3.0] would require
+       │  └─ python >=3.11,<3.12.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.2.0|5.3.0] would require
+       │  └─ python >=3.12,<3.13.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.2.0|5.3.0] would require
+       │  └─ python >=3.8,<3.9.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast [5.2.0|5.3.0] would require
+       │  └─ python >=3.9,<3.10.0a0 *, which conflicts with any installable versions previously reported;
+       ├─ quast 5.3.0 would require
+       │  └─ python >=3.13,<3.14.0a0 *, which conflicts with any installable versions previously reported;
+       └─ quast 4.6.3 would require
+          └─ boost >=1.66.0,<1.66.1.0a0 * but there are no viable options
+             ├─ boost 1.66.0 would require
+             │  └─ python =2.7 *, which conflicts with any installable versions previously reported;
+             ├─ boost 1.66.0 would require
+             │  └─ python =3.5 *, which conflicts with any installable versions previously reported;
+             └─ boost 1.66.0 would require
+                └─ python =3.6 *, which conflicts with any installable versions previously reported.
+critical libmamba Could not solve for environment specs

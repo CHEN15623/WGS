@@ -1,0 +1,21 @@
+substitution	count
+A>C	12
+A>G	26
+A>T	8
+C>A	9
+C>G	8
+C>T	22
+G>A	19
+G>C	6
+G>T	11
+T>A	17
+T>C	20
+T>G	8
+
+class	count
+transition	87
+transversion	79
+purine_transition	45
+pyrimidine_transversion	42
+pyrimidine_transition	42
+purine_transversion	37

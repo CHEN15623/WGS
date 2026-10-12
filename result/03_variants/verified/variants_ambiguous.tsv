@@ -1,0 +1,216 @@
+contig	pos	ref	alt	type	confidence	n_independent_methods	callers	flags	ref_copies	obs_depth	obs_alt_frac	asm_mapq	asm_depth	sim_depth	sim_mean_mapq	mummer_buff	mummer_dist
+NC_003228.3	2005614		T	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	54		60	1	104	51.7	0	2005614
+NC_003228.3	2005614		C	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	54		60	1	104	51.7	0	2005614
+NC_003228.3	2005617		T	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	33		60	1	61	57.5	3	2005617
+NC_003228.3	2005620		C	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	35		60	1	63	57.6	0	2005620
+NC_003228.3	2005620		A	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	35		60	1	63	57.6	0	2005620
+NC_003228.3	2005622		C	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	35		60	1	63	57.6	0	2005622
+NC_003228.3	2005622		A	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	35		60	1	63	57.6	0	2005622
+NC_003228.3	2005623	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	35	0.0	60	1	63	57.6	1	2005623
+NC_003228.3	2005629	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	38	0.0	60	1	69	57.8	1	2005629
+NC_003228.3	2005630	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	38	0.0	60	1	69	57.8	1	2005630
+NC_003228.3	2005631	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	38	0.0	60	1	67	57.7	1	2005631
+NC_003228.3	2005646		C	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;well_within_alignment;in_repeat	3	36		60	1	70	57.8	15	2005646
+NC_003228.3	2005708	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	33	0.0	60	1	82	59.6	9	2005708
+NC_003228.3	2005717	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	34	0.0	60	1	80	60.0	9	2005717
+NC_003228.3	2005729	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	36	0.0	60	1	87	60.0	6	2005729
+NC_003228.3	2005735	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	36	0.0	60	1	82	60.0	6	2005735
+NC_003228.3	2005742	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	40	0.0	60	1	86	60.0	5	2005742
+NC_003228.3	2005747	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	39	0.0	60	1	82	60.0	5	2005747
+NC_003228.3	2005752	G	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt3pct;in_repeat	3	39	2.6	60	1	82	60.0	2	2005752
+NC_003228.3	2005754	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	39	0.0	60	1	81	60.0	1	2005754
+NC_003228.3	2005755	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	39	0.0	60	1	79	60.0	1	2005755
+NC_003228.3	2005762	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	44	0.0	60	1	80	60.0	4	2005762
+NC_003228.3	2005766	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	45	0.0	60	1	81	60.0	4	2005766
+NC_003228.3	2005771	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	43	0.0	60	1	79	60.0	3	2005771
+NC_003228.3	2005774	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	43	0.0	60	1	80	60.0	3	2005774
+NC_003228.3	2005783	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	44	0.0	60	1	80	60.0	3	2005783
+NC_003228.3	2005786	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	44	0.0	60	1	80	60.0	3	2005786
+NC_003228.3	2005789	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	45	0.0	60	1	79	60.0	3	2005789
+NC_003228.3	2005792	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	46	0.0	60	1	78	60.0	3	2005792
+NC_003228.3	2005798	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt2pct;in_repeat	3	48	2.1	60	1	75	60.0	3	2005798
+NC_003228.3	2005801	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	49	0.0	60	1	75	60.0	3	2005801
+NC_003228.3	2005808	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	50	0.0	60	1	74	60.0	1	2005808
+NC_003228.3	2005809	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	49	0.0	60	1	73	60.0	1	2005809
+NC_003228.3	2005810	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt2pct;in_repeat	3	49	2.0	60	1	73	60.0	1	2005810
+NC_003228.3	2005813	A	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	49	0.0	60	1	73	60.0	3	2005813
+NC_003228.3	2005820	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt2pct;in_repeat	3	53	1.9	60	1	78	60.0	7	2005820
+NC_003228.3	2005828	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	57	0.0	60	1	76	60.0	6	2005828
+NC_003228.3	2093700	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	72	0.0	60	1	93	56.8	6	2093700
+NC_003228.3	2093708	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	68	0.0	60	1	89	56.5	7	2093708
+NC_003228.3	2093715	A	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	63	0.0	60	1	85	54.9	3	2093715
+NC_003228.3	2093718	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	62	0.0	60	1	83	54.6	1	2093718
+NC_003228.3	2093719	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	61	0.0	60	1	82	54.5	1	2093719
+NC_003228.3	2093720	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	61	0.0	60	1	82	54.5	1	2093720
+NC_003228.3	2093727	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	58	0.0	60	1	79	53.6	3	2093727
+NC_003228.3	2093730	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	58	0.0	60	1	79	53.3	3	2093730
+NC_003228.3	2093736	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	58	0.0	60	1	79	51.7	3	2093736
+NC_003228.3	2093739	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	58	0.0	60	1	80	51.3	3	2093739
+NC_003228.3	2093742	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	53	0.0	60	1	73	50.5	3	2093742
+NC_003228.3	2093745	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	52	0.0	60	1	73	49.1	3	2093745
+NC_003228.3	2093754	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	51	0.0	60	1	73	47.2	3	2093754
+NC_003228.3	2093757	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	50	0.0	60	1	71	46.8	3	2093757
+NC_003228.3	2093762	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	49	0.0	60	1	72	45.4	4	2093762
+NC_003228.3	2093766	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	50	0.0	60	1	74	44.9	4	2093766
+NC_003228.3	2093773	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	50	0.0	60	1	72	44.0	1	2093773
+NC_003228.3	2093774	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	50	0.0	60	1	71	43.7	1	2093774
+NC_003228.3	2093776	G	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt2pct;in_repeat	3	49	2.0	60	1	70	43.5	2	2093776
+NC_003228.3	2093781	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	49	0.0	60	1	72	41.8	5	2093781
+NC_003228.3	2093786	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	48	0.0	60	1	73	40.4	5	2093786
+NC_003228.3	2093793	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	48	0.0	60	1	73	39.3	6	2093793
+NC_003228.3	2093799	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	44	0.0	60	1	72	37.2	6	2093799
+NC_003228.3	2093811	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	45	0.0	60	1	72	36.1	9	2093811
+NC_003228.3	2093820	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt0pct;in_repeat	3	42	0.0	60	1	65	33.6	9	2093820
+NC_003228.3	2093881	TG	T	DEL	LOW	1	freebayes_asm	multi_contig_alignment;ref_multicopy_x3;in_repeat	3	50		60	2	76	35.6	-1	-1
+NC_003228.3	2093882	G		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;well_within_alignment;in_repeat	3	33		60	2	74	35.9	16	2093882
+NC_003228.3	2093898	T	A	SNP	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt34pct;in_repeat	3	47	34.0	60	2	78	33.9	1	2093898
+NC_003228.3	2093898	TGT	AAA	MNV	LOW	1	freebayes_asm	multi_contig_alignment;ref_multicopy_x3;in_repeat	3	47		60	2	78	33.9	-1	-1
+NC_003228.3	2093899	G	A	SNP	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt33pct;in_repeat	3	48	33.3	60	2	79	33.8	1	2093899
+NC_003228.3	2093900	T	A	SNP	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt31pct;in_repeat	3	48	31.2	60	2	78	34.2	1	2093900
+NC_003228.3	2093906	T		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	50		60	2	81	35.2	1	2093906
+NC_003228.3	2093906	TG	AT	MNV	LOW	1	freebayes_asm	multi_contig_alignment;ref_multicopy_x3;in_repeat	3	50		60	2	81	35.2	-1	-1
+NC_003228.3	2093907	G		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	50		60	2	81	35.2	1	2093907
+NC_003228.3	2093908	T		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	50		60	2	82	36.0	1	2093908
+NC_003228.3	2093909	G		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	49		60	2	82	35.9	1	2093909
+NC_003228.3	2093910	T		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	49		60	2	82	35.9	1	2093910
+NC_003228.3	2093911	T		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	48		60	2	81	35.8	1	2093911
+NC_003228.3	2093912	T	A	SNP	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;reads_contradict_alt2pct;in_repeat	3	48	2.1	60	2	81	35.8	1	2093912
+NC_003228.3	2093914	TGGTTATTTGA	T	DEL	LOW	1	freebayes_asm	multi_contig_alignment;ref_multicopy_x3;in_repeat	3	46		60	2	79	35.7	-1	-1
+NC_003228.3	2093915	G		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	30		60	2	79	35.7	3	2093915
+NC_003228.3	2093919	A		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	28		60	2	77	35.6	4	2093919
+NC_003228.3	2093923	G		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	27		60	2	76	35.6	1	2093923
+NC_003228.3	2093924	A		DEL	LOW	1	mummer	multi_contig_alignment;nucmer_overlap_RQ;ref_multicopy_x3;in_repeat	3	27		60	2	77	35.9	1	2093924
+NC_003228.3	2282855	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt2pct;in_repeat	2	40	2.5	60	1	91	60.0	5	1986070
+NC_003228.3	2283117	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt2pct;in_repeat	2	45	2.2	60	1	101	60.0	5	1985808
+NC_003228.3	2500836	T	C	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x2;low_read_mapq;well_within_alignment;in_repeat	2	1	100.0	60	1	4	15.8	217719	1768089
+NC_003228.3	2832017	A	T	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt44pct;well_within_alignment;in_repeat	2	70	44.3	60	1	113	55.8	29	1436908
+NC_003228.3	2832046		G	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;in_repeat	2	67		60	1	109	55.6	1	1436878
+NC_003228.3	2832047		T	INS	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;in_repeat	2	62			0	99	55.2	0	1436875
+NC_003228.3	2832092	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	57	0.0	60	1	102	59.7	3	1436830
+NC_003228.3	2832095	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	58	0.0	60	1	103	59.9	1	1436827
+NC_003228.3	2832096	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	58	0.0	60	1	104	59.9	1	1436826
+NC_003228.3	2832104	T	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	59	0.0	60	1	106	60.0	1	1436818
+NC_003228.3	2832105	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	61	0.0	60	1	108	60.0	1	1436817
+NC_003228.3	2832113	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	66	0.0	60	1	114	60.0	3	1436809
+NC_003228.3	2832116	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	65	0.0	60	1	113	60.0	3	1436806
+NC_003228.3	2832122	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	62	0.0	60	1	110	60.0	2	1436800
+NC_003228.3	2832124	G	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	62	0.0	60	1	110	60.0	2	1436798
+NC_003228.3	2832127	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	61	0.0	60	1	108	60.0	1	1436795
+NC_003228.3	2832128	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	62	0.0	60	1	108	60.0	1	1436794
+NC_003228.3	2832131	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	64	0.0	60	1	109	60.0	1	1436791
+NC_003228.3	2832132	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	64	0.0	60	1	108	60.0	1	1436790
+NC_003228.3	2832134	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	65	0.0	60	1	107	60.0	2	1436788
+NC_003228.3	2832140	T	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	63	0.0	60	1	103	60.0	1	1436782
+NC_003228.3	2832141	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	63	0.0	60	1	102	60.0	1	1436781
+NC_003228.3	2832142	C	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	62	0.0	60	1	102	60.0	1	1436780
+NC_003228.3	2832143	T	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	62	0.0	60	1	102	60.0	1	1436779
+NC_003228.3	2832146	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	65	0.0	60	1	105	60.0	1	1436776
+NC_003228.3	2832147	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	67	0.0	60	1	107	60.0	1	1436775
+NC_003228.3	2832149	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt1pct;in_repeat	2	69	1.4	60	1	110	60.0	2	1436773
+NC_003228.3	2832152	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	70	0.0	60	1	111	60.0	3	1436770
+NC_003228.3	2832158	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	69	0.0	60	1	109	60.0	3	1436764
+NC_003228.3	2832161	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt2pct;in_repeat	2	68	1.5	60	1	108	60.0	3	1436761
+NC_003228.3	2832164	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	69	0.0	60	1	108	60.0	3	1436758
+NC_003228.3	2832167	G	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt1pct;in_repeat	2	71	1.4	60	1	111	60.0	3	1436755
+NC_003228.3	2832170	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	72	0.0	60	1	112	60.0	3	1436752
+NC_003228.3	2832173	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	74	0.0	60	1	114	60.0	1	1436749
+NC_003228.3	2832174	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	74	0.0	60	1	114	60.0	1	1436748
+NC_003228.3	2832175	C	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	74	0.0	60	1	114	60.0	1	1436747
+NC_003228.3	2832191	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	76	0.0	60	1	113	60.0	3	1436731
+NC_003228.3	2832194	T	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	78	0.0	60	1	115	60.0	3	1436728
+NC_003228.3	2832199	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt1pct;in_repeat	2	77	1.3	60	1	113	60.0	1	1436723
+NC_003228.3	2832200	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt1pct;in_repeat	2	78	1.3	60	1	114	60.0	1	1436722
+NC_003228.3	2833204	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	67	0.0	60	1	90	60.0	1	1435718
+NC_003228.3	2833205	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	66	0.0	60	1	90	60.0	1	1435717
+NC_003228.3	2833210	C	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	61	0.0	60	1	87	60.0	3	1435712
+NC_003228.3	2833213	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	60	0.0	60	1	86	60.0	3	1435709
+NC_003228.3	2833229	T	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt2pct;in_repeat	2	61	1.6	60	1	95	60.0	1	1435693
+NC_003228.3	2833230	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	61	0.0	60	1	95	60.0	1	1435692
+NC_003228.3	2833231	A	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	60	0.0	60	1	95	60.0	1	1435691
+NC_003228.3	2833234	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	59	0.0	60	1	96	60.0	3	1435688
+NC_003228.3	2833237	G	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	56	0.0	60	1	92	60.0	3	1435685
+NC_003228.3	2833240	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	54	0.0	60	1	91	60.0	3	1435682
+NC_003228.3	2833243	C	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	52	0.0	60	1	92	60.0	3	1435679
+NC_003228.3	2833246	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	51	0.0	60	1	93	60.0	3	1435676
+NC_003228.3	2833252	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	49	0.0	60	1	93	60.0	3	1435670
+NC_003228.3	2833255	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	48	0.0	60	1	92	60.0	2	1435667
+NC_003228.3	2833257	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt2pct;in_repeat	2	47	2.1	60	1	92	60.0	1	1435665
+NC_003228.3	2833258	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	47	0.0	60	1	93	60.0	1	1435664
+NC_003228.3	2833261	C	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	45	0.0	60	1	91	60.0	1	1435661
+NC_003228.3	2833262	T	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt2pct;in_repeat	2	45	2.2	60	1	90	60.0	1	1435660
+NC_003228.3	2833263	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	45	0.0	60	1	89	60.0	1	1435659
+NC_003228.3	2833264	C	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	44	0.0	60	1	88	60.0	1	1435658
+NC_003228.3	2833270	G	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	42	0.0	60	1	89	60.0	2	1435652
+NC_003228.3	2833272	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	41	0.0	60	1	88	60.0	1	1435650
+NC_003228.3	2833273	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	42	0.0	60	1	89	60.0	1	1435649
+NC_003228.3	2833276	T	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	41	0.0	60	1	88	60.0	1	1435646
+NC_003228.3	2833277	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	41	0.0	60	1	89	60.0	1	1435645
+NC_003228.3	2833280	G	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	42	0.0	60	1	91	60.0	2	1435642
+NC_003228.3	2833282	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	42	0.0	60	1	91	60.0	2	1435640
+NC_003228.3	2833288	G	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	42	0.0	60	1	93	60.0	3	1435634
+NC_003228.3	2833291	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	41	0.0	60	1	90	60.0	3	1435631
+NC_003228.3	2833299	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	41	0.0	60	1	93	60.0	1	1435623
+NC_003228.3	2833300	C	A	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	41	0.0	60	1	93	60.0	1	1435622
+NC_003228.3	2833308	C	T	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	40	0.0	60	1	93	59.7	1	1435614
+NC_003228.3	2833309	A	G	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt0pct;in_repeat	2	39	0.0	60	1	93	59.5	1	1435613
+NC_003228.3	2833312	T	C	SNP	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;reads_contradict_alt3pct;in_repeat	2	38	2.6	60	1	93	59.3	3	1435610
+NC_003228.3	2833355	CTAA	C	DEL	LOW	1	bcftools_sim_indel	ref_multicopy_x2;in_repeat	2	45		60	1	95	56.1	-1	-1
+NC_003228.3	2833357	A		DEL	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;in_repeat	2	32		60	1	95	56.1	1	1435566
+NC_003228.3	2833357	AATC	T	DEL	LOW	1	freebayes_asm	ref_multicopy_x2;in_repeat	2	32		60	1	95	56.1	-1	-1
+NC_003228.3	2833358	A		DEL	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;in_repeat	2	32		60	1	94	56.1	1	1435566
+NC_003228.3	2833360	C		DEL	LOW	1	mummer	nucmer_overlap_RQ;ref_multicopy_x2;in_repeat	2	47		60	1	96	56.2	2	1435565
+NC_003228.3	2833360	C	T	SNP	LOW	1	bcftools_asm	ref_multicopy_x2;reads_contradict_alt32pct;in_repeat	2	47	31.9	60	1	96	56.2	-1	-1
+NC_003228.3	2833390	A	T	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;nucmer_overlap_RQ;ref_multicopy_x2;well_within_alignment;in_repeat	2	51	54.9	60	1	98	56.2	30	1435535
+NC_003228.3	3202830	C	T	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x5;well_within_alignment;in_repeat	5	0		60	1	0		653	1066095
+NC_003228.3	3203483	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x5;well_within_alignment;in_repeat	5	0		60	1	0		16	1065442
+NC_003228.3	3203499	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x5;well_within_alignment;in_repeat	5	0		60	1	0		16	1065426
+NC_003228.3	3203842	C	A	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x5;in_repeat	5	0		60	1	0		2	1065083
+NC_003228.3	3203842	CCATTAGG	ACTTACGT	MNV	LOW	1	freebayes_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3203844	A		DEL	LOW	1	mummer	ref_multicopy_x5;in_repeat	5	0		60	1	0		2	1065082
+NC_003228.3	3203844	A	T	SNP	LOW	1	bcftools_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3203846	T	A	SNP	LOW	1	bcftools_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3203847		C	INS	LOW	1	mummer	ref_multicopy_x5;in_repeat	5	0		60	1	0		2	1065078
+NC_003228.3	3203847	A	C	SNP	LOW	1	bcftools_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3203849	G	T	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x5;in_repeat	5	0		60	1	0		2	1065076
+NC_003228.3	3851394	A		DEL	LOW	1	mummer	ref_multicopy_x5;low_read_mapq;in_repeat	5	0		60	1	48	1.1	1	417532
+NC_003228.3	3851394	AA	G	DEL	LOW	1	freebayes_asm	ref_multicopy_x5;low_read_mapq;in_repeat	5	0		60	1	48	1.1	-1	-1
+NC_003228.3	3851395	A	G	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x5;low_read_mapq;in_repeat	5	1	100.0	60	1	48	1.1	1	417531
+NC_003228.3	3851969	C	T	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x5;well_within_alignment;in_repeat	5	0		60	1	1	0.0	574	416957
+NC_003228.3	3852622	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x5;well_within_alignment;in_repeat	5	0		60	1	0		16	416304
+NC_003228.3	3852638	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x5;well_within_alignment;in_repeat	5	0		60	1	0		16	416288
+NC_003228.3	3852981	C	A	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x5;in_repeat	5	0		60	1	0		2	415945
+NC_003228.3	3852981	CCATTAGG	ACTTACGT	MNV	LOW	1	freebayes_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3852983	A		DEL	LOW	1	mummer	ref_multicopy_x5;in_repeat	5	0		60	1	0		2	415944
+NC_003228.3	3852983	A	T	SNP	LOW	1	bcftools_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3852985	T	A	SNP	LOW	1	bcftools_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3852986		C	INS	LOW	1	mummer	ref_multicopy_x5;in_repeat	5	0		60	1	0		2	415940
+NC_003228.3	3852986	A	C	SNP	LOW	1	bcftools_asm	ref_multicopy_x5;in_repeat	5	0		60	1	0		-1	-1
+NC_003228.3	3852988	G	T	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x5;in_repeat	5	0		60	1	0		2	415938
+NC_003228.3	4656219	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;well_within_alignment;in_repeat	3	0		60	1	0		16	387294
+NC_003228.3	4656235	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;well_within_alignment;in_repeat	3	0		60	1	0		16	387310
+NC_003228.3	4656578	C	A	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x3;in_repeat	3	0		60	1	0		2	387653
+NC_003228.3	4656578	CCATTAGG	ACTTACGT	MNV	LOW	1	freebayes_asm	ref_multicopy_x3;in_repeat	3	0		60	1	0		-1	-1
+NC_003228.3	4656580	A		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0		60	1	0		2	387654
+NC_003228.3	4656580	A	T	SNP	LOW	1	bcftools_asm	ref_multicopy_x3;in_repeat	3	0		60	1	0		-1	-1
+NC_003228.3	4656582	T	A	SNP	LOW	1	bcftools_asm	ref_multicopy_x3;in_repeat	3	0		60	1	0		-1	-1
+NC_003228.3	4656583		C	INS	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0		60	1	0		2	387658
+NC_003228.3	4656583	A	C	SNP	LOW	1	bcftools_asm	ref_multicopy_x3;in_repeat	3	0		60	1	0		-1	-1
+NC_003228.3	4656585	G	T	SNP	LOW	2	bcftools_asm;mummer	two_independent_methods;multi_caller;ref_multicopy_x3;in_repeat	3	0		60	1	0		2	387660
+NC_003228.3	4657354	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;well_within_alignment;in_repeat	3	0		60	1	0		101	388429
+NC_003228.3	4657455	C	T	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;well_within_alignment;in_repeat	3	0		60	1	2	0.0	101	388530
+NC_003228.3	4657914	A	C	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;in_repeat	3	0		60	1	0		9	388989
+NC_003228.3	4657923	T	C	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;in_repeat	3	0		60	1	0		9	388998
+NC_003228.3	4658115	G		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		8	389189
+NC_003228.3	4658123	A		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		1	389196
+NC_003228.3	4658124	C		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		1	389196
+NC_003228.3	4658127	T	G	SNP	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		3	389199
+NC_003228.3	4658130		C	INS	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		3	389203
+NC_003228.3	4658136	T		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		1	389208
+NC_003228.3	4658137	G		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		1	389208
+NC_003228.3	4658153	T	G	SNP	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		2	389224
+NC_003228.3	4658155	C		DEL	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		1	389225
+NC_003228.3	4658156	A	T	SNP	LOW	1	mummer	ref_multicopy_x3;in_repeat	3	0			0	0		1	389226
+NC_003228.3	4658184	A	G	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;in_repeat	3	0		60	1	0		8	389254
+NC_003228.3	4658192	C	T	SNP	LOW	2	bcftools_asm;freebayes_asm;mummer	two_independent_methods;multi_caller;two_assembly_callers;ref_multicopy_x3;in_repeat	3	0		60	1	0		8	389262
+NC_003228.3	4658235	AT	A	DEL	LOW	1	freebayes_asm	ref_multicopy_x3;in_repeat	3	0		60	1	0		-1	-1
+NC_003228.3	4658238	T		DEL	LOW	1	mummer	ref_multicopy_x3;well_within_alignment;in_repeat	3	0		60	1	1	0.0	46	389307

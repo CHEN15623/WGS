@@ -1,0 +1,90 @@
+
+[1;34m==> 02-ALN (0): index the reference[0m
+
+[1;34m==> 02-ALN (A): whole-genome alignment with NUCmer[0m
+   [ok]   show_coords
+   [ok]   show_coords_all
+   [ok]   show_align
+
+[1;34m==> 02-ALN (A2): structural rearrangements from the 1-to-1 blocks[0m
+[sv] 9 alignment blocks; 1 confirmed inversion(s), largest 88,340 bp; 1 replicon(s) with an origin shift
+
+[1;34m==> 02-ALN (B): dnadiff whole-genome difference report[0m
+
+[1;34m==> 02-ALN (C): contig-to-reference mapping (minimap2 asm5)[0m
+   [ok]   samtools_flagstat
+   [ok]   samtools_stats
+   [ok]   samtools_idxstats
+   [ok]   samtools_coverage
+   [ok]   samtools_depth
+
+[1;34m==> 02-ALN (D): simulated-read mapping (depth-supported confirmation layer)[0m
+   [ok]   samtools_flagstat_sim
+   [ok]   samtools_stats_sim
+   [ok]   samtools_coverage_sim
+   [ok]   samtools_depth_sim
+
+[1;34m==> 02-ALN (E): coverage / uncovered-region summary[0m
+[coverage] wrote /home/cz/WGS/result/02_alignment/coverage/coverage_report.tsv and /home/cz/WGS/result/02_alignment/coverage/uncovered_regions.tsv
+
+[1;34m==> 02-Alignment complete -> /home/cz/WGS/result/02_alignment[0m
+
+[1;34m==> 02-ALN (0): index the reference[0m
+
+[1;34m==> 02-ALN (A): whole-genome alignment with NUCmer[0m
+   [ok]   show_coords
+   [ok]   show_coords_all
+   [ok]   show_align
+
+[1;34m==> 02-ALN (A2): structural rearrangements from the 1-to-1 blocks[0m
+[sv] 9 alignment blocks; 1 confirmed inversion(s), largest 88,340 bp; 1 replicon(s) with an origin shift
+
+[1;34m==> 02-ALN (B): dnadiff whole-genome difference report[0m
+
+[1;34m==> 02-ALN (C): contig-to-reference mapping (minimap2 asm5)[0m
+   [ok]   samtools_flagstat
+   [ok]   samtools_stats
+   [ok]   samtools_idxstats
+   [ok]   samtools_coverage
+   [ok]   samtools_depth
+
+[1;34m==> 02-ALN (D): simulated-read mapping (depth-supported confirmation layer)[0m
+   [ok]   samtools_flagstat_sim
+   [ok]   samtools_stats_sim
+   [ok]   samtools_coverage_sim
+   [ok]   samtools_depth_sim
+
+[1;34m==> 02-ALN (E): coverage / uncovered-region summary[0m
+[coverage] wrote /home/cz/WGS/result/02_alignment/coverage/coverage_report.tsv and /home/cz/WGS/result/02_alignment/coverage/uncovered_regions.tsv
+
+[1;34m==> 02-Alignment complete -> /home/cz/WGS/result/02_alignment[0m
+
+[1;34m==> 02-ALN (0): index the reference[0m
+
+[1;34m==> 02-ALN (A): whole-genome alignment with NUCmer[0m
+   [ok]   show_coords
+   [ok]   show_coords_all
+   [ok]   show_align
+
+[1;34m==> 02-ALN (A2): structural rearrangements from the 1-to-1 blocks[0m
+[sv] 9 alignment blocks; 1 confirmed inversion(s), largest 88,340 bp; 1 replicon(s) with an origin shift
+
+[1;34m==> 02-ALN (B): dnadiff whole-genome difference report[0m
+
+[1;34m==> 02-ALN (C): contig-to-reference mapping (minimap2 asm5)[0m
+   [ok]   samtools_flagstat
+   [ok]   samtools_stats
+   [ok]   samtools_idxstats
+   [ok]   samtools_coverage
+   [ok]   samtools_depth
+
+[1;34m==> 02-ALN (D): simulated-read mapping (depth-supported confirmation layer)[0m
+   [ok]   samtools_flagstat_sim
+   [ok]   samtools_stats_sim
+   [ok]   samtools_coverage_sim
+   [ok]   samtools_depth_sim
+
+[1;34m==> 02-ALN (E): coverage / uncovered-region summary[0m
+[coverage] wrote /home/cz/WGS/result/02_alignment/coverage/coverage_report.tsv and /home/cz/WGS/result/02_alignment/coverage/uncovered_regions.tsv
+
+[1;34m==> 02-Alignment complete -> /home/cz/WGS/result/02_alignment[0m

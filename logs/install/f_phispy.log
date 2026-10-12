@@ -1,0 +1,64 @@
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch          Using cache
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+Pinned packages:
+
+  - python=3.11
+
+
+Transaction
+
+  Prefix: /home/cz/miniconda3/envs/WGS
+
+  Updating specs:
+
+   - phispy
+
+
+  Package          Version  Build               Channel          Size
+───────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────
+
+  + bcbio-gff        0.7.1  pyhdfd78af_3        bioconda         25kB
+  + bx-python       0.15.1  py311h9a0eb59_0     bioconda          1MB
+  + narwhals        2.27.1  pyh5ded981_0        conda-forge     303kB
+  + phispy          5.0.10  py311h0e292b2_0     bioconda         13MB
+  + scikit-learn     1.9.1  np2py311h1e9b377_1  conda-forge      10MB
+  + threadpoolctl    3.7.0  pyhc455866_0        conda-forge      32kB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 25MB
+
+───────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking narwhals-2.27.1-pyh5ded981_0
+Linking threadpoolctl-3.7.0-pyhc455866_0
+Linking bx-python-0.15.1-py311h9a0eb59_0
+Linking scikit-learn-1.9.1-np2py311h1e9b377_1
+Linking bcbio-gff-0.7.1-pyhdfd78af_3
+Linking phispy-5.0.10-py311h0e292b2_0
+
+Transaction finished
+

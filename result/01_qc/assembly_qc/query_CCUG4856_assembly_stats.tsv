@@ -1,0 +1,19 @@
+metric	value
+num_contigs	2
+total_length_bp	5241693
+largest_contig_bp	5205133
+smallest_contig_bp	36560
+mean_contig_bp	2620846.5
+N50_bp	5205133
+L50	1
+N75_bp	5205133
+L75	1
+N90_bp	5205133
+L90	1
+GC_percent	43.11
+AT_percent	56.89
+ambiguous_bases	0
+ambiguous_percent	0.0
+contigs_gt_1kb	2
+contigs_gt_10kb	2
+assembly_level_guess	Complete Genome

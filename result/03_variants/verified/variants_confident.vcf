@@ -1,0 +1,11 @@
+##fileformat=VCFv4.2
+##source=variant_verification.py
+##contig=<ID=NC_003228.3,length=5205140>
+##contig=<ID=NC_006873.1,length=36560>
+##INFO=<ID=CALLERS,Number=1,Type=String,Description="Supporting callers">
+##INFO=<ID=TYPE,Number=1,Type=String,Description="Variant type">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QUERY
+NC_003228.3	530490	VAR1	T	TT	.	PASS	CALLERS=bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer;TYPE=INS	GT	1/1
+NC_003228.3	669715	VAR2	TTA	T	.	PASS	CALLERS=bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer;TYPE=DEL	GT	1/1
+NC_003228.3	683862	VAR3	G	A	.	PASS	CALLERS=bcftools_asm;bcftools_sim_snp;freebayes_asm;freebayes_sim;mummer;TYPE=SNP	GT	1/1
+NC_003228.3	1709303	VAR4	G	GT	.	PASS	CALLERS=bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer;TYPE=INS	GT	1/1

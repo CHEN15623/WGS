@@ -1,0 +1,54 @@
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch          Using cache
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+Pinned packages:
+
+  - python=3.11
+
+
+Transaction
+
+  Prefix: /home/cz/miniconda3/envs/WGS
+
+  Updating specs:
+
+   - minced
+
+
+  Package   Version  Build       Channel      Size
+────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────
+
+  + minced    0.4.2  hdfd78af_1  bioconda     48kB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 48kB
+
+────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking minced-0.4.2-hdfd78af_1
+
+Transaction finished
+

@@ -1,0 +1,12 @@
+FAILED  prokka
+OK      bakta
+OK      snpeff
+FAILED  amr
+OK      utils
+FAILED  phylo
+FAILED  pangen
+OK      phispy
+OK      minced
+FAILED  r
+FAILED  r_extra
+OK      py_extra

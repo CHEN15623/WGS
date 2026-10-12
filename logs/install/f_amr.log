@@ -1,0 +1,56 @@
+conda-forge/linux-64                                        Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch          Using cache
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+Pinned packages:
+
+  - python=3.11
+
+error    libmamba Could not solve for environment specs
+    The following packages are incompatible
+    ├─ abricate =* * is not installable because there are no viable options
+    │  ├─ abricate [0.2|0.3|...|1.4.0] would require
+    │  │  └─ perl-bioperl [=* *|>=1.6.924 *|>=1.7 *] but there are no viable options
+    │  │     ├─ perl-bioperl 1.6.924 would require
+    │  │     │  └─ perl >=5.22.0,<5.23.0 *, which conflicts with any installable versions previously reported;
+    │  │     ├─ perl-bioperl 1.6.924 would require
+    │  │     │  └─ perl =5.22.0 *, which conflicts with any installable versions previously reported;
+    │  │     ├─ perl-bioperl 1.7.2 would require
+    │  │     │  └─ perl >=5.26.2,<5.26.3.0a0 *, which conflicts with any installable versions previously reported;
+    │  │     └─ perl-bioperl 1.7.8 would require
+    │  │        └─ perl-bio-samtools =* * but there are no viable options
+    │  │           ├─ perl-bio-samtools 1.43 would require
+    │  │           │  └─ perl >=5.22.0,<5.23.0 *, which conflicts with any installable versions previously reported;
+    │  │           ├─ perl-bio-samtools 1.43 would require
+    │  │           │  └─ perl >=5.26.2,<5.26.3.0a0 *, which conflicts with any installable versions previously reported;
+    │  │           ├─ perl-bio-samtools 1.43 would require
+    │  │           │  └─ samtools [>=0.1.19,<0.2.0a0 *|>=0.1.19,<1.0a0 *], which conflicts with any installable versions previously reported;
+    │  │           ├─ perl-bio-samtools 1.43 would require
+    │  │           │  └─ libzlib >=1.2.11,<1.3.0a0 *, which conflicts with any installable versions previously reported;
+    │  │           └─ perl-bio-samtools 1.43 would require
+    │  │              └─ libzlib >=1.2.13,<1.3.0a0 *, which conflicts with any installable versions previously reported;
+    │  ├─ abricate [0.4|0.5|0.7|0.8] would require
+    │  │  └─ perl =5.22.0 *, which conflicts with any installable versions previously reported;
+    │  ├─ abricate 0.8 would require
+    │  │  └─ perl >=5.26.2,<5.27.0a0 *, which conflicts with any installable versions previously reported;
+    │  └─ abricate [0.8.10|0.8.13|...|1.0.1] would require
+    │     └─ zlib >=1.2.11,<1.3.0a0 *, which conflicts with any installable versions previously reported;
+    ├─ libzlib =* * is not installable because it conflicts with any installable versions previously reported;
+    ├─ perl =* * is not installable because it conflicts with any installable versions previously reported;
+    ├─ samtools =* * is not installable because it conflicts with any installable versions previously reported;
+    └─ zlib =* * is not installable because it conflicts with any installable versions previously reported.
+Possible hints:
+  - 'freeze_installed' is turned on
+
+critical libmamba Could not solve for environment specs

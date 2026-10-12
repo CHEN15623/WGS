@@ -1,0 +1,2 @@
+ref_contig	ref_length	n_forward_blocks	n_offset_clusters	dominant_offset_bp	n_blocks_at_dominant_offset	pct_reference_bp_at_dominant_offset	origin_shifted	interpretation
+NC_003228.3	5205140	5	1	936212	5	98.29	True	query sequence is re-linearised (rotated): reference position 1 corresponds to query position 936,212 of 5,205,133 bp.  This is a deposited-sequence coordinate convention, NOT a biological difference.

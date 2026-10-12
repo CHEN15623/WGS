@@ -1,0 +1,10 @@
+category	item	detail	confidence
+variant	NC_003228.3:530487 G>GT (INS)	2 independent methods; bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer	HIGH
+variant	NC_003228.3:669715 TTA>T (DEL)	2 independent methods; bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer	HIGH
+variant	NC_003228.3:683862 G>A (SNP)	3 independent methods; bcftools_asm;bcftools_sim_snp;freebayes_asm;freebayes_sim;mummer	HIGH
+variant	NC_003228.3:1709303 G>GT (INS)	2 independent methods; bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer	HIGH
+gene	BF9343_RS02095	BamA/OMP85 family outer membrane protein — query_ORF_restored; reference is a pseudogene (55 internal stops)	HIGH
+gene	BF9343_RS02670	RagB/SusD family nutrient uptake outer membrane protein — intact_in_both	MEDIUM
+gene	BF9343_RS06655	FtsX-like permease family protein — query_ORF_restored; reference is a pseudogene (15 internal stops)	HIGH
+structural	inversion 88,340 bp	NC_003228.3:2005600-2093939 is inverted in the query	HIGH
+coordinate convention	genome re-linearised (936,212 bp)	deposited sequences start at a different position of the same circular chromosome — NOT a biological difference	HIGH

@@ -1,0 +1,15 @@
+# Figure index
+
+- [fig01_assembly_qc](fig01_assembly_qc.png)
+- [fig02_read_qc](fig02_read_qc.png)
+- [fig03_synteny_dotplot](fig03_synteny_dotplot.png)
+- [fig04_structural_variants](fig04_structural_variants.png)
+- [fig05_genome_circos](fig05_genome_circos.png)
+- [fig06_coverage](fig06_coverage.png)
+- [fig07_variant_landscape](fig07_variant_landscape.png)
+- [fig08_variant_confidence](fig08_variant_confidence.png)
+- [fig09_substitution_spectrum](fig09_substitution_spectrum.png)
+- [fig10_variant_verification](fig10_variant_verification.png)
+- [fig11_gene_impact](fig11_gene_impact.png)
+- [fig12_functional_profile](fig12_functional_profile.png)
+- [fig13_amr_determinants](fig13_amr_determinants.png)

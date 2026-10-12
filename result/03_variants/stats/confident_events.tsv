@@ -1,0 +1,5 @@
+contig	pos	ref	alt	type	n_independent_methods	callers	obs_depth	obs_alt_frac	event_span
+NC_003228.3	530487	G	GT	INS	2	bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer	86		
+NC_003228.3	669715	TTA	T	DEL	2	bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer	93		
+NC_003228.3	683862	G	A	SNP	3	bcftools_asm;bcftools_sim_snp;freebayes_asm;freebayes_sim;mummer	112	100.0	
+NC_003228.3	1709303	G	GT	INS	2	bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer	97		

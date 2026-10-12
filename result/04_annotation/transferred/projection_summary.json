@@ -1,0 +1,13 @@
+{
+  "reference_CDS": 4231,
+  "projected_and_written": 4231,
+  "identical_protein": 4226,
+  "protein_differs": 5,
+  "query_ORF_restored": 2,
+  "query_ORF_disrupted": 0,
+  "sequence_differs_but_intact_in_both": 3,
+  "disrupted_in_both": 0,
+  "partial_projection": 0,
+  "non_coding_transferred": 94,
+  "min_projection_fraction": 0.9
+}

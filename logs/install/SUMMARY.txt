@@ -1,0 +1,4 @@
+OK      01_core
+OK      02_var
+FAILED  03_quast
+OK      04_python

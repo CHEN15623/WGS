@@ -1,0 +1,3 @@
+determinant	category	locus_tag	gene	product	ref_len	qry_len	identity	aa_changes
+ermF	resistance	BF9343_RS06655		FtsX-like permease family protein	416	416	63.0	reference_is_pseudogene__reading_frame_restored__(query internal stops: 0)
+susD	virulence	BF9343_RS02670	WP_010992101.1	RagB/SusD family nutrient uptake outer membrane protein	522	522	99.8	p.A141T(BLOSUM62=0)

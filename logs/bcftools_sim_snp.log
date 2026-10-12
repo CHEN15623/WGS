@@ -1,0 +1,4 @@
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 100000
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+Lines   total/split/joined/realigned/mismatch_removed/dup_removed/skipped:	1/0/0/0/0/0/0

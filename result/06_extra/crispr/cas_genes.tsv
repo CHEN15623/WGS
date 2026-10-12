@@ -1,0 +1,7 @@
+genome	contig	start	end	locus_tag	gene	product
+reference	NC_003228.3	2998759	2999022	BF9343_RS12280	cas2	CRISPR-associated endonuclease Cas2
+reference	NC_003228.3	2999025	2999270	BF9343_RS12285		CRISPR-associated endonuclease Cas1
+reference	NC_003228.3	2999649	3000320	BF9343_RS12295	cas6	CRISPR-associated endoribonuclease Cas6
+reference	NC_003228.3	4663316	4663648	BF9343_RS19155	cas2	CRISPR-associated endonuclease Cas2
+reference	NC_003228.3	4663652	4664584	BF9343_RS19160	cas1	type II CRISPR-associated endonuclease Cas1
+reference	NC_003228.3	4665619	4669929	BF9343_RS19175	cas9	type II CRISPR RNA-guided endonuclease Cas9

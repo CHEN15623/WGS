@@ -1,0 +1,107 @@
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:47:48
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+------------------------------------------------------------------
+ toolchain check  (conda env: WGS)
+------------------------------------------------------------------
+  [ ok ]  samtools       /home/cz/miniconda3/envs/WGS/bin/samtools
+  [ ok ]  bcftools       /home/cz/miniconda3/envs/WGS/bin/bcftools
+  [ ok ]  bwa            /home/cz/miniconda3/envs/WGS/bin/bwa
+  [ ok ]  minimap2       /home/cz/miniconda3/envs/WGS/bin/minimap2
+  [ ok ]  nucmer         /home/cz/miniconda3/envs/WGS/bin/nucmer
+  [ ok ]  show-snps      /home/cz/miniconda3/envs/WGS/bin/show-snps
+  [ ok ]  python3        /home/cz/miniconda3/envs/WGS/bin/python3
+  [ ok ]  freebayes     
+  [ ok ]  dnadiff       
+  [ -- ]  prokka         optional, step will be skipped
+  [ ok ]  bakta         
+  [ ok ]  snpEff        
+  [ -- ]  abricate       optional, step will be skipped
+  [ ok ]  amrfinder     
+  [ ok ]  quast.py      
+  [ ok ]  seqkit        
+  [ -- ]  bandage        optional, step will be skipped
+  [ ok ]  mafft         
+  [ ok ]  iqtree        
+  [ ok ]  diamond       
+  [ -- ]  Rscript        optional, step will be skipped
+------------------------------------------------------------------
+ core toolchain complete
+-- skipping step 0 (prepare)
+-- skipping step 1 (qc)
+-- skipping step 2 (alignment)
+-- skipping step 3 (variants)
+-- skipping step 4 (annotation)
+-- skipping step 5 (functional)
+
+###################################################################
+#  STEP 6  :  extra
+#  script    :  /home/cz/WGS/scripts/06_extra.sh
+#  started   :  2026-10-12 17:47:48
+###################################################################
+
+[1;34m==> 06-EX (a): plasmid comparison (reference plasmid vs query plasmid)[0m
+[plasmid] ref NC_006873.1 36,560 bp vs qry NZ_CP036556.1 36,560 bp; orientation=reverse_complement; identity=100.0%; differences=0
+
+[1;34m==> 06-EX (b): prophage detection[0m
+   [FAIL] phispy_reference (rc=2) -- see /home/cz/WGS/logs/phispy_reference.log
+[1;33m[WARN] phispy reference failed[0m
+   [FAIL] phispy_query (rc=2) -- see /home/cz/WGS/logs/phispy_query.log
+[1;33m[WARN] phispy query failed[0m
+
+[1;34m==> 06-EX (c): CRISPR arrays and cas genes[0m
+   [ok]   minced_reference
+   [ok]   minced_query
+[crispr] 6 cas-like genes
+
+[1;34m==> 06-EX (d): mobile genetic elements / transposase landscape[0m
+[mobile] 67 mobile-element genes
+
+[1;34m==> 06-EX (e): phylogenomic placement among B. fragilis genomes[0m
+
+[1;34m==>   downloading B. fragilis RefSeq assemblies ...[0m
+[1;33m[WARN] not enough genomes downloaded -- phylogenomics skipped[0m
+
+[1;34m==> 06-EX (f): pan-genome statistics[0m
+
+[1;34m==> 06-Extra analyses complete -> /home/cz/WGS/result/06_extra[0m
+--> STEP 6 (extra) finished OK in 7s
+-- skipping step 7 (visualize)
+
+###################################################################
+#  STEP 8  :  report
+#  script    :  /home/cz/WGS/scripts/08_report.sh
+#  started   :  2026-10-12 17:47:55
+###################################################################
+
+[1;34m==> 08-REPORT: assembling the final report[0m
+[report] wrote /home/cz/WGS/result/08_report/WGS_report.md (25964 bytes) and WGS_report.html
+[report] key findings: 9
+
+[1;34m==> 08-Report complete -> /home/cz/WGS/result/08_report/WGS_report.html[0m
+-rw-rw-r-- 1 cz cz 5775220 10月 12 17:47 /home/cz/WGS/result/08_report/WGS_report.html
+-rw-rw-r-- 1 cz cz   26024 10月 12 17:47 /home/cz/WGS/result/08_report/WGS_report.md
+--> STEP 8 (report) finished OK in 0s
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    not run          
+ variants     not run          
+ annotation   not run          
+ functional   not run          
+ extra        OK               7
+ visualize    not run          
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 7 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:47:55
+===================================================================

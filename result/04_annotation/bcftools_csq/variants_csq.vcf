@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##source=variant_verification.py
+##contig=<ID=NC_003228.3,length=5205140>
+##contig=<ID=NC_006873.1,length=36560>
+##INFO=<ID=CALLERS,Number=1,Type=String,Description="Supporting callers">
+##INFO=<ID=TYPE,Number=1,Type=String,Description="Variant type">
+##bcftools/csqVersion=1.24+htslib-1.24
+##bcftools/csqCommand=csq -f /home/cz/WGS/reference/unzipped/reference.fna -g /home/cz/WGS/reference/unzipped/reference.gff --phase a -Ov /home/cz/WGS/result/03_variants/verified/variants_confident.vcf; Date=Mon Oct 12 17:39:35 2026
+##INFO=<ID=BCSQ,Number=.,Type=String,Description="Haplotype-aware consequence annotation from BCFtools/csq, see http://samtools.github.io/bcftools/howtos/csq-calling.html for details. Format: Consequence|gene|transcript|biotype|strand|amino_acid_change|dna_change">
+##FORMAT=<ID=BCSQ,Number=.,Type=Integer,Description="Bitmask of indexes to INFO/BCSQ, with interleaved first/second haplotype. Use \"bcftools query -f'[%CHROM\t%POS\t%SAMPLE\t%TBCSQ\n]'\" to translate.">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QUERY
+NC_003228.3	530490	VAR1	T	TT	.	PASS	CALLERS=bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer;TYPE=INS	GT	1/1
+NC_003228.3	669715	VAR2	TTA	T	.	PASS	CALLERS=bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer;TYPE=DEL	GT	1/1
+NC_003228.3	683862	VAR3	G	A	.	PASS	CALLERS=bcftools_asm;bcftools_sim_snp;freebayes_asm;freebayes_sim;mummer;TYPE=SNP	GT	1/1
+NC_003228.3	1709303	VAR4	G	GT	.	PASS	CALLERS=bcftools_sim_indel;freebayes_asm;freebayes_sim;mummer;TYPE=INS	GT	1/1

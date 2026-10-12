@@ -1,0 +1,15 @@
+reference chromosomes:
+	NC_003228.3 (total length: 5205140 bp, total length without N's: 5205140 bp, maximal covered length: 5203656 bp)
+	NC_006873.1 (total length: 36560 bp, total length without N's: 36560 bp, maximal covered length: 36560 bp)
+
+total genome size: 5241700
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+query                    | 99.972    | 1.000       | 2         | -         | -         | -         | -         |

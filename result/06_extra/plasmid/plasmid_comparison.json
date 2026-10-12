@@ -1,0 +1,31 @@
+{
+  "reference_chromosome": {
+    "name": "NC_003228.3",
+    "length": 5205140,
+    "header": "NC_003228.3 Bacteroides fragilis NCTC 9343, complete sequence"
+  },
+  "query_chromosome": {
+    "name": "NZ_CP036555.1",
+    "length": 5205133,
+    "header": "NZ_CP036555.1 Bacteroides fragilis strain CCUG 4856 chromosome, complete genome"
+  },
+  "reference_plasmid": {
+    "name": "NC_006873.1",
+    "length": 36560,
+    "header": "NC_006873.1 Bacteroides fragilis NCTC 9343 plasmid pBF9343, complete sequence"
+  },
+  "query_plasmid": {
+    "name": "NZ_CP036556.1",
+    "length": 36560,
+    "header": "NZ_CP036556.1 Bacteroides fragilis strain CCUG 4856 plasmid pBF9343, complete sequence"
+  },
+  "orientation": "reverse_complement",
+  "circular_rotation_offset_bp": 31410,
+  "length_equal": true,
+  "identity_circular_pct": 100.0,
+  "identity_direct_pct": 100.0,
+  "circular_note": "plasmids are circular: the two molecules are compared after allowing for an arbitrary rotation offset and both orientations, so a reported identity of ~100 % means the molecules are the same sequence even if they were deposited from different origins",
+  "nucleotide_differences": 0,
+  "reference_plasmid_genes": 47,
+  "differences_in_genes": 0
+}

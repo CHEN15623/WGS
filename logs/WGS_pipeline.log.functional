@@ -1,0 +1,124 @@
+
+[1;34m==> 05-FUN (1): ABRicate screens on both genomes[0m
+[1;33m[WARN] abricate not installed[0m
+
+[1;34m==> 05-FUN (2): NCBI AMRFinderPlus on both genomes[0m
+  AMRFinderPlus database: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/
+
+[1;34m==> 05-FUN (3): curated B. fragilis determinant scan (both proteomes)[0m
+  using query annotation: /home/cz/WGS/result/04_annotation/transferred/query.gff3
+[curated] catalogue=39, ref genes examined=750, genes with AA changes=2
+[curated] determinants in reference only: []
+
+[1;34m==> 05-FUN (4): metabolic / functional category comparison (Bakta COG-KEGG-GO)[0m
+[func] reference features with functional evidence: 4231
+[func] query features with functional evidence    : 4231
+[func] COG ids ref=0 qry=0; KEGG KO ref=0 qry=0
+[func] ABRicate calls=0 differences=0; AMRFinderPlus calls=1
+
+[1;34m==> 05-FUN (5): COG functional-category profiling (NCBI COG2020, via DIAMOND)[0m
+
+[1;34m==>   reference proteome : /home/cz/WGS/reference/unzipped/reference.faa[0m
+
+[1;34m==>   query proteome     : /home/cz/WGS/result/04_annotation/transferred/query.faa[0m
+[cog] protein->COG mappings: 3,213,019
+[cog] reference: 2783/2884 proteins assigned a COG
+[cog] query: 2821/2922 proteins assigned a COG
+[cog] metabolism-category assignments: reference=1192 query=1202
+
+[1;34m==> 05-FUN (6): GO / EC profile comparison[0m
+[go_ec] reference CDS=4231 GO=1188 EC=0
+[go_ec] query     CDS=4231 GO=1188 EC=0
+[go_ec] GO reference-only=0, query-only=0; EC reference-only=0, query-only=0
+
+[1;34m==> 05-Functional analysis complete -> /home/cz/WGS/result/05_functional[0m
+
+[1;34m==> 05-FUN (1): ABRicate screens on both genomes[0m
+[1;33m[WARN] abricate not installed[0m
+
+[1;34m==> 05-FUN (2): NCBI AMRFinderPlus on both genomes[0m
+  AMRFinderPlus database: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/
+Running: amrfinder --database /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/ --nucleotide /home/cz/WGS/reference/unzipped/reference.fna --plus --output /home/cz/WGS/result/05_functional/amrfinder/reference.amrfinder.tsv --threads 32
+Software directory: /home/cz/miniconda3/envs/WGS/bin/
+Software version: 4.2.7
+Database directory: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide search
+  - include -O ORGANISM, --organism ORGANISM option to add mutation searches and suppress common proteins
+Running tblastn
+Making report
+amrfinder took 12 seconds to complete
+   [ok]   amrfinder_reference
+Running: amrfinder --database /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/ --nucleotide /home/cz/WGS/seq/unzipped/query.fna --plus --output /home/cz/WGS/result/05_functional/amrfinder/query.amrfinder.tsv --threads 32
+Software directory: /home/cz/miniconda3/envs/WGS/bin/
+Software version: 4.2.7
+Database directory: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide search
+  - include -O ORGANISM, --organism ORGANISM option to add mutation searches and suppress common proteins
+Running tblastn
+Making report
+amrfinder took 11 seconds to complete
+   [ok]   amrfinder_query
+
+[1;34m==> 05-FUN (3): curated B. fragilis determinant scan (both proteomes)[0m
+  using query annotation: /home/cz/WGS/reference/unzipped/reference.gff
+[curated] catalogue=39, ref genes examined=750, genes with AA changes=2
+[curated] determinants in reference only: []
+
+[1;34m==> 05-FUN (4): metabolic / functional category comparison (Bakta COG-KEGG-GO)[0m
+[func] reference features with functional evidence: 4231
+[func] query features with functional evidence    : 4231
+[func] COG ids ref=0 qry=0; KEGG KO ref=0 qry=0
+[func] ABRicate calls=0 differences=0; AMRFinderPlus calls=1
+
+[1;34m==> 05-FUN (5): COG functional-category profiling (NCBI COG2020, via DIAMOND)[0m
+
+[1;34m==>   reference proteome : /home/cz/WGS/reference/unzipped/reference.faa[0m
+
+[1;34m==>   query proteome     : /home/cz/WGS/result/04_annotation/transferred/query.faa[0m
+[cog] protein->COG mappings: 3,213,019
+[cog] reference: 2783/2884 proteins assigned a COG
+[cog] query: 2821/2922 proteins assigned a COG
+[cog] metabolism-category assignments: reference=1192 query=1202
+
+[1;34m==> 05-FUN (6): GO / EC profile comparison[0m
+[go_ec] reference CDS=4231 GO=1188 EC=0
+[go_ec] query     CDS=4231 GO=1188 EC=0
+[go_ec] GO reference-only=0, query-only=0; EC reference-only=0, query-only=0
+
+[1;34m==> 05-Functional analysis complete -> /home/cz/WGS/result/05_functional[0m
+
+[1;34m==> 05-FUN (1): ABRicate screens on both genomes[0m
+[1;33m[WARN] abricate not installed[0m
+
+[1;34m==> 05-FUN (2): NCBI AMRFinderPlus on both genomes[0m
+  AMRFinderPlus database: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/
+
+[1;34m==> 05-FUN (3): curated B. fragilis determinant scan (both proteomes)[0m
+  using query annotation: /home/cz/WGS/reference/unzipped/reference.gff
+[curated] catalogue=39, ref genes examined=750, genes with AA changes=2
+[curated] determinants in reference only: []
+
+[1;34m==> 05-FUN (4): metabolic / functional category comparison (Bakta COG-KEGG-GO)[0m
+[func] reference features with functional evidence: 4231
+[func] query features with functional evidence    : 4231
+[func] COG ids ref=0 qry=0; KEGG KO ref=0 qry=0
+[func] ABRicate calls=0 differences=0; AMRFinderPlus calls=1
+
+[1;34m==> 05-FUN (5): COG functional-category profiling (NCBI COG2020, via DIAMOND)[0m
+
+[1;34m==>   reference proteome : /home/cz/WGS/reference/unzipped/reference.faa[0m
+
+[1;34m==>   query proteome     : /home/cz/WGS/result/04_annotation/transferred/query.faa[0m
+[cog] protein->COG mappings: 3,213,019
+[cog] reference: 2783/2884 proteins assigned a COG
+[cog] query: 2821/2922 proteins assigned a COG
+[cog] metabolism-category assignments: reference=1192 query=1202
+
+[1;34m==> 05-FUN (6): GO / EC profile comparison[0m
+[go_ec] reference CDS=4231 GO=1188 EC=0
+[go_ec] query     CDS=4231 GO=1188 EC=0
+[go_ec] GO reference-only=0, query-only=0; EC reference-only=0, query-only=0
+
+[1;34m==> 05-Functional analysis complete -> /home/cz/WGS/result/05_functional[0m

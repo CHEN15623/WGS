@@ -1,0 +1,5 @@
+     17 upstream_gene_variant
+     14 downstream_gene_variant
+      2 non_coding_transcript_exon_variant
+      1 missense_variant
+      1 intergenic_region

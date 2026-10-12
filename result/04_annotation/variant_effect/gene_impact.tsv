@@ -1,0 +1,4 @@
+locus_tag	gene	product	contig	start	end	strand	reference_gene_status	reference_note	n_variants	variant_types	worst_effect	worst_impact	protein_change	cds_identity	transcript_effect	ref_protein_len	qry_protein_len	ref_internal_stops	qry_internal_stops	query_orf_status	variant_positions
+BF9343_RS02095		BamA/OMP85 family outer membrane protein	NC_003228.3	527950	530585	-	pseudogene	frameshifted	1	INS:1	frameshift_variant	HIGH				878	878	55	0	query_ORF_restored	NC_003228.3:530487G>GT
+BF9343_RS02670	WP_010992101.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	683442	685010	+	protein_coding		1	SNP:1	missense_variant	MODERATE	p.A141T	99.8		522	522	0	0	intact_in_both	NC_003228.3:683862G>A
+BF9343_RS06655		FtsX-like permease family protein	NC_003228.3	1708538	1709787	+	pseudogene	frameshifted	1	INS:1	frameshift_variant	HIGH				416	416	15	0	query_ORF_restored	NC_003228.3:1709303G>GT

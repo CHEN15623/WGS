@@ -1,0 +1,77 @@
+Aligning contigs to reference...
+	Using existing alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_003228.3]
+	Loaded [NC_006873.1]
+	Total Regions: 2
+	Total Region Length: 5241700
+Analyzing contigs...
+CONTIG: NZ_CP036555.1 (5205133bp)
+Best alignment score: 2005752.0 (LEN: 2005752, IDY: 100.00), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2282855 2283117 | 3219326 3219064 | 263 263 | 100.0 | NC_003228.3 NZ_CP036555.1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 5202984.6, number of alignments: 6, unaligned bases: 1484
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 5203649 out of 5205133 non-N bases (99.97%))
+			Real Alignment 1: 4268926 5205140 | 1 936209 | 936215 936209 | 100.0 | NC_003228.3 NZ_CP036555.1
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Excluding internal overlap of size 153 between Alignment 2 and 3: 2005600 2093939 | 3030148 2941809 | 88340 88340 --> 2005600 2093786 | 3030148 2941962 | 88187 88187
+			Real Alignment 2: 1 2005741 | 936210 2941961 | 2005741 2005752 | 100.0 | NC_003228.3 NZ_CP036555.1
+			  Extensive misassembly (inversion) between these two alignments
+			Excluding internal overlap of size 142 between Alignment 3 and 4: 2005600 2093786 | 3030148 2941962 | 88187 88187 --> 2005742 2093786 | 3030006 2941962 | 88045 88045
+			Real Alignment 3: 2005742 2093786 | 3030006 2941962 | 88045 88045 | 100.0 | NC_003228.3 NZ_CP036555.1
+			  Extensive misassembly (inversion) between these two alignments
+			Real Alignment 4: 2093787 2282854 | 3030007 3219063 | 189068 189057 | 99.99 | NC_003228.3 NZ_CP036555.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 5: 2283118 2832091 | 3219327 3768303 | 548974 548977 | 100.0 | NC_003228.3 NZ_CP036555.1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 6: 2833313 4268925 | 3769525 5205133 | 1435613 1435609 | 100.0 | NC_003228.3 NZ_CP036555.1
+		Unaligned bases: 1484
+
+CONTIG: NZ_CP036556.1 (36560bp)
+Best alignment score: 31410.0 (LEN: 31410, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 36560.0, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 1 5150 | 5150 1 | 5150 5150 | 100.0 | NC_006873.1 NZ_CP036556.1
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 2: 5151 36560 | 36560 5151 | 31410 31410 | 100.0 | NC_006873.1 NZ_CP036556.1
+
+Analyzing coverage...
+Writing SNPs into /home/cz/WGS/result/01_qc/quast/comparative/contigs_reports/minimap_output/query.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /home/cz/WGS/result/01_qc/quast/comparative/contigs_reports/minimap_output/query.used_snps
+
+Results:
+	Local Misassemblies: 2
+	Misassemblies: 2
+		Relocations: 0
+		Translocations: 0
+		Inversions: 2
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 5205133
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 0 + 1 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Bases in Fully and Partially Unaligned Contigs: 1484
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 5205133
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 5240216
+	Raw Aligned Bases in Assembly: 5240067
+	Total Aligned Bases in Assembly (with "Extras"): 5240067
+
+	SNPs: 44
+	Insertions: 21
+	Deletions: 28
+

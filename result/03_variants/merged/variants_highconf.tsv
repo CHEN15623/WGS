@@ -1,0 +1,5 @@
+contig	pos	ref	alt	type	confidence	n_independent_methods	n_callers	callers	flags	ref_copies	mummer_buff	mummer_dist	overlap_R	overlap_Q	asm_mapq	asm_depth	sim_depth	sim_mean_mapq	obs_depth	obs_alt_frac	sim_altfrac	sim_qual	bcftools_asm_qual	freebayes_asm_qual
+NC_003228.3	530487	G	GT	INS	HIGH	2	3	bcftools_sim_indel;freebayes_asm;freebayes_sim	two_independent_methods;multi_caller;read_confirmed	1	-1	-1	0	0	60	1	87	60.0	86					0.511525
+NC_003228.3	669715	TTA	T	DEL	HIGH	2	3	bcftools_sim_indel;freebayes_asm;freebayes_sim	two_independent_methods;multi_caller;read_confirmed	1	-1	-1	0	0	60	1	93	60.0	93					0.511525
+NC_003228.3	683862	G	A	SNP	HIGH	3	5	bcftools_asm;bcftools_sim_snp;freebayes_asm;freebayes_sim;mummer	two_independent_methods;multi_caller;read_confirmed;two_assembly_callers;well_within_alignment	1	14145	683862	0	0	60	1	112	60.0	112	100.0			30.4183	0.511525
+NC_003228.3	1709303	G	GT	INS	HIGH	2	3	bcftools_sim_indel;freebayes_asm;freebayes_sim	two_independent_methods;multi_caller;read_confirmed	1	-1	-1	0	0	60	1	97	60.0	97					0.511525

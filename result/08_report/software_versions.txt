@@ -1,0 +1,25 @@
+run_date: 2026-10-12 17:27:35
+host: gy-PR4865P-N-A
+cores: 192
+conda_env: WGS
+conda_prefix: /home/cz/miniconda3/envs/WGS
+--- tool versions ---
+samtools: samtools 1.24
+bcftools: bcftools 1.24
+minimap2: 2.31-r1302
+bwa: [main] unrecognized command '--version'
+nucmer: 4.0.1
+show-snps: show-snps: invalid option -- '-'
+freebayes: version:  v1.3.10
+dnadiff: dnadiff 
+bakta: bakta 1.11.4
+snpEff: Error        :	Unknown option '--version'
+amrfinder: 4.2.7
+quast.py: WARNING: Python locale settings can't be changed
+seqkit: Error: unknown flag: --version
+python3: Python 3.11.17
+--- input checksums (md5) ---
+ffd1964ca64888e9e1a5f3cde5989f2a  /home/cz/WGS/reference/unzipped/reference.fna
+09b8821cba98f8ed58270395e711dc16  /home/cz/WGS/reference/unzipped/reference.gff
+1bbc7a266064bcd8005cd6e7668a9f34  /home/cz/WGS/reference/unzipped/reference.faa
+60566b193b3ee99b0f41420f5e4573df  /home/cz/WGS/seq/unzipped/query.fna

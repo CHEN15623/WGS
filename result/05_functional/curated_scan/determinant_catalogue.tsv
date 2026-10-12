@@ -1,0 +1,40 @@
+determinant	category	subcategory	description	reference_hits	keywords
+cfiA	resistance	beta-lactam	Class B metallo-beta-lactamase CfiA (carbapenem resistance)	0	cfia;metallo-beta-lactamase;class b beta-lactamase;blab
+cfxA	resistance	beta-lactam	Class A extended-spectrum beta-lactamase CfxA	1	cfxa;class a beta-lactamase;beta-lactamase
+ampC	resistance	beta-lactam	AmpC-type cephalosporinase	0	ampc;cephalosporinase
+bla_other	resistance	beta-lactam	other beta-lactamase / penicillin-binding protein	3	penicillin-binding protein;beta-lactamase domain;blar
+nim	resistance	nitroimidazole	Nim nitroimidazole resistance protein	0	nima;nimb;nimc;nimd;nime;nimj;nitroimidazole
+ermF	resistance	macrolide	ErmF 23S rRNA methyltransferase	135	ermf;rrna methyltransferase;erythromycin resistance;erm
+mefA_msr	resistance	macrolide	macrolide efflux (MefA/Msr)	0	mefa;msra;macrolide efflux
+lnu	resistance	lincosamide	lincosamide nucleotidyltransferase	0	lnu;lincosamide
+tetQ	resistance	tetracycline	TetQ ribosomal protection protein	0	tetq;tetracycline resistance;tetracycline-resistant
+tetX	resistance	tetracycline	TetX tetracycline destructase	0	tetx;tetracycline destructase;fad-binding monooxygenase
+tet_other	resistance	tetracycline	other tetracycline determinant	0	tetm;teto;tetw;tet36;tetb;tetp
+aminoglycoside	resistance	aminoglycoside	aminoglycoside modifying enzyme (aac/aph/aad/ant)	0	aminoglycoside;aaca;aph(;aad;ant(;kanamycin;streptomycin
+sul	resistance	sulfonamide	sulphonamide resistance (sul)	1	sul1;sul2;dihydropteroate synthase
+dfr	resistance	trimethoprim	dihydrofolate reductase (dfr)	4	dfra;dfr;dihydrofolate reductase
+cat_flo	resistance	phenicol	chloramphenicol acetyltransferase / floR	8	chloramphenicol acetyltransferase;flor;cata
+oxazolidinone	resistance	oxazolidinone	optrA/poxtA/cfr	0	optra;poxta;cfr
+qnr	resistance	quinolone	quinolone resistance protein (qnr)	1	qnr;pentapeptide repeat
+efflux_RND	resistance	multidrug efflux	RND / MFS multidrug efflux pump	39	multidrug efflux;acrb;mexb;mdte;efflux pump;bexa;rnd transporter
+gyrA	resistance	quinolone	DNA gyrase subunit A (QRDR target)	2	dna gyrase subunit a;gyra
+gyrB	resistance	quinolone	DNA gyrase subunit B	1	dna gyrase subunit b;gyrb
+parC	resistance	quinolone	DNA topoisomerase IV subunit A (QRDR target)	1	topoisomerase iv subunit a;parc;topoisomerase 4 subunit a
+parE	resistance	quinolone	DNA topoisomerase IV subunit B	3	topoisomerase iv subunit b;pare
+rpoB	resistance	rifampicin	RNA polymerase beta subunit (rifampicin target)	2	rna polymerase subunit beta;rpob;dna-directed rna polymerase subunit beta
+rrs_23S	resistance	macrolide	23S rRNA (macrolide target)	0	23s ribosomal rna
+bft	virulence	toxin	B. fragilis toxin / fragilysin (bft)	41	fragilysin;bft;toxin;metallopeptidase
+cps_locus	virulence	capsule	capsular polysaccharide biosynthesis (CPS locus)	116	capsular polysaccharide;polysaccharide biosynthesis;wzy;wzx;glycosyltransferase;capsule
+susC	virulence	PUL	SusC TonB-dependent outer-membrane transporter (PUL)	101	susC;tonb-dependent;tonb dependent;outer membrane receptor
+susD	virulence	PUL	SusD polysaccharide-binding lipoprotein (PUL)	68	susd;susd-like;polysaccharide-binding
+sialidase	virulence	enzyme	sialidase / neuraminidase	7	sialidase;neuraminidase
+hemolysin	virulence	toxin	hemolysin / cytolysin	2	hemolysin;haemolysin;cytolysin
+protease	virulence	enzyme	extracellular protease	4	metalloprotease;zinc protease;peptidase m10;collagenase
+fimbriae	virulence	adhesion	fimbriae / pilus assembly	48	fimbri;pilin;pilus assembly;type iv pilus
+bile_salt	virulence	persistence	bile salt hydrolase	0	bile salt hydrolase;choloylglycine hydrolase
+sod_catalase	virulence	oxidative stress	superoxide dismutase / catalase	3	superoxide dismutase;catalase;rubrerythrin
+b12	metabolism	cofactor	cobalamin (B12) biosynthesis/transport	13	cobalamin;cobyrinic;cob(;precorrin;vitamin b12;btu
+sulfur	metabolism	redox	sulfate/sulfite metabolism	22	sulfite reductase;sulfate adenylyltransferase;sulfatase;cysteine synthase
+glycoside_hydrolase	metabolism	CAZy	glycoside hydrolase (glycan degradation)	115	glycoside hydrolase;glycosyl hydrolase;glucosidase;galactosidase;xylanase;glycanase;mannosidase;fucosidase
+polysaccharide_lyase	metabolism	CAZy	polysaccharide lyase	3	polysaccharide lyase;chondroitin;heparinase;hyaluronate lyase;pectate lyase;alginate lyase
+cazyme_esterase	metabolism	CAZy	carbohydrate esterase / sulfatase	6	carbohydrate esterase;acetylxylan esterase;arylsulfatase

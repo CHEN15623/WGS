@@ -1,0 +1,7 @@
+caller	n_variants	mummer	bcftools_asm	freebayes_asm	bcftools_sim_indel	bcftools_sim_snp	freebayes_sim
+mummer	199	199	25	18	0	1	1
+bcftools_asm	35	25	35	18	0	1	1
+freebayes_asm	31	18	18	31	3	1	4
+bcftools_sim_indel	4	0	0	3	4	0	3
+bcftools_sim_snp	1	1	1	1	0	1	1
+freebayes_sim	4	1	1	4	3	1	4

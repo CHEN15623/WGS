@@ -1,0 +1,751 @@
+determinant	category	locus_tag	gene	product	contig	start	end	strand	ref_protein_len	query_protein_len	query_coverage_pct	protein_identity_pct	status	aa_changes
+cfxA	resistance	BF9343_RS05570	WP_010992371.1	CepA family extended-spectrum class A beta-lactamase	NC_003228.3	1461124	1462026	-	300	300	100.0	100.0	identical	none
+bla_other	resistance	BF9343_RS06250	pbpC	penicillin-binding protein 1C	NC_003228.3	1611458	1613797	-	779	779	100.0	100.0	identical	none
+bla_other	resistance	BF9343_RS01200	WP_005796729.1	penicillin-binding protein	NC_003228.3	289849	291948	-	699	699	100.0	100.0	identical	none
+bla_other	resistance	BF9343_RS18935	mrdA	penicillin-binding protein 2	NC_003228.3	4609522	4611378	-	618	618	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16235	WP_005797815.1	efflux RND transporter permease subunit	NC_003228.3	3973162	3976920	-	1252	1252	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS01335	WP_010991970.1	glycoside hydrolase family 38 N-terminal domain-containing protein	NC_003228.3	330313	333930	-	1205	1205	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS05130	WP_010992317.1	sacsin N-terminal ATP-binding-like domain-containing protein	NC_003228.3	1356614	1359898	+	1094	1094	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16140	WP_005802508.1	efflux RND transporter permease subunit	NC_003228.3	3950936	3954142	+	1068	1068	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS00700	WP_005783792.1	efflux RND transporter permease subunit	NC_003228.3	161787	164990	-	1067	1067	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS14300	WP_005789008.1	efflux RND transporter permease subunit	NC_003228.3	3468496	3471699	-	1067	1067	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS19210	WP_005804147.1	efflux RND transporter permease subunit	NC_003228.3	4675045	4678203	-	1052	1052	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS14110	WP_008769702.1	efflux RND transporter permease subunit	NC_003228.3	3423365	3426511	-	1048	1048	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18625	WP_010993613.1	efflux RND transporter permease subunit	NC_003228.3	4538711	4541854	-	1047	1047	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10535	WP_010992915.1	efflux RND transporter permease subunit	NC_003228.3	2616032	2619157	+	1041	1041	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS15335	WP_010993302.1	efflux RND transporter permease subunit	NC_003228.3	3744604	3747729	-	1041	1041	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11745	WP_010993028.1	efflux RND transporter permease subunit	NC_003228.3	2875705	2878827	+	1040	1040	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10110	WP_010992883.1	efflux RND transporter permease subunit	NC_003228.3	2504093	2507206	+	1037	1037	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16945	WP_005790618.1	efflux RND transporter permease subunit	NC_003228.3	4137429	4140515	+	1028	1028	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS14310	WP_005798729.1	efflux RND transporter permease subunit	NC_003228.3	3473216	3476293	-	1025	1025	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS01760	WP_010992016.1	golvesin C-terminal-like domain-containing protein	NC_003228.3	458303	461374	-	1023	1023	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02395	WP_041926297.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	599895	602948	+	1017	1017	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02835	WP_005784705.1	efflux RND transporter permease subunit	NC_003228.3	740376	743411	-	1011	1011	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS15120	WP_008661179.1	efflux RND transporter permease subunit	NC_003228.3	3680667	3683702	+	1011	1011	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS20990	WP_010993804.1	efflux RND transporter permease subunit	NC_003228.3	5120569	5123601	-	1010	1010	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02390	WP_010992078.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	596875	599865	+	996	996	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS14155	WP_008769700.1	golvesin C-terminal-like domain-containing protein	NC_003228.3	3436673	3439582	+	969	969	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13915	WP_010993184.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	3371701	3374286	-	861	861	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13890	WP_010993179.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	3365482	3368061	-	859	859	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11625	WP_010993016.1	ABC transporter permease	NC_003228.3	2844936	2847359	+	807	807	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07415	WP_010992597.1	ABC transporter permease	NC_003228.3	1875353	1877773	+	806	806	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS03585	WP_172579068.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	937788	940205	+	805	805	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS09840	WP_010992846.1	ABC transporter permease	NC_003228.3	2454631	2457042	+	803	803	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07405	WP_005800665.1	ABC transporter permease	NC_003228.3	1872213	1874618	+	801	801	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11640	WP_010993018.1	ABC transporter permease	NC_003228.3	2852213	2854615	+	800	800	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11630	WP_005793795.1	ABC transporter permease	NC_003228.3	2847509	2849854	+	781	781	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11650	WP_010993020.1	ABC transporter permease	NC_003228.3	2857048	2859384	+	778	778	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11635	WP_010993017.1	ABC transporter permease	NC_003228.3	2849871	2852198	+	775	775	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16190	WP_010993385.1	ABC transporter permease	NC_003228.3	3962653	3964965	+	770	770	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10395	WP_008768704.1	ABC transporter permease	NC_003228.3	2582140	2584446	+	768	768	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10405	WP_010992908.1	ABC transporter permease	NC_003228.3	2585153	2587459	+	768	768	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10410	WP_010992909.1	ABC transporter permease	NC_003228.3	2587490	2589784	+	764	764	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10385	WP_010992906.1	ABC transporter permease	NC_003228.3	2579135	2581423	+	762	762	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11645	WP_010993019.1	ABC transporter permease	NC_003228.3	2854809	2857037	+	742	742	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS03545	WP_010992182.1	glycoside hydrolase family 3 C-terminal domain-containing protein	NC_003228.3	921576	923744	+	722	722	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS17155	WP_025814003.1	PL29 family lyase N-terminal domain-containing protein	NC_003228.3	4182710	4184785	-	691	691	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS14620	rho	transcription termination factor Rho	NC_003228.3	3548561	3550627	+	688	688	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18125	WP_005791685.1	BNR-repeat neuraminidase N-terminal domain-containing protein	NC_003228.3	4424709	4426745	+	678	678	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11050	WP_005793982.1	alpha amylase C-terminal domain-containing protein	NC_003228.3	2729357	2731369	+	670	670	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS04330	WP_005785313.1	glycogen debranching enzyme N-terminal domain-containing protein	NC_003228.3	1148929	1150869	+	646	646	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02530	WP_005784513.1	LptF/LptG family permease	NC_003228.3	644134	646044	+	636	636	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS15255	WP_010993296.1	GH32 C-terminal domain-containing protein	NC_003228.3	3723569	3725437	-	622	622	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06375	WP_005786180.1	SLC13 family permease	NC_003228.3	1646614	1648479	+	621	621	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02825	WP_010992114.1	amino acid permease	NC_003228.3	736859	738526	-	555	555	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07720	WP_005786530.1	SLC13 family permease	NC_003228.3	1948968	1950524	+	518	518	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12895	WP_041926234.1	DHA2 family efflux MFS transporter permease subunit	NC_003228.3	3141094	3142623	-	509	509	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07460	WP_010992604.1	L-lactate permease	NC_003228.3	1891138	1892637	-	499	499	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18930	rodA	rod shape-determining protein RodA	NC_003228.3	4608084	4609541	-	485	485	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16965	WP_010993451.1	methyltransferase RsmF C-terminal domain-like protein	NC_003228.3	4143767	4145185	-	472	472	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS00995	fucP	L-fucose:H+ symporter permease	NC_003228.3	233163	234494	+	443	443	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06620	WP_005816631.1	ABC transporter permease	NC_003228.3	1699976	1701283	+	435	435	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06630	WP_010992479.1	ABC transporter permease	NC_003228.3	1702599	1703906	+	435	435	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06670	WP_005816640.1	ABC transporter permease	NC_003228.3	1711286	1712584	+	432	432	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06625	WP_005786271.1	ABC transporter permease	NC_003228.3	1701287	1702573	+	428	428	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06650	WP_010992481.1	ABC transporter permease	NC_003228.3	1707255	1708529	+	424	424	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06635	WP_010992480.1	ABC transporter permease	NC_003228.3	1703913	1705184	+	423	423	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06615	WP_010992477.1	ABC transporter permease	NC_003228.3	1698689	1699957	+	422	422	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06610	WP_010992476.1	ABC transporter permease	NC_003228.3	1697404	1698669	+	421	421	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS01005	nusA	transcription termination factor NusA	NC_003228.3	235681	236943	+	420	420	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13430	WP_008769763.1	Coenzyme F420 hydrogenase/dehydrogenase%2C beta subunit C-terminal domain	NC_003228.3	3265099	3266361	+	420	420	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02360	WP_005784445.1	ABC transporter permease	NC_003228.3	590693	591952	-	419	419	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS04455	WP_010992248.1	nucleoside permease	NC_003228.3	1179001	1180260	-	419	419	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18185	WP_010993557.1	ABC transporter permease	NC_003228.3	4443510	4444760	+	416	416	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06655		FtsX-like permease family protein	NC_003228.3	1708538	1709787	+	416	416	100.0	63.0	mutated	reference_is_pseudogene__reading_frame_restored__(query internal stops: 0)
+ermF	resistance	BF9343_RS03805	WP_010992207.1	PNGase F N-terminal domain-containing protein	NC_003228.3	1000436	1001683	+	415	415	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02355	WP_005784442.1	ABC transporter permease	NC_003228.3	589446	590690	-	414	414	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06675	WP_005800742.1	FtsX-like permease family protein	NC_003228.3	1712599	1713843	+	414	414	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07370	WP_008768269.1	ABC transporter permease	NC_003228.3	1863059	1864303	+	414	414	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS20785	WP_010993789.1	FtsX-like permease family protein	NC_003228.3	5072916	5074154	-	412	412	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS09020	WP_005786907.1	ABC transporter permease	NC_003228.3	2253879	2255099	-	406	406	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS08425	WP_010992687.1	cyclically-permuted mutarotase family protein	NC_003228.3	2111487	2112704	+	405	405	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13265	pstC	phosphate ABC transporter permease subunit PstC	NC_003228.3	3229054	3230250	-	398	398	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12040	WP_005803622.1	ABC transporter permease	NC_003228.3	2945676	2946866	+	396	396	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10350	WP_010992900.1	uracil-xanthine permease family protein	NC_003228.3	2570365	2571552	+	395	395	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18180	WP_005791708.1	ABC transporter permease	NC_003228.3	4442329	4443510	+	393	393	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS04465	WP_005785371.1	class I SAM-dependent rRNA methyltransferase	NC_003228.3	1182900	1184078	-	392	392	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12035	WP_041926229.1	ABC transporter permease	NC_003228.3	2944520	2945692	+	390	390	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12185	nspC	carboxynorspermidine decarboxylase	NC_003228.3	2978568	2979707	-	379	379	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS19705	WP_005811457.1	cyclically-permuted mutarotase family protein	NC_003228.3	4767698	4768837	+	379	379	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12655	WP_009292452.1	ABC transporter permease	NC_003228.3	3082100	3083218	-	372	372	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07895	WP_010992629.1	Wzz/FepE/Etk N-terminal domain-containing protein	NC_003228.3	1992099	1993211	+	370	370	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12660	WP_010993087.1	ABC transporter permease	NC_003228.3	3083215	3084315	-	366	366	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11315	WP_005787732.1	LptF/LptG family permease	NC_003228.3	2790779	2791876	-	365	365	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13370	WP_008769768.1	Coenzyme F420 hydrogenase/dehydrogenase%2C beta subunit C-terminal domain	NC_003228.3	3253333	3254418	+	361	361	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS10570	WP_005787518.1	iron ABC transporter permease	NC_003228.3	2626187	2627224	+	345	345	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18950	WP_005792050.1	rod shape-determining protein	NC_003228.3	4612822	4613844	-	340	340	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS05500	WP_010992365.1	FecCD family ABC transporter permease	NC_003228.3	1440208	1441212	-	334	334	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS15410	WP_005789714.1	DnaJ C-terminal domain-containing protein	NC_003228.3	3770531	3771472	-	313	313	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS05405	nusB	transcription antitermination factor NusB	NC_003228.3	1423180	1424106	+	308	308	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13260	pstA	phosphate ABC transporter permease PstA	NC_003228.3	3228177	3229052	-	291	291	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18265	WP_008661716.1	exodeoxyribonuclease X C-terminal domain-containing protein	NC_003228.3	4461569	4462429	+	286	286	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18945	mreC	rod shape-determining protein MreC	NC_003228.3	4611875	4612720	-	281	281	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS21435	WP_011264149.1	topoisomerase C-terminal repeat-containing protein	NC_006873.1	16171	17007	-	278	278	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS15225	WP_005789625.1	ABC transporter permease	NC_003228.3	3715768	3716592	-	274	274	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS03040	WP_005784764.1	metal ABC transporter permease	NC_003228.3	787815	788624	-	269	269	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13080	WP_005778456.1	ABC transporter permease	NC_003228.3	3185235	3186032	-	265	265	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11705	WP_005787816.1	ABC transporter permease	NC_003228.3	2868913	2869707	+	264	264	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS02380	WP_005784454.1	5'-nucleotidase C-terminal domain-containing protein	NC_003228.3	595107	595895	+	262	262	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13075	WP_010993119.1	ABC transporter permease	NC_003228.3	3184453	3185241	-	262	262	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS19045	WP_005799183.1	ABC transporter permease	NC_003228.3	4642004	4642777	-	257	257	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18845	WP_005791870.1	MlaE family ABC transporter permease	NC_003228.3	4589684	4590427	+	247	247	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06220	WP_005786122.1	LuxR C-terminal-related transcriptional regulator	NC_003228.3	1605693	1606370	-	225	225	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS15690	WP_005802698.1	lipid-A-disaccharide synthase N-terminal domain-containing protein	NC_003228.3	3842473	3843120	-	215	215	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07125	upfY	capsular polysaccharide transcription antiterminator UpfY	NC_003228.3	1807250	1807810	+	186	186	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS19495	nusG	transcription termination/antitermination protein NusG	NC_003228.3	4724611	4725153	-	180	180	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16720	uphY	capsular polysaccharide transcription antiterminator UphY	NC_003228.3	4090896	4091435	-	179	179	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS17855	updY	capsular polysaccharide transcription antiterminator UpdY	NC_003228.3	4360601	4361140	-	179	179	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS03420	upgY	capsular polysaccharide transcription antiterminator UpgY	NC_003228.3	894922	895458	+	178	178	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07900	WP_010992630.1	UpxY family transcription antiterminator	NC_003228.3	1993187	1993717	+	176	176	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS05515	WP_005795676.1	UpxY family transcription antiterminator	NC_003228.3	1445051	1445575	+	174	174	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS08825	upbY	capsular polysaccharide transcription antiterminator UpbY	NC_003228.3	2211582	2212106	+	174	174	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS04750	upcY	capsular polysaccharide transcription antiterminator UpcY	NC_003228.3	1260915	1261433	+	172	172	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06310	upaY	capsular polysaccharide transcription antiterminator UpaY	NC_003228.3	1634932	1635450	+	172	172	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12450	upeY	capsular polysaccharide transcription antiterminator UpeY	NC_003228.3	3031735	3032253	-	172	172	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS13355	WP_005788621.1	UpxY family transcription antiterminator	NC_003228.3	3249979	3250497	+	172	172	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS18940	mreD	rod shape-determining protein MreD	NC_003228.3	4611381	4611878	-	165	165	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS03425	WP_005813291.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	895478	895966	+	162	162	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS08830	WP_005817126.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	2212110	2212595	+	161	161	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS16715	WP_005790533.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	4090366	4090851	-	161	161	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS17850	WP_010993532.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	4360057	4360542	-	161	161	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS07130	WP_010992559.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	1807822	1808304	+	160	160	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS12445	WP_008768994.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	3031229	3031711	-	160	160	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06175	WP_005786100.1	copper resistance protein NlpE N-terminal domain-containing protein	NC_003228.3	1595441	1595914	-	157	157	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS06315	WP_005800814.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	1635470	1635943	+	157	157	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS11750	WP_005793759.1	type I restriction enzyme HsdR N-terminal domain-containing protein	NC_003228.3	2879172	2879621	-	149	149	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS04755	WP_005785489.1	UpxZ family transcription anti-terminator antagonist	NC_003228.3	1261616	1262008	+	130	130	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS19760	WP_004308130.1	reverse transcriptase N-terminal domain-containing protein	NC_003228.3	4790327	4790677	+	116	116	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS03395	WP_005784907.1	HipA N-terminal domain-containing protein	NC_003228.3	891484	891813	-	109	109	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS23620		alpha-L-fucosidase C-terminal domain-containing protein	NC_003228.3	2016453	2016701	-	82	82	100.0	100.0	identical	none
+ermF	resistance	BF9343_RS24285	WP_423231168.1	ISAon1 family transposase N-terminal region protein	NC_003228.3	1624098	1624289	+	63	63	100.0	100.0	identical	none
+sul	resistance	BF9343_RS01855	folP	dihydropteroate synthase	NC_003228.3	485894	486754	+	286	286	100.0	100.0	identical	none
+dfr	resistance	BF9343_RS10075	WP_005794283.1	dihydrofolate reductase family protein	NC_003228.3	2495657	2496334	+	225	225	100.0	100.0	identical	none
+dfr	resistance	BF9343_RS05835	WP_041926187.1	dihydrofolate reductase family protein	NC_003228.3	1514225	1514746	-	173	173	100.0	100.0	identical	none
+dfr	resistance	BF9343_RS17005	WP_009292628.1	dihydrofolate reductase	NC_003228.3	4149982	4150482	+	166	166	100.0	100.0	identical	none
+dfr	resistance	BF9343_RS08015	WP_004327329.1	dihydrofolate reductase family protein	NC_003228.3	2024498	2024989	+	163	163	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS02660	WP_010992099.1	glycosyl hydrolase family 95 catalytic domain-containing protein	NC_003228.3	677449	680052	+	867	867	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS02200	WP_041926164.1	glycosyl hydrolase family 95 catalytic domain-containing protein	NC_003228.3	551126	553495	+	789	789	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS04015	WP_010992219.1	glycosyl hydrolase family 95 catalytic domain-containing protein	NC_003228.3	1052070	1054337	-	755	755	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS05550	WP_005785885.1	catalase	NC_003228.3	1454734	1456194	-	486	486	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS07670	WP_005786511.1	type I phosphomannose isomerase catalytic subunit	NC_003228.3	1938373	1939344	+	323	323	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS02055	WP_005784354.1	murein L%2CD-transpeptidase catalytic domain family protein	NC_003228.3	520852	521580	-	242	242	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS21275	WP_005797145.1	chloramphenicol acetyltransferase	NC_003228.3	5193438	5194079	+	213	213	100.0	100.0	identical	none
+cat_flo	resistance	BF9343_RS11795	WP_010993030.1	chloramphenicol acetyltransferase	NC_003228.3	2889025	2889651	-	208	208	100.0	100.0	identical	none
+qnr	resistance	BF9343_RS05355	WP_010992351.1	pentapeptide repeat-containing protein	NC_003228.3	1413848	1414513	-	221	221	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS17660	WP_010993506.1	CusA/CzcA family heavy metal efflux RND transporter	NC_003228.3	4315325	4319644	+	1439	1439	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS16235	WP_005797815.1	efflux RND transporter permease subunit	NC_003228.3	3973162	3976920	-	1252	1252	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS16140	WP_005802508.1	efflux RND transporter permease subunit	NC_003228.3	3950936	3954142	+	1068	1068	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS00700	WP_005783792.1	efflux RND transporter permease subunit	NC_003228.3	161787	164990	-	1067	1067	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS14300	WP_005789008.1	efflux RND transporter permease subunit	NC_003228.3	3468496	3471699	-	1067	1067	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS19210	WP_005804147.1	efflux RND transporter permease subunit	NC_003228.3	4675045	4678203	-	1052	1052	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS14110	WP_008769702.1	efflux RND transporter permease subunit	NC_003228.3	3423365	3426511	-	1048	1048	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS18625	WP_010993613.1	efflux RND transporter permease subunit	NC_003228.3	4538711	4541854	-	1047	1047	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS10535	WP_010992915.1	efflux RND transporter permease subunit	NC_003228.3	2616032	2619157	+	1041	1041	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS15335	WP_010993302.1	efflux RND transporter permease subunit	NC_003228.3	3744604	3747729	-	1041	1041	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS11745	WP_010993028.1	efflux RND transporter permease subunit	NC_003228.3	2875705	2878827	+	1040	1040	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS10110	WP_010992883.1	efflux RND transporter permease subunit	NC_003228.3	2504093	2507206	+	1037	1037	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS16945	WP_005790618.1	efflux RND transporter permease subunit	NC_003228.3	4137429	4140515	+	1028	1028	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS14310	WP_005798729.1	efflux RND transporter permease subunit	NC_003228.3	3473216	3476293	-	1025	1025	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS02835	WP_005784705.1	efflux RND transporter permease subunit	NC_003228.3	740376	743411	-	1011	1011	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS15120	WP_008661179.1	efflux RND transporter permease subunit	NC_003228.3	3680667	3683702	+	1011	1011	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS20990	WP_010993804.1	efflux RND transporter permease subunit	NC_003228.3	5120569	5123601	-	1010	1010	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS16225	WP_010993387.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	3969799	3971445	-	548	548	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS16940	WP_010993448.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	4136111	4137370	+	419	419	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS11620	WP_005787749.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	2843542	2844792	+	416	416	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS06605	WP_005786261.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	1696036	1697283	+	415	415	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS07400	WP_008659313.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	1870953	1872200	+	415	415	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS09030	WP_005794794.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	2255859	2257082	-	407	407	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS10105	WP_005803349.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	2502866	2504074	+	402	402	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS14115	WP_005798690.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	3426605	3427795	-	396	396	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS00705	WP_005783796.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	165015	166169	-	384	384	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS11740	WP_010993027.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	2874561	2875700	+	379	379	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS16135	WP_005802509.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	3949738	3950853	+	371	371	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS02350	WP_010992075.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	588237	589337	-	366	366	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS10530	WP_005787502.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	2614925	2616016	+	363	363	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS18620	WP_010993612.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	4537612	4538703	-	363	363	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS02840	WP_005784707.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	743426	744508	-	360	360	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS14315	WP_005789014.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	3476320	3477390	-	356	356	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS15340	WP_010993303.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	3747729	3748796	-	355	355	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS15115	WP_005789585.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	3679472	3680524	+	350	350	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS20995	WP_005797182.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	5123598	5124641	-	347	347	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS19215	WP_005797650.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	4678304	4679320	-	338	338	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS17665	WP_005791002.1	efflux RND transporter periplasmic adaptor subunit	NC_003228.3	4319666	4320553	+	295	295	100.0	100.0	identical	none
+efflux_RND	resistance	BF9343_RS05320	WP_005785730.1	manganese efflux pump MntP	NC_003228.3	1408478	1409062	-	194	194	100.0	100.0	identical	none
+gyrA	resistance	BF9343_RS01640	WP_005784201.1	DNA gyrase/topoisomerase IV subunit A	NC_003228.3	427131	429779	-	882	882	100.0	100.0	identical	none
+gyrA	resistance	BF9343_RS11840	gyrA	DNA gyrase subunit A	NC_003228.3	2899322	2901859	+	845	845	100.0	100.0	identical	none
+gyrB	resistance	BF9343_RS01130	gyrB	DNA topoisomerase (ATP-hydrolyzing) subunit B	NC_003228.3	273876	275834	-	652	652	100.0	100.0	identical	none
+parC	resistance	BF9343_RS01640	WP_005784201.1	DNA gyrase/topoisomerase IV subunit A	NC_003228.3	427131	429779	-	882	882	100.0	100.0	identical	none
+parE	resistance	BF9343_RS21105	WP_005783474.1	DNA topoisomerase IV subunit B	NC_003228.3	5154924	5156795	+	623	623	100.0	100.0	identical	none
+parE	resistance	BF9343_RS12020	WP_005793605.1	type II toxin-antitoxin system RelE/ParE family toxin	NC_003228.3	2941448	2941771	+	107	107	100.0	100.0	identical	none
+parE	resistance	BF9343_RS01600	WP_010992003.1	type II toxin-antitoxin system RelE/ParE family toxin	NC_003228.3	416350	416634	-	94	94	100.0	100.0	identical	none
+rpoB	resistance	BF9343_RS19465	rpoC	DNA-directed RNA polymerase subunit beta'	NC_003228.3	4714095	4718378	-	1427	1427	100.0	100.0	identical	none
+rpoB	resistance	BF9343_RS19470	rpoB	DNA-directed RNA polymerase subunit beta	NC_003228.3	4718525	4722337	-	1270	1270	100.0	100.0	identical	none
+bft	virulence	BF9343_RS09405	WP_010992798.1	toxin VasX	NC_003228.3	2353982	2356975	-	997	997	100.0	100.0	identical	none
+bft	virulence	BF9343_RS16630	WP_010993418.1	M16 family metallopeptidase	NC_003228.3	4071722	4074586	+	954	954	100.0	100.0	identical	none
+bft	virulence	BF9343_RS04410	WP_010992245.1	M16 family metallopeptidase	NC_003228.3	1168150	1170969	-	939	939	100.0	100.0	identical	none
+bft	virulence	BF9343_RS14070	WP_005798674.1	M60 family metallopeptidase	NC_003228.3	3410594	3413413	-	939	939	100.0	100.0	identical	none
+bft	virulence	BF9343_RS02805	WP_041926166.1	M1 family metallopeptidase	NC_003228.3	728724	731237	+	837	837	100.0	100.0	identical	none
+bft	virulence	BF9343_RS18130	WP_010993554.1	M56 family metallopeptidase	NC_003228.3	4426841	4429033	-	730	730	100.0	100.0	identical	none
+bft	virulence	BF9343_RS14465	WP_032533562.1	M3 family metallopeptidase	NC_003228.3	3510930	3513041	-	703	703	100.0	100.0	identical	none
+bft	virulence	BF9343_RS04170	WP_005795986.1	M3 family metallopeptidase	NC_003228.3	1103805	1105862	-	685	685	100.0	100.0	identical	none
+bft	virulence	BF9343_RS18960	WP_010993651.1	M13 family metallopeptidase	NC_003228.3	4615594	4617627	-	677	677	100.0	100.0	identical	none
+bft	virulence	BF9343_RS18210	WP_010993560.1	M56 family metallopeptidase	NC_003228.3	4449072	4450805	+	577	577	100.0	100.0	identical	none
+bft	virulence	BF9343_RS06510	WP_010992464.1	M23 family metallopeptidase	NC_003228.3	1671955	1673607	+	550	550	100.0	100.0	identical	none
+bft	virulence	BF9343_RS03850	WP_005785102.1	M56 family metallopeptidase	NC_003228.3	1013875	1015437	+	520	520	100.0	100.0	identical	none
+bft	virulence	BF9343_RS15075	WP_010993282.1	M48 family metallopeptidase	NC_003228.3	3662914	3664440	+	508	508	100.0	100.0	identical	none
+bft	virulence	BF9343_RS10730	WP_005794143.1	M16 family metallopeptidase	NC_003228.3	2666797	2668083	+	428	428	100.0	100.0	identical	none
+bft	virulence	BF9343_RS19000	WP_005792023.1	M16 family metallopeptidase	NC_003228.3	4633330	4634592	-	420	420	100.0	100.0	identical	none
+bft	virulence	BF9343_RS05035	WP_010992293.1	type II toxin-antitoxin system HipA family toxin	NC_003228.3	1331701	1332960	+	419	419	100.0	100.0	identical	none
+bft	virulence	BF9343_RS00620	WP_008769163.1	M16 family metallopeptidase	NC_003228.3	145471	146691	+	406	406	100.0	100.0	identical	none
+bft	virulence	BF9343_RS16590	WP_005797880.1	M24 family metallopeptidase	NC_003228.3	4056705	4057868	+	387	387	100.0	100.0	identical	none
+bft	virulence	BF9343_RS08025	WP_004327332.1	type II toxin-antitoxin system RnlA family toxin	NC_003228.3	2025629	2026678	-	349	349	100.0	100.0	identical	none
+bft	virulence	BF9343_RS03390	WP_041926169.1	type II toxin-antitoxin system HipA family toxin	NC_003228.3	890481	891491	-	336	336	100.0	100.0	identical	none
+bft	virulence	BF9343_RS09320	WP_010992784.1	putative zinc-binding metallopeptidase	NC_003228.3	2335783	2336787	+	334	334	100.0	100.0	identical	none
+bft	virulence	BF9343_RS20150	WP_005797516.1	M20 family metallopeptidase	NC_003228.3	4875334	4876338	+	334	334	100.0	100.0	identical	none
+bft	virulence	BF9343_RS03050	WP_005796268.1	M28 family metallopeptidase	NC_003228.3	789188	790189	+	333	333	100.0	100.0	identical	none
+bft	virulence	BF9343_RS03220	WP_005796222.1	M23 family metallopeptidase	NC_003228.3	846144	847112	+	322	322	100.0	100.0	identical	none
+bft	virulence	BF9343_RS09115	WP_005800413.1	M48 family metallopeptidase	NC_003228.3	2278024	2278992	-	322	322	100.0	100.0	identical	none
+bft	virulence	BF9343_RS18015	WP_008770039.1	M23 family metallopeptidase	NC_003228.3	4401248	4402129	-	293	293	100.0	100.0	identical	none
+bft	virulence	BF9343_RS21470	WP_008765240.1	zeta toxin family protein	NC_006873.1	22340	23206	-	288	288	100.0	100.0	identical	none
+bft	virulence	BF9343_RS16845	WP_010993445.1	M23 family metallopeptidase	NC_003228.3	4116073	4116933	-	286	286	100.0	100.0	identical	none
+bft	virulence	BF9343_RS06185	WP_005786103.1	M48 family metallopeptidase	NC_003228.3	1597397	1598197	-	266	266	100.0	100.0	identical	none
+bft	virulence	BF9343_RS21035	WP_005814072.1	M15 family metallopeptidase	NC_003228.3	5131310	5132101	+	263	263	100.0	100.0	identical	none
+bft	virulence	BF9343_RS04880	WP_005785544.1	M23 family metallopeptidase	NC_003228.3	1285925	1286656	+	243	243	100.0	100.0	identical	none
+bft	virulence	BF9343_RS05060	WP_010992298.1	M48 family metallopeptidase	NC_003228.3	1340558	1341268	+	236	236	100.0	100.0	identical	none
+bft	virulence	BF9343_RS15590	WP_005789787.1	zinc metallopeptidase	NC_003228.3	3814132	3814818	-	228	228	100.0	100.0	identical	none
+bft	virulence	BF9343_RS21465	WP_011264155.1	M23 family metallopeptidase	NC_006873.1	21628	22293	+	221	221	100.0	100.0	identical	none
+bft	virulence	BF9343_RS24170	WP_005800324.1	M23 family metallopeptidase	NC_003228.3	1757378	1757929	+	183	183	100.0	100.0	identical	none
+bft	virulence	BF9343_RS08020	WP_004327330.1	type II toxin-antitoxin system RnlB family antitoxin	NC_003228.3	2025238	2025624	-	128	128	100.0	100.0	identical	none
+bft	virulence	BF9343_RS12020	WP_005793605.1	type II toxin-antitoxin system RelE/ParE family toxin	NC_003228.3	2941448	2941771	+	107	107	100.0	100.0	identical	none
+bft	virulence	BF9343_RS01600	WP_010992003.1	type II toxin-antitoxin system RelE/ParE family toxin	NC_003228.3	416350	416634	-	94	94	100.0	100.0	identical	none
+bft	virulence	BF9343_RS10910	WP_041926225.1	SymE family type I addiction module toxin	NC_003228.3	2707483	2707689	+	68	68	100.0	100.0	identical	none
+bft	virulence	BF9343_RS14420	WP_005789100.1	type II toxin-antitoxin system HicB family antitoxin	NC_003228.3	3505025	3505207	-	60	60	100.0	100.0	identical	none
+bft	virulence	BF9343_RS05085		nucleotidyl transferase AbiEii/AbiGii toxin family protein	NC_003228.3	1346598	1346750	-	51	51	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00390	WP_010991897.1	glycosyltransferase family 117 protein	NC_003228.3	86241	89600	-	1119	1119	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13100	WP_005803825.1	glycosyltransferase family 1 protein	NC_003228.3	3189560	3192124	-	854	854	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS18465	WP_010993582.1	glycosyltransferase family protein	NC_003228.3	4507925	4510399	-	824	824	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07885	WP_010992627.1	polysaccharide biosynthesis protein	NC_003228.3	1987522	1989426	+	634	634	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13640	WP_005788730.1	polysaccharide biosynthesis protein	NC_003228.3	3308520	3310424	-	634	634	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS15610	WP_010993324.1	ArnT family glycosyltransferase	NC_003228.3	3818231	3819898	+	555	555	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13105	WP_005793275.1	glycosyltransferase	NC_003228.3	3192158	3193819	-	553	553	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS02865	WP_009291554.1	glycosyltransferase family 2 protein	NC_003228.3	749725	751287	-	520	520	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS15685	WP_005789833.1	ArnT family glycosyltransferase	NC_003228.3	3840930	3842483	-	517	517	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04775	WP_005813013.1	lipopolysaccharide biosynthesis protein	NC_003228.3	1263995	1265530	+	511	511	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17820	WP_010993526.1	lipopolysaccharide biosynthesis protein	NC_003228.3	4355375	4356907	-	510	510	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00570	WP_005813883.1	lipopolysaccharide biosynthesis protein	NC_003228.3	133299	134795	+	498	498	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07325	WP_005786397.1	capsule assembly Wzi family protein	NC_003228.3	1851874	1853349	+	491	491	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS01750	WP_005784243.1	glycosyltransferase family 2 protein	NC_003228.3	454852	456318	-	488	488	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09625	WP_010992823.1	lipopolysaccharide biosynthesis protein	NC_003228.3	2403870	2405324	-	484	484	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20900	WP_005814097.1	lipopolysaccharide biosynthesis protein	NC_003228.3	5103508	5104953	+	481	481	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07160	WP_010992564.1	lipopolysaccharide biosynthesis protein	NC_003228.3	1812492	1813931	+	479	479	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20460	WP_010993755.1	glycosyltransferase family 8 protein	NC_003228.3	4964224	4965573	+	449	449	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12440	rfbH	lipopolysaccharide biosynthesis protein RfbH	NC_003228.3	3029723	3031060	-	445	445	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04335	WP_008767983.1	glycosyltransferase family 4 protein	NC_003228.3	1150884	1152158	+	424	424	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20935	WP_005797195.1	glycosyltransferase family 4 protein	NC_003228.3	5111623	5112888	+	421	421	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20455	WP_025814616.1	TIGR04157 family glycosyltransferase	NC_003228.3	4962762	4963994	-	410	410	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS18510	WP_010993590.1	TIGR04157 family glycosyltransferase	NC_003228.3	4518660	4519889	-	409	409	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04820	WP_008658915.1	glycosyltransferase family 4 protein	NC_003228.3	1273419	1274642	+	407	407	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09635	WP_010992825.1	glycosyltransferase	NC_003228.3	2406749	2407969	-	406	406	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13440	WP_008769762.1	glycosyltransferase family 4 protein	NC_003228.3	3267549	3268769	+	406	406	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS03505	WP_010992176.1	glycosyltransferase family 4 protein	NC_003228.3	913196	914413	+	405	405	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08920	WP_005776619.1	glycosyltransferase family 4 protein	NC_003228.3	2231670	2232881	+	403	403	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09590	WP_010992820.1	glycosyltransferase family 2 protein	NC_003228.3	2395899	2397107	-	402	402	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20915	WP_010993800.1	glycosyltransferase family 4 protein	NC_003228.3	5107164	5108363	+	399	399	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20905	WP_008661647.1	glycosyltransferase	NC_003228.3	5104957	5106144	+	395	395	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07375	WP_010992594.1	glycosyltransferase family 2 protein	NC_003228.3	1864309	1865481	-	390	390	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS03455	WP_010992167.1	glycosyltransferase	NC_003228.3	901583	902746	+	387	387	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04785	WP_005813008.1	glycosyltransferase	NC_003228.3	1266373	1267533	+	386	386	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09610	WP_010992822.1	glycosyltransferase family 4 protein	NC_003228.3	2400552	2401703	-	383	383	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS15560	WP_005814817.1	glycosyltransferase family 4 protein	NC_003228.3	3803281	3804432	-	383	383	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12390	WP_010993070.1	glycosyltransferase	NC_003228.3	3019468	3020610	-	380	380	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS06345	WP_005786170.1	glycosyltransferase family 1 protein	NC_003228.3	1641782	1642918	+	378	378	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04810	WP_005812999.1	glycosyltransferase	NC_003228.3	1271459	1272592	+	377	377	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS14425	WP_005798764.1	glycosyltransferase family protein	NC_003228.3	3505204	3506328	-	374	374	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00040	WP_010991848.1	glycosyltransferase family 4 protein	NC_003228.3	8625	9743	+	372	372	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09620	WP_005787178.1	glycosyltransferase family protein	NC_003228.3	2402755	2403873	-	372	372	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS03465	WP_010992169.1	glycosyltransferase family protein	NC_003228.3	903891	905006	+	371	371	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08900	WP_010992746.1	glycosyltransferase family 4 protein	NC_003228.3	2227547	2228662	+	371	371	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS03475	WP_010992171.1	capsular polysaccharide-like protein	NC_003228.3	906032	907129	+	365	365	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12395	WP_010993071.1	glycosyltransferase family 4 protein	NC_003228.3	3020607	3021704	-	365	365	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16710	WP_010993434.1	MraY family glycosyltransferase	NC_003228.3	4089223	4090314	-	363	363	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13380	WP_005815318.1	glycosyltransferase family 2 protein	NC_003228.3	3255543	3256625	+	360	360	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00850	WP_010991932.1	glycosyltransferase family 2 protein	NC_003228.3	202773	203843	-	356	356	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16665	WP_010993425.1	glycosyltransferase	NC_003228.3	4079756	4080811	-	351	351	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08890	WP_010992745.1	glycosyltransferase family 2 protein	NC_003228.3	2225402	2226448	+	348	348	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09615	WP_005787175.1	glycosyltransferase	NC_003228.3	2401700	2402734	-	344	344	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12385	WP_010993069.1	glycosyltransferase	NC_003228.3	3018465	3019496	-	343	343	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13425	WP_010993139.1	glycosyltransferase family 4 protein	NC_003228.3	3264081	3265112	+	343	343	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17495	WP_010993492.1	glycosyltransferase family 2 protein	NC_003228.3	4281028	4282059	-	343	343	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13410	WP_005815300.1	glycosyltransferase	NC_003228.3	3261435	3262463	+	342	342	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08885	WP_010992744.1	glycosyltransferase	NC_003228.3	2224350	2225372	+	340	340	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08905	WP_005817159.1	polysaccharide biosynthesis protein	NC_003228.3	2228655	2229671	+	338	338	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20910	WP_009293109.1	glycosyltransferase	NC_003228.3	5106154	5107164	+	336	336	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS18455	WP_005804212.1	glycosyltransferase	NC_003228.3	4505993	4506988	-	331	331	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS02000	WP_005784336.1	glycosyltransferase	NC_003228.3	512062	513051	-	329	329	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13390	WP_005815314.1	glycosyltransferase family 2 protein	NC_003228.3	3257630	3258619	+	329	329	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16680	WP_010993428.1	glycosyltransferase family 2 protein	NC_003228.3	4082651	4083637	-	328	328	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17795	WP_010993521.1	glycosyltransferase family 2 protein	NC_003228.3	4350973	4351959	-	328	328	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17805	WP_010993523.1	glycosyltransferase family 10 domain-containing protein	NC_003228.3	4352859	4353839	-	326	326	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16690	WP_041926337.1	glycosyltransferase family 10 domain-containing protein	NC_003228.3	4084592	4085551	-	319	319	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04835	WP_005801155.1	MraY family glycosyltransferase	NC_003228.3	1276443	1277399	+	318	318	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17610	WP_010993499.1	MraY family glycosyltransferase	NC_003228.3	4304523	4305479	-	318	318	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS05335	WP_005785735.1	glycosyltransferase family 2 protein	NC_003228.3	1410328	1411281	-	317	317	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09630	WP_010992824.1	glycosyltransferase family 2 protein	NC_003228.3	2405406	2406359	-	317	317	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12375	WP_010993067.1	MraY family glycosyltransferase	NC_003228.3	3016479	3017432	-	317	317	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08930	WP_010992748.1	MraY family glycosyltransferase	NC_003228.3	2233915	2234865	+	316	316	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13385	WP_232304429.1	glycosyltransferase family 2 protein	NC_003228.3	3256670	3257620	+	316	316	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17770	WP_010993516.1	MraY family glycosyltransferase	NC_003228.3	4346273	4347223	-	316	316	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07210	WP_010992573.1	MraY family glycosyltransferase	NC_003228.3	1821480	1822427	+	315	315	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00835	WP_005783848.1	glycosyltransferase family 8 protein	NC_003228.3	199861	200796	-	311	311	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07170	WP_010992565.1	glycosyltransferase family 8 protein	NC_003228.3	1814126	1815052	+	308	308	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16685	WP_010993429.1	glycosyltransferase	NC_003228.3	4083637	4084563	-	308	308	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS18975	WP_005792036.1	glycosyltransferase family protein	NC_003228.3	4621651	4622553	-	300	300	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12415	WP_010993075.1	glycosyltransferase family 2 protein	NC_003228.3	3025063	3025959	-	298	298	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12825	WP_005788300.1	glycosyltransferase family protein	NC_003228.3	3125972	3126865	+	297	297	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09640	WP_005787187.1	glycosyltransferase family 2 protein	NC_003228.3	2408183	2409073	-	296	296	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS18460	WP_010993581.1	glycosyltransferase family 10 domain-containing protein	NC_003228.3	4506985	4507875	-	296	296	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04800	WP_008658912.1	glycosyltransferase	NC_003228.3	1269311	1270186	+	291	291	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS06330	WP_005786167.1	glycosyltransferase family 2 protein	NC_003228.3	1638547	1639422	+	291	291	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS09605	WP_010992821.1	glycosyltransferase family 2 protein	NC_003228.3	2399688	2400539	-	283	283	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00020	WP_010991845.1	glycosyltransferase family 2 protein	NC_003228.3	3196	4035	+	279	279	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16675	WP_010993427.1	glycosyltransferase family 2 protein	NC_003228.3	4081842	4082681	-	279	279	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17785	WP_032534012.1	glycosyltransferase family A protein	NC_003228.3	4349029	4349856	-	275	275	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07200	WP_010992571.1	glycosyltransferase family 2 protein	NC_003228.3	1819638	1820456	+	272	272	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16660	WP_010993424.1	glycosyltransferase	NC_003228.3	4078957	4079769	-	270	270	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS06350	WP_005786172.1	glycosyltransferase	NC_003228.3	1642915	1643721	+	268	268	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00845	WP_008657976.1	glycosyltransferase family 2 protein	NC_003228.3	201849	202652	-	267	267	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07185	WP_010992568.1	glycosyltransferase family 2 protein	NC_003228.3	1816930	1817727	+	265	265	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13320	WP_010993133.1	polysaccharide biosynthesis/export family protein	NC_003228.3	3241713	3242501	+	262	262	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07195	WP_010992570.1	glycosyltransferase family 2 protein	NC_003228.3	1818871	1819650	+	259	259	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13400	WP_224223147.1	glycosyltransferase	NC_003228.3	3259448	3260227	+	259	259	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS20940	WP_010993801.1	glycosyltransferase family 2 protein	NC_003228.3	5112881	5113654	+	257	257	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04825	WP_005785513.1	glycosyltransferase family 2 protein	NC_003228.3	1274659	1275423	+	254	254	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17780	WP_010993518.1	glycosyltransferase family 2 protein	NC_003228.3	4348232	4348984	-	250	250	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS15695	WP_005789838.1	glycosyltransferase	NC_003228.3	3843125	3843859	-	244	244	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17830	WP_010993528.1	glycosyltransferase family 2 protein	NC_003228.3	4357247	4357978	-	243	243	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12405	WP_010993073.1	glycosyltransferase family 2 protein	NC_003228.3	3022958	3023686	-	242	242	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS13445	WP_008660803.1	WecB/TagA/CpsF family glycosyltransferase	NC_003228.3	3268947	3269666	+	239	239	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00825	WP_008769187.1	glycosyltransferase family protein	NC_003228.3	198458	199174	+	238	238	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16645	WP_010993422.1	CpsB/CapC family capsule biosynthesis tyrosine phosphatase	NC_003228.3	4076793	4077509	-	238	238	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17835	WP_010993529.1	glycosyltransferase family 2 protein	NC_003228.3	4357981	4358697	-	238	238	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS00045	WP_005814001.1	glycosyltransferase family 25 protein	NC_003228.3	9724	10392	+	222	222	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS07125	upfY	capsular polysaccharide transcription antiterminator UpfY	NC_003228.3	1807250	1807810	+	186	186	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS16720	uphY	capsular polysaccharide transcription antiterminator UphY	NC_003228.3	4090896	4091435	-	179	179	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS17855	updY	capsular polysaccharide transcription antiterminator UpdY	NC_003228.3	4360601	4361140	-	179	179	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS03420	upgY	capsular polysaccharide transcription antiterminator UpgY	NC_003228.3	894922	895458	+	178	178	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS08825	upbY	capsular polysaccharide transcription antiterminator UpbY	NC_003228.3	2211582	2212106	+	174	174	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS04750	upcY	capsular polysaccharide transcription antiterminator UpcY	NC_003228.3	1260915	1261433	+	172	172	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS06310	upaY	capsular polysaccharide transcription antiterminator UpaY	NC_003228.3	1634932	1635450	+	172	172	100.0	100.0	identical	none
+cps_locus	virulence	BF9343_RS12450	upeY	capsular polysaccharide transcription antiterminator UpeY	NC_003228.3	3031735	3032253	-	172	172	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20770		SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	5067450	5070962	-	1170	1170	100.0	100.0	identical	none
+susC	virulence	BF9343_RS17270	WP_005798155.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4222184	4225636	-	1150	1150	100.0	100.0	identical	none
+susC	virulence	BF9343_RS17235	WP_005798139.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4206911	4210357	-	1148	1148	100.0	100.0	identical	none
+susC	virulence	BF9343_RS18110	WP_005791675.1	TonB-dependent receptor	NC_003228.3	4419207	4422647	+	1146	1146	100.0	100.0	identical	none
+susC	virulence	BF9343_RS14850	WP_010993263.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	3612818	3616255	-	1145	1145	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03175	WP_010992139.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	828286	831702	-	1138	1138	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02490	WP_009291526.1	TonB-dependent receptor	NC_003228.3	629760	633173	+	1137	1137	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04070	WP_005785209.1	TonB-dependent receptor	NC_003228.3	1075942	1079352	-	1136	1136	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01060	WP_010991941.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	250476	253874	-	1132	1132	100.0	100.0	identical	none
+susC	virulence	BF9343_RS06535	WP_010992467.1	TonB-dependent receptor	NC_003228.3	1679751	1683146	+	1131	1131	100.0	100.0	identical	none
+susC	virulence	BF9343_RS05580	WP_014298434.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1463976	1467362	+	1128	1128	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04095	WP_009291663.1	TonB-dependent receptor	NC_003228.3	1087563	1090946	+	1127	1127	100.0	100.0	identical	none
+susC	virulence	BF9343_RS06970	WP_010992525.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1771472	1774855	-	1127	1127	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04610	WP_005785431.1	TonB-dependent receptor	NC_003228.3	1222361	1225741	+	1126	1126	100.0	100.0	identical	none
+susC	virulence	BF9343_RS09135	WP_005786949.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2283190	2286567	+	1125	1125	100.0	100.0	identical	none
+susC	virulence	BF9343_RS09310	WP_010992782.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2330851	2334228	+	1125	1125	100.0	100.0	identical	none
+susC	virulence	BF9343_RS14085	WP_005788914.1	TonB-dependent receptor	NC_003228.3	3416620	3419997	-	1125	1125	100.0	100.0	identical	none
+susC	virulence	BF9343_RS17975	WP_041926261.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4392106	4395483	-	1125	1125	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01550	WP_010991997.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	397795	401148	-	1117	1117	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01780	WP_010992020.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	465992	469327	-	1111	1111	100.0	100.0	identical	none
+susC	virulence	BF9343_RS13925	WP_010993185.1	TonB-dependent receptor	NC_003228.3	3376167	3379502	-	1111	1111	100.0	100.0	identical	none
+susC	virulence	BF9343_RS07935		SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1999994	2003323	+	1109	1109	100.0	100.0	identical	none
+susC	virulence	BF9343_RS07960	WP_005804576.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2012223	2015546	-	1107	1107	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20105	WP_077687820.1	TonB-dependent receptor	NC_003228.3	4860954	4864274	+	1106	1106	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04060	WP_032569928.1	TonB-dependent receptor	NC_003228.3	1070525	1073842	-	1105	1105	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04080	WP_009291659.1	TonB-dependent receptor	NC_003228.3	1081423	1084734	-	1103	1103	100.0	100.0	identical	none
+susC	virulence	BF9343_RS06075	WP_005786045.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1570137	1573442	+	1101	1101	100.0	100.0	identical	none
+susC	virulence	BF9343_RS10310	WP_010992896.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2557432	2560737	+	1101	1101	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04580	WP_005785421.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1213169	1216471	+	1100	1100	100.0	100.0	identical	none
+susC	virulence	BF9343_RS17915	WP_010993540.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4374948	4378244	-	1098	1098	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02665	WP_010992100.1	TonB-dependent receptor	NC_003228.3	680148	683429	+	1093	1093	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20660	WP_041926284.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	5024377	5027655	+	1092	1092	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04195	WP_005785256.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1111866	1115135	-	1089	1089	100.0	100.0	identical	none
+susC	virulence	BF9343_RS07945	WP_010992633.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2005661	2008930	+	1089	1089	100.0	100.0	identical	none
+susC	virulence	BF9343_RS08380	WP_010992679.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2090598	2093867	-	1089	1089	100.0	100.0	identical	none
+susC	virulence	BF9343_RS10690	WP_010992929.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2654931	2658200	-	1089	1089	100.0	100.0	identical	none
+susC	virulence	BF9343_RS16465	WP_010993400.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4024110	4027379	+	1089	1089	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04205	WP_005801253.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1118121	1121387	-	1088	1088	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20710	WP_005791958.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	5046824	5050084	+	1086	1086	100.0	100.0	identical	none
+susC	virulence	BF9343_RS08360	WP_010992675.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2081853	2085104	-	1083	1083	100.0	100.0	identical	none
+susC	virulence	BF9343_RS19710	WP_005822182.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4769105	4772350	+	1081	1081	100.0	100.0	identical	none
+susC	virulence	BF9343_RS17255	WP_010993475.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4214889	4218104	-	1071	1071	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01340	WP_010991971.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	334274	337477	+	1067	1067	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02400	WP_010992080.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	603565	606756	+	1063	1063	100.0	100.0	identical	none
+susC	virulence	BF9343_RS21055	WP_041926288.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	5135536	5138727	-	1063	1063	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03070	WP_041926167.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	797294	800479	+	1061	1061	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03785	WP_010992204.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	989556	992741	-	1061	1061	100.0	100.0	identical	none
+susC	virulence	BF9343_RS15675	WP_010993331.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	3835854	3839033	-	1059	1059	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02330	WP_005813506.1	TonB-dependent receptor	NC_003228.3	581458	584628	-	1056	1056	100.0	100.0	identical	none
+susC	virulence	BF9343_RS08385	WP_010992680.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2094629	2097799	+	1056	1056	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20345	WP_010993743.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4932413	4935583	-	1056	1056	100.0	100.0	identical	none
+susC	virulence	BF9343_RS14480	WP_010993235.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	3515789	3518944	+	1051	1051	100.0	100.0	identical	none
+susC	virulence	BF9343_RS15370	WP_005802751.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	3754969	3758124	+	1051	1051	100.0	100.0	identical	none
+susC	virulence	BF9343_RS15950	WP_005790209.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	3899920	3903075	-	1051	1051	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20670	WP_041926285.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	5030726	5033881	+	1051	1051	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03550	WP_005784991.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	924125	927262	+	1045	1045	100.0	100.0	identical	none
+susC	virulence	BF9343_RS07450	WP_008768281.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	1886174	1889302	+	1042	1042	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01585	WP_008769257.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	412034	415102	-	1022	1022	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01620	WP_010992007.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	420462	423521	+	1019	1019	100.0	100.0	identical	none
+susC	virulence	BF9343_RS16615	WP_010993415.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4066003	4069053	+	1016	1016	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02775	WP_010992111.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	715846	718881	+	1011	1011	100.0	100.0	identical	none
+susC	virulence	BF9343_RS15095	WP_005789575.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	3670781	3673789	-	1002	1002	100.0	100.0	identical	none
+susC	virulence	BF9343_RS19740	WP_010993683.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4781654	4784650	+	998	998	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20290	WP_010993737.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	4911407	4914403	-	998	998	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02755	WP_032574916.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	705770	708715	-	981	981	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03140	WP_005796251.1	TonB-dependent receptor	NC_003228.3	818378	821290	+	970	970	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02785	WP_005792393.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	720976	723879	+	967	967	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02765	WP_032528737.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	710756	713578	-	940	940	100.0	100.0	identical	none
+susC	virulence	BF9343_RS09570	WP_005787151.1	TonB-dependent receptor	NC_003228.3	2387138	2389927	+	929	929	100.0	100.0	identical	none
+susC	virulence	BF9343_RS21080	WP_010993814.1	TonB-dependent receptor	NC_003228.3	5146891	5149653	+	920	920	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03325	WP_010992154.1	TonB-dependent receptor	NC_003228.3	871402	874152	-	916	916	100.0	100.0	identical	none
+susC	virulence	BF9343_RS08445	WP_009292023.1	SusC/RagA family TonB-linked outer membrane protein	NC_003228.3	2119766	2122510	+	914	914	100.0	100.0	identical	none
+susC	virulence	BF9343_RS03665	WP_010992196.1	TonB-dependent receptor	NC_003228.3	956632	959331	-	899	899	100.0	100.0	identical	none
+susC	virulence	BF9343_RS17580	WP_005790972.1	TonB-dependent receptor	NC_003228.3	4297965	4300643	+	892	892	100.0	100.0	identical	none
+susC	virulence	BF9343_RS18165	WP_010993556.1	TonB-dependent receptor family protein	NC_003228.3	4436659	4439226	-	855	855	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01330	WP_010991969.1	TonB-dependent receptor plug domain-containing protein	NC_003228.3	327825	330293	-	822	822	100.0	100.0	identical	none
+susC	virulence	BF9343_RS21155	WP_010993818.1	TonB-dependent receptor	NC_003228.3	5167179	5169596	-	805	805	100.0	100.0	identical	none
+susC	virulence	BF9343_RS00090	WP_005783566.1	TonB-dependent receptor	NC_003228.3	20542	22956	-	804	804	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02570	WP_010992092.1	TonB-dependent receptor	NC_003228.3	655682	658069	-	795	795	100.0	100.0	identical	none
+susC	virulence	BF9343_RS06190	WP_032570140.1	TonB-dependent receptor	NC_003228.3	1598239	1600611	-	790	790	100.0	100.0	identical	none
+susC	virulence	BF9343_RS13590	WP_010993151.1	TonB-dependent receptor plug domain-containing protein	NC_003228.3	3296982	3299348	-	788	788	100.0	100.0	identical	none
+susC	virulence	BF9343_RS10155	WP_010992887.1	TonB-dependent receptor	NC_003228.3	2517809	2520166	+	785	785	100.0	100.0	identical	none
+susC	virulence	BF9343_RS12090	WP_010993052.1	TonB-dependent receptor	NC_003228.3	2959326	2961680	+	784	784	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02700	WP_005813433.1	TonB-dependent receptor	NC_003228.3	694069	696408	-	779	779	100.0	100.0	identical	none
+susC	virulence	BF9343_RS12885	WP_005788333.1	TonB-dependent receptor	NC_003228.3	3136808	3139111	-	767	767	100.0	100.0	identical	none
+susC	virulence	BF9343_RS19960	WP_041926277.1	TonB-dependent receptor domain-containing protein	NC_003228.3	4835156	4837456	+	766	766	100.0	100.0	identical	none
+susC	virulence	BF9343_RS08735	WP_010992735.1	TonB-dependent receptor	NC_003228.3	2190098	2192389	+	763	763	100.0	100.0	identical	none
+susC	virulence	BF9343_RS15260	WP_041926331.1	TonB-dependent receptor	NC_003228.3	3725562	3727850	-	762	762	100.0	100.0	identical	none
+susC	virulence	BF9343_RS09305	WP_008659723.1	TonB-dependent receptor family protein	NC_003228.3	2328564	2330795	+	743	743	100.0	100.0	identical	none
+susC	virulence	BF9343_RS02635	WP_005801528.1	TonB-dependent receptor	NC_003228.3	672022	674241	-	739	739	100.0	100.0	identical	none
+susC	virulence	BF9343_RS09770	WP_041926215.1	TonB-dependent receptor	NC_003228.3	2437279	2439495	+	738	738	100.0	100.0	identical	none
+susC	virulence	BF9343_RS01235	WP_010991958.1	TonB-dependent receptor	NC_003228.3	296004	298163	+	719	719	100.0	100.0	identical	none
+susC	virulence	BF9343_RS12930	WP_005815393.1	TonB-dependent receptor	NC_003228.3	3149210	3151354	+	714	714	100.0	100.0	identical	none
+susC	virulence	BF9343_RS15660	WP_041926248.1	TonB-dependent receptor	NC_003228.3	3830796	3832934	+	712	712	100.0	100.0	identical	none
+susC	virulence	BF9343_RS12080	WP_010993050.1	TonB-dependent receptor plug domain-containing protein	NC_003228.3	2956336	2958408	+	690	690	100.0	100.0	identical	none
+susC	virulence	BF9343_RS09285	WP_010992780.1	TonB-dependent receptor	NC_003228.3	2320506	2322575	-	689	689	100.0	100.0	identical	none
+susC	virulence	BF9343_RS04850	WP_005793172.1	TonB-dependent receptor plug domain-containing protein	NC_003228.3	1279689	1281752	-	687	687	100.0	100.0	identical	none
+susC	virulence	BF9343_RS07290	WP_010992584.1	TonB-dependent receptor plug domain-containing protein	NC_003228.3	1841583	1843619	-	678	678	100.0	100.0	identical	none
+susC	virulence	BF9343_RS14740	WP_044136468.1	TonB-dependent receptor plug domain-containing protein	NC_003228.3	3576977	3578920	-	647	647	100.0	100.0	identical	none
+susC	virulence	BF9343_RS20530	WP_010993764.1	TonB-dependent receptor	NC_003228.3	4983086	4984789	+	567	567	100.0	100.0	identical	none
+susC	virulence	BF9343_RS18970		TonB-dependent receptor	NC_003228.3	4619826	4620845	-	339	339	100.0	100.0	identical	none
+susD	virulence	BF9343_RS10685	WP_010992928.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2652830	2654914	-	694	694	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04200	WP_010992236.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1116065	1118107	-	680	680	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20715	WP_005797378.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	5050099	5052126	+	675	675	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04190	WP_005785254.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1109826	1111850	-	674	674	100.0	100.0	identical	none
+susD	virulence	BF9343_RS08390	WP_010992681.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2097811	2099826	+	671	671	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20665	WP_005797392.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	5027668	5029668	+	666	666	100.0	100.0	identical	none
+susD	virulence	BF9343_RS03780	WP_008658698.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	987561	989543	-	660	660	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20340	WP_010993742.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4930421	4932400	-	659	659	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02405	WP_005784466.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	606772	608742	+	656	656	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20765	WP_005791949.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	5065479	5067428	-	649	649	100.0	100.0	identical	none
+susD	virulence	BF9343_RS14080	WP_005788911.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3414700	3416610	-	636	636	100.0	100.0	identical	none
+susD	virulence	BF9343_RS09140	WP_005786951.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	2286589	2288478	+	629	629	100.0	100.0	identical	none
+susD	virulence	BF9343_RS01345	WP_010991972.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	337485	339371	+	628	628	100.0	100.0	identical	none
+susD	virulence	BF9343_RS17265	WP_005798153.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4220268	4222154	-	628	628	100.0	100.0	identical	none
+susD	virulence	BF9343_RS14845	WP_010993262.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3610938	3612803	-	621	621	100.0	100.0	identical	none
+susD	virulence	BF9343_RS15945	WP_005790207.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3898034	3899899	-	621	621	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20675	WP_041926286.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	5033911	5035764	+	617	617	100.0	100.0	identical	none
+susD	virulence	BF9343_RS01545	WP_010991996.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	395930	397777	-	615	615	100.0	100.0	identical	none
+susD	virulence	BF9343_RS01055	WP_005813804.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	248617	250461	-	614	614	100.0	100.0	identical	none
+susD	virulence	BF9343_RS17250	WP_005790751.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4213025	4214866	-	613	613	100.0	100.0	identical	none
+susD	virulence	BF9343_RS17230	WP_010993473.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4205105	4206898	-	597	597	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04100	WP_005801261.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1090965	1092749	+	594	594	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04075	WP_005795999.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1079643	1081409	-	588	588	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04065	WP_005785207.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1074153	1075913	-	586	586	100.0	100.0	identical	none
+susD	virulence	BF9343_RS21050	WP_010993809.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	5133779	5135524	-	581	581	100.0	100.0	identical	none
+susD	virulence	BF9343_RS03170	WP_005784821.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	826530	828263	-	577	577	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02325	WP_005796471.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	579726	581441	-	571	571	100.0	100.0	identical	none
+susD	virulence	BF9343_RS01775	WP_010992019.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	464265	465962	-	565	565	100.0	100.0	identical	none
+susD	virulence	BF9343_RS06540	WP_005816613.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1683162	1684859	+	565	565	100.0	100.0	identical	none
+susD	virulence	BF9343_RS15375	WP_010993305.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3758139	3759830	+	563	563	100.0	100.0	identical	none
+susD	virulence	BF9343_RS13920	WP_005788850.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3374458	3376146	-	562	562	100.0	100.0	identical	none
+susD	virulence	BF9343_RS03075	WP_005784783.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	800493	802175	+	560	560	100.0	100.0	identical	none
+susD	virulence	BF9343_RS03555	WP_010992183.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	927288	928955	+	555	555	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04615	WP_005785433.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1225748	1227388	+	546	546	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04055	WP_010992227.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1068866	1070503	-	545	545	100.0	100.0	identical	none
+susD	virulence	BF9343_RS06965	WP_010992524.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1769824	1771461	-	545	545	100.0	100.0	identical	none
+susD	virulence	BF9343_RS08450	WP_010992689.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2122525	2124156	+	543	543	100.0	100.0	identical	none
+susD	virulence	BF9343_RS16470	WP_010993401.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4027400	4029028	+	542	542	100.0	100.0	identical	none
+susD	virulence	BF9343_RS08355	WP_010992674.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2080213	2081832	-	539	539	100.0	100.0	identical	none
+susD	virulence	BF9343_RS15090	WP_010993285.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3669151	3670770	-	539	539	100.0	100.0	identical	none
+susD	virulence	BF9343_RS15670	WP_005789827.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	3834222	3835841	-	539	539	100.0	100.0	identical	none
+susD	virulence	BF9343_RS18115	WP_041926263.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4422670	4424289	+	539	539	100.0	100.0	identical	none
+susD	virulence	BF9343_RS08375	WP_010992678.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2088953	2090569	-	538	538	100.0	100.0	identical	none
+susD	virulence	BF9343_RS19715	WP_010993680.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4772365	4773981	+	538	538	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20110	WP_010993721.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	4864287	4865903	+	538	538	100.0	100.0	identical	none
+susD	virulence	BF9343_RS17970	WP_010993545.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4390485	4392092	-	535	535	100.0	100.0	identical	none
+susD	virulence	BF9343_RS19745	WP_032602045.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4784670	4786274	+	534	534	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02750	WP_010992107.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	704163	705758	-	531	531	100.0	100.0	identical	none
+susD	virulence	BF9343_RS07455	WP_041926195.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	1889410	1891002	+	530	530	100.0	100.0	identical	none
+susD	virulence	BF9343_RS07950	nanU	SusD family outer membrane lipoprotein NanU	NC_003228.3	2008958	2010529	+	523	523	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02670	WP_010992101.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	683442	685010	+	522	522	100.0	99.8	mutated	p.A141T(BLOSUM62=0)
+susD	virulence	BF9343_RS07940	WP_008659443.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2003345	2004913	+	522	522	100.0	100.0	identical	none
+susD	virulence	BF9343_RS07955	WP_010992635.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2010643	2012205	-	520	520	100.0	100.0	identical	none
+susD	virulence	BF9343_RS06080	WP_005786046.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	1573455	1574999	+	514	514	100.0	100.0	identical	none
+susD	virulence	BF9343_RS05585	WP_005795616.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	1467374	1468897	+	507	507	100.0	100.0	identical	none
+susD	virulence	BF9343_RS01580	WP_005801676.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	410502	412022	-	506	506	100.0	100.0	identical	none
+susD	virulence	BF9343_RS04585	WP_005785422.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	1216485	1218005	+	506	506	100.0	100.0	identical	none
+susD	virulence	BF9343_RS09315	WP_005787024.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2334239	2335744	+	501	501	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02760	WP_010992109.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	709232	710734	-	500	500	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02780	WP_005796345.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	718914	720413	+	499	499	100.0	100.0	identical	none
+susD	virulence	BF9343_RS01625	WP_005784195.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	423550	425037	+	495	495	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02495	WP_005784504.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	633197	634684	+	495	495	100.0	100.0	identical	none
+susD	virulence	BF9343_RS20285	WP_063936101.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4909780	4911267	-	495	495	100.0	100.0	identical	none
+susD	virulence	BF9343_RS14485	WP_005789122.1	SusD/RagB family nutrient-binding outer membrane lipoprotein	NC_003228.3	3518975	3520447	+	490	490	100.0	100.0	identical	none
+susD	virulence	BF9343_RS17910	WP_041926260.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4373474	4374934	-	486	486	100.0	100.0	identical	none
+susD	virulence	BF9343_RS16620	WP_010993416.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	4069067	4070515	+	482	482	100.0	100.0	identical	none
+susD	virulence	BF9343_RS02790	WP_005784686.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	723914	725308	+	464	464	100.0	100.0	identical	none
+susD	virulence	BF9343_RS10315	WP_005787416.1	RagB/SusD family nutrient uptake outer membrane protein	NC_003228.3	2560760	2562091	+	443	443	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS18125	WP_005791685.1	BNR-repeat neuraminidase N-terminal domain-containing protein	NC_003228.3	4424709	4426745	+	678	678	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS14060	WP_010993200.1	sialidase family protein	NC_003228.3	3406936	3408639	-	567	567	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS17900	WP_011203528.1	sialidase family protein	NC_003228.3	4370599	4372257	-	552	552	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS08395	WP_010992682.1	sialidase family protein	NC_003228.3	2100110	2101744	+	544	544	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS19685	WP_005822175.1	sialidase family protein	NC_003228.3	4762106	4763740	+	544	544	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS10700	WP_032529426.1	sialidase family protein	NC_003228.3	2659113	2660384	-	423	423	100.0	100.0	identical	none
+sialidase	virulence	BF9343_RS17905	WP_041926259.1	sialidase family protein	NC_003228.3	4372281	4373381	-	366	366	100.0	100.0	identical	none
+hemolysin	virulence	BF9343_RS06180	WP_005786101.1	hemolysin family protein	NC_003228.3	1595951	1597240	-	429	429	100.0	100.0	identical	none
+hemolysin	virulence	BF9343_RS04675	WP_010992263.1	hemolysin family protein	NC_003228.3	1243330	1244586	+	418	418	100.0	100.0	identical	none
+protease	virulence	BF9343_RS10305	WP_032576344.1	zinc-dependent metalloprotease	NC_003228.3	2554664	2557303	+	879	879	100.0	100.0	identical	none
+protease	virulence	BF9343_RS03275	ftsH	ATP-dependent zinc metalloprotease FtsH	NC_003228.3	857918	859951	-	677	677	100.0	100.0	identical	none
+protease	virulence	BF9343_RS16835	rseP	RIP metalloprotease RseP	NC_003228.3	4113529	4114884	-	451	451	100.0	100.0	identical	none
+protease	virulence	BF9343_RS00935	WP_005783888.1	YgjP family zinc-dependent metalloprotease	NC_003228.3	221827	222525	+	232	232	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS10675	WP_010992927.1	fimbrial protein	NC_003228.3	2649484	2651655	+	723	723	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS13740	WP_010993162.1	fimbrillin family protein	NC_003228.3	3331579	3333702	-	707	707	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS15985	WP_008657207.1	fimbrillin family protein	NC_003228.3	3909457	3911346	+	629	629	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS06920	WP_005800318.1	fimbrillin family protein	NC_003228.3	1760393	1762237	-	614	614	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS16040	WP_010993375.1	fimbrillin family protein	NC_003228.3	3923671	3925365	-	564	564	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS13765		Mfa1 family fimbria major subunit	NC_003228.3	3337683	3339345	-	554	554	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS18375	WP_010993573.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	4481270	4482928	-	552	552	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS00550	WP_010991916.1	fimbrillin family protein	NC_003228.3	127629	129254	-	541	541	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS00400	WP_010991899.1	fimbrillin family protein	NC_003228.3	92218	93834	+	538	538	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS06840	WP_005800344.1	fimbrillin family protein	NC_003228.3	1746798	1748402	+	534	534	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS20120	WP_010993723.1	fimbrillin family protein	NC_003228.3	4868743	4870347	+	534	534	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08665	WP_010992724.1	fimbrillin family protein	NC_003228.3	2171908	2173479	+	523	523	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08615	WP_032575238.1	fimbrial protein	NC_003228.3	2161160	2162725	+	521	521	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS10255	WP_010992891.1	Mfa1 family fimbria major subunit	NC_003228.3	2538866	2540425	+	519	519	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS13750	WP_010993164.1	Mfa1 family fimbria major subunit	NC_003228.3	3334911	3336464	-	517	517	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS07275	WP_009291965.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	1836500	1838038	+	512	512	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS10665	WP_010992925.1	Mfa1 family fimbria major subunit	NC_003228.3	2646728	2648107	-	459	459	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS16055	WP_010993377.1	fimbrial protein	NC_003228.3	3928233	3929501	-	422	422	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS18405	WP_010993576.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	4491545	4492798	-	417	417	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS15500	WP_010993315.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	3790586	3791785	+	399	399	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS07265	WP_005795183.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	1834334	1835419	+	361	361	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08670	WP_010992725.1	fimbrillin family protein	NC_003228.3	2173523	2174593	+	356	356	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08655	WP_010992722.1	fimbrillin family protein	NC_003228.3	2169889	2170947	+	352	352	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS13755	WP_005788789.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	3336451	3337503	-	350	350	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS13735	WP_005788781.1	BF2992 family fimbrillin-A clan protein	NC_003228.3	3330519	3331565	-	348	348	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS21165	WP_010993819.1	fimbrillin family protein	NC_003228.3	5170797	5171807	-	336	336	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08640	WP_005800512.1	fimbrillin family protein	NC_003228.3	2166852	2167853	+	333	333	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08650	WP_010992721.1	fimbrillin family protein	NC_003228.3	2168865	2169866	+	333	333	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS20595	WP_010993771.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	5006240	5007223	-	327	327	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08625	WP_010992717.1	fimbrillin family protein	NC_003228.3	2163899	2164879	+	326	326	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS10260	WP_005803389.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	2540457	2541437	+	326	326	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08645	WP_172579063.1	fimbrillin family protein	NC_003228.3	2167866	2168840	+	324	324	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS06835	WP_005800345.1	fimbrillin family protein	NC_003228.3	1745785	1746747	+	320	320	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS19855	WP_041926275.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	4805680	4806639	+	319	319	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08675	WP_041926208.1	fimbrillin family protein	NC_003228.3	2174590	2175546	+	318	318	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS09235	WP_005786989.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	2305762	2306718	+	318	318	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08685	WP_010992728.1	fimbrillin family protein	NC_003228.3	2177132	2178079	+	315	315	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08630	WP_010992718.1	fimbrillin family protein	NC_003228.3	2164933	2165877	+	314	314	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08635	WP_010992719.1	fimbrillin family protein	NC_003228.3	2165904	2166839	+	311	311	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08660	WP_010992723.1	fimbrillin family protein	NC_003228.3	2170963	2171889	+	308	308	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS08610	WP_005794914.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	2160210	2161133	+	307	307	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS10660	WP_032575514.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	2645787	2646704	-	305	305	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS18400	WP_005782402.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	4490524	4491435	-	303	303	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS16050	WP_005802521.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	3927204	3928106	-	300	300	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS16210	WP_005797807.1	fimbrillin family protein	NC_003228.3	3966884	3967756	+	290	290	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS07260	WP_005786370.1	FimB/Mfa2 family fimbrial subunit	NC_003228.3	1833427	1834290	+	287	287	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS16215	WP_032601254.1	fimbrillin family protein	NC_003228.3	3967839	3968663	+	274	274	100.0	100.0	identical	none
+fimbriae	virulence	BF9343_RS06845	WP_010992506.1	fimbrillin family protein	NC_003228.3	1748421	1749218	+	265	265	100.0	100.0	identical	none
+sod_catalase	virulence	BF9343_RS05550	WP_005785885.1	catalase	NC_003228.3	1454734	1456194	-	486	486	100.0	100.0	identical	none
+sod_catalase	virulence	BF9343_RS12195	WP_005788037.1	superoxide dismutase	NC_003228.3	2982316	2982933	+	205	205	100.0	100.0	identical	none
+sod_catalase	virulence	BF9343_RS00100	rbr	rubrerythrin	NC_003228.3	25097	25675	+	192	192	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS17460	WP_008769973.1	adenosylcobalamin-dependent ribonucleoside-diphosphate reductase	NC_003228.3	4271472	4274015	+	847	847	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS12135	cbiD	cobalt-precorrin-5B (C(1))-methyltransferase CbiD	NC_003228.3	2973266	2975194	+	642	642	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS12130	cobM	precorrin-4 C(11)-methyltransferase	NC_003228.3	2971464	2973263	+	599	599	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS12120	cobJ	precorrin-3B C(17)-methyltransferase	NC_003228.3	2968687	2970096	+	469	469	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS12125	WP_010993056.1	bifunctional cobalt-precorrin-7 (C(5))-methyltransferase/cobalt-precorrin-6B (C(15))-methyltransferase	NC_003228.3	2970153	2971457	+	434	434	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS12880	WP_005788329.1	uroporphyrinogen decarboxylase/cobalamine-independent methonine synthase family protein	NC_003228.3	3135413	3136390	-	325	325	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS14210	WP_005788969.1	vitamin B12 dependent-methionine synthase activation domain-containing protein	NC_003228.3	3450031	3450969	+	312	312	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS10560	WP_005787514.1	precorrin-2 C(20)-methyltransferase	NC_003228.3	2624209	2624916	-	235	235	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS03600	WP_008769470.1	vitamin B12 dependent-methionine synthase activation domain-containing protein	NC_003228.3	942298	943002	+	234	234	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS13900	WP_011203128.1	vitamin B12 dependent-methionine synthase activation domain-containing protein	NC_003228.3	3369093	3369776	-	227	227	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS03595	WP_005785010.1	cobalamin B12-binding domain-containing protein	NC_003228.3	941657	942295	+	212	212	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS12050	WP_008660362.1	cob(I)yrinic acid a%2Cc-diamide adenosyltransferase	NC_003228.3	2949378	2949950	-	190	190	100.0	100.0	identical	none
+b12	metabolism	BF9343_RS19845	WP_005791480.1	cob(I)yrinic acid a%2Cc-diamide adenosyltransferase	NC_003228.3	4804336	4804899	-	187	187	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS00080	WP_010991853.1	arylsulfatase	NC_003228.3	18198	19811	+	537	537	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS17960	WP_010993544.1	sulfatase	NC_003228.3	4387301	4388893	-	530	530	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS14795	WP_041926330.1	sulfatase family protein	NC_003228.3	3593144	3594727	-	527	527	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS00360	WP_005802003.1	arylsulfatase	NC_003228.3	79972	81552	+	526	526	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS07230	WP_010992575.1	sulfatase family protein	NC_003228.3	1825912	1827480	+	522	522	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS04620	WP_005795907.1	sulfatase family protein	NC_003228.3	1227405	1228970	+	521	521	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS03760	WP_005785070.1	sulfatase	NC_003228.3	980948	982504	-	518	518	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS04625	WP_005785437.1	sulfatase-like hydrolase/transferase	NC_003228.3	1229146	1230702	+	518	518	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS20760	WP_010993787.1	arylsulfatase	NC_003228.3	5063781	5065322	-	513	513	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS05930	WP_010992417.1	sulfatase	NC_003228.3	1532942	1534471	-	509	509	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS14835	WP_005789275.1	arylsulfatase	NC_003228.3	3607751	3609265	-	504	504	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS17965	WP_005802117.1	sulfatase	NC_003228.3	4388920	4390401	-	493	493	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS14800	WP_005789261.1	arylsulfatase	NC_003228.3	3595142	3596608	+	488	488	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS02410	WP_005784467.1	arylsulfatase	NC_003228.3	608937	610397	+	486	486	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS03775	WP_005785076.1	sulfatase family protein	NC_003228.3	985995	987446	-	483	483	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS07735	cysN	sulfate adenylyltransferase subunit CysN	NC_003228.3	1952112	1953542	+	476	476	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS06210	WP_010992441.1	O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase family protein	NC_003228.3	1603216	1604502	+	428	428	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS16150	WP_005790318.1	O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase family protein	NC_003228.3	3955729	3957009	-	426	426	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS14405	WP_010993230.1	anaerobic sulfatase-maturation protein	NC_003228.3	3499308	3500543	+	411	411	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS15640	cysK	cysteine synthase A	NC_003228.3	3826630	3827580	-	316	316	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS21245	cysK	cysteine synthase A	NC_003228.3	5186583	5187530	-	315	315	100.0	100.0	identical	none
+sulfur	metabolism	BF9343_RS07730	cysD	sulfate adenylyltransferase subunit CysD	NC_003228.3	1951189	1952100	+	303	303	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15400	WP_010993307.1	glycoside hydrolase family 2 TIM barrel-domain containing protein	NC_003228.3	3766034	3770059	+	1341	1341	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03090	WP_041926168.1	glycoside hydrolase family 2 TIM barrel-domain containing protein	NC_003228.3	804649	808302	+	1217	1217	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01335	WP_010991970.1	glycoside hydrolase family 38 N-terminal domain-containing protein	NC_003228.3	330313	333930	-	1205	1205	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03995	WP_041926173.1	glycoside hydrolase family 2 TIM barrel-domain containing protein	NC_003228.3	1045207	1048542	-	1111	1111	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS00710	WP_008657952.1	glycoside hydrolase family 2 TIM barrel-domain containing protein	NC_003228.3	166478	169582	-	1034	1034	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS14785	WP_010993256.1	glycoside hydrolase family 2 TIM barrel-domain containing protein	NC_003228.3	3587644	3590706	-	1020	1020	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02395	WP_041926297.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	599895	602948	+	1017	1017	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS20700	WP_010993783.1	glycoside hydrolase domain-containing protein	NC_003228.3	5040117	5043164	+	1015	1015	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS06290	WP_010992452.1	glycoside hydrolase domain-containing protein	NC_003228.3	1627132	1630161	-	1009	1009	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02390	WP_010992078.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	596875	599865	+	996	996	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02505	WP_010992088.1	glycosyl hydrolase 115 family protein	NC_003228.3	637374	640322	+	982	982	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02675	WP_010992102.1	glycoside hydrolase family 2 TIM barrel-domain containing protein	NC_003228.3	685029	687956	+	975	975	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15080	WP_010993283.1	alpha-amylase family glycosyl hydrolase	NC_003228.3	3664551	3667412	-	953	953	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02680	WP_032560740.1	beta-galactosidase	NC_003228.3	687969	690752	+	927	927	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS04020	WP_010992220.1	glycoside hydrolase family 2 protein	NC_003228.3	1054461	1057232	-	923	923	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02545	WP_010992091.1	glycoside hydrolase family 78 protein	NC_003228.3	648669	651404	+	911	911	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS07710	WP_010992619.1	glycoside hydrolase family 2 protein	NC_003228.3	1944816	1947491	-	891	891	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS04040	WP_010992224.1	beta-glucosidase	NC_003228.3	1063113	1065764	-	883	883	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01470	WP_010991988.1	glycoside hydrolase family 78 protein	NC_003228.3	372962	375601	+	879	879	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02660	WP_010992099.1	glycosyl hydrolase family 95 catalytic domain-containing protein	NC_003228.3	677449	680052	+	867	867	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS09090	WP_010992758.1	glycoside hydrolase family 2 protein	NC_003228.3	2270131	2272725	-	864	864	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS13915	WP_010993184.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	3371701	3374286	-	861	861	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS13890	WP_010993179.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	3365482	3368061	-	859	859	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS08415	WP_010992685.1	beta-mannosidase	NC_003228.3	2106562	2109132	+	856	856	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS05555	WP_010992369.1	glycoside hydrolase family 31 protein	NC_003228.3	1456665	1459202	-	845	845	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS08440	galB	beta-galactosidase GalB	NC_003228.3	2117168	2119669	+	833	833	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01290	WP_010991964.1	beta-glucosidase	NC_003228.3	311708	314206	-	832	832	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS20705	WP_005791960.1	glycoside hydrolase family 95 protein	NC_003228.3	5043254	5045743	+	829	829	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS20325	WP_005797477.1	glycoside hydrolase family 127 protein	NC_003228.3	4923732	4926194	-	820	820	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03585	WP_172579068.1	glycoside hydrolase family 3 N-terminal domain-containing protein	NC_003228.3	937788	940205	+	805	805	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01465	WP_041926294.1	family 16 glycoside hydrolase	NC_003228.3	370553	372952	+	799	799	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02200	WP_041926164.1	glycosyl hydrolase family 95 catalytic domain-containing protein	NC_003228.3	551126	553495	+	789	789	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS17655	WP_010993505.1	GH92 family glycosyl hydrolase	NC_003228.3	4312800	4315145	-	781	781	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS08420	WP_010992686.1	glycoside hydrolase family 20 protein	NC_003228.3	2109152	2111476	+	774	774	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS14790	WP_005814993.1	glycoside hydrolase family 20 protein	NC_003228.3	3590784	3593099	-	771	771	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15110	WP_010993287.1	family 65 glycosyl hydrolase domain-containing protein	NC_003228.3	3676805	3679120	+	771	771	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS17705	WP_010993512.1	beta-galactosidase	NC_003228.3	4329335	4331644	-	769	769	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01575	bglX	beta-glucosidase BglX	NC_003228.3	408099	410399	-	766	766	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS20295	bglX	beta-glucosidase BglX	NC_003228.3	4915150	4917444	-	764	764	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01385	WP_010991979.1	GH92 family glycosyl hydrolase	NC_003228.3	348685	350970	+	761	761	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03060	WP_010992128.1	GH92 family glycosyl hydrolase	NC_003228.3	791520	793805	+	761	761	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03180	WP_032573600.1	GH92 family glycosyl hydrolase	NC_003228.3	831948	834218	-	756	756	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03185	WP_005796236.1	GH92 family glycosyl hydrolase	NC_003228.3	834321	836588	-	755	755	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS04015	WP_010992219.1	glycosyl hydrolase family 95 catalytic domain-containing protein	NC_003228.3	1052070	1054337	-	755	755	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS08435	WP_005800561.1	GH92 family glycosyl hydrolase	NC_003228.3	2114905	2117154	+	749	749	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02320	WP_010992070.1	glycoside hydrolase family 31 protein	NC_003228.3	577381	579618	-	745	745	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03200	WP_010992143.1	GH92 family glycosyl hydrolase	NC_003228.3	838262	840478	-	738	738	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15565	WP_010993320.1	GH92 family glycosyl hydrolase	NC_003228.3	3804735	3806918	+	727	727	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02315	WP_010992069.1	alpha-galactosidase	NC_003228.3	575099	577267	-	722	722	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03545	WP_010992182.1	glycoside hydrolase family 3 C-terminal domain-containing protein	NC_003228.3	921576	923744	+	722	722	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01075	WP_010991944.1	alpha-galactosidase	NC_003228.3	256048	258207	-	719	719	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS05365	WP_005795718.1	glycoside hydrolase family 97 protein	NC_003228.3	1415066	1417225	+	719	719	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS19880	WP_010993694.1	glycoside hydrolase family 172 protein	NC_003228.3	4812480	4814618	+	712	712	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS00145	WP_010991858.1	glycoside hydrolase family 2 protein	NC_003228.3	35936	38050	+	704	704	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01460	WP_010991986.1	glycoside hydrolase family 127 protein	NC_003228.3	368437	370524	+	695	695	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03765	WP_010992203.1	Sip1-related alpha-galactosidase	NC_003228.3	982525	984600	-	691	691	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS20375	WP_010993747.1	glycoside hydrolase family 127 protein	NC_003228.3	4945476	4947551	+	691	691	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS08430	WP_010992688.1	glycoside hydrolase family 20 protein	NC_003228.3	2112772	2114844	+	690	690	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS06060	WP_010992427.1	glycoside hydrolase family 97 protein	NC_003228.3	1566059	1568074	+	671	671	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15925	WP_010993362.1	glycoside hydrolase family 97 protein	NC_003228.3	3891110	3893059	-	649	649	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS18190	WP_005804175.1	glycoside hydrolase family 97 protein	NC_003228.3	4444937	4446886	+	649	649	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS18335	WP_010993570.1	glycoside hydrolase family 35 protein	NC_003228.3	4474447	4476333	-	628	628	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15380	WP_010993306.1	alpha-L-fucosidase	NC_003228.3	3759907	3761787	+	626	626	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS19735	WP_005811467.1	beta-galactosidase	NC_003228.3	4779554	4781428	+	624	624	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15035	WP_008769607.1	glycoside hydrolase family 13 protein	NC_003228.3	3653357	3655207	+	616	616	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS14780	WP_005789248.1	alpha-L-fucosidase	NC_003228.3	3585777	3587594	-	605	605	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01320	WP_005784059.1	glycoside hydrolase family 2 protein	NC_003228.3	323256	325070	+	604	604	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03965	glaB	alpha-1%2C3-galactosidase	NC_003228.3	1038695	1040482	+	595	595	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01300	WP_010991965.1	glycoside hydrolase family 2 protein	NC_003228.3	315731	317515	-	594	594	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS11055	WP_005787608.1	alpha-amylase family glycosyl hydrolase	NC_003228.3	2731445	2733142	-	565	565	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS06170	WP_005800839.1	glycoside hydrolase family 31 protein	NC_003228.3	1593700	1595355	+	551	551	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS21060	WP_041926289.1	glycoside hydrolase family 172 protein	NC_003228.3	5138779	5140431	-	550	550	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS21075	WP_010993813.1	glycoside hydrolase family 32 protein	NC_003228.3	5145015	5146661	-	548	548	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01050	WP_010991940.1	alpha-galactosidase D	NC_003228.3	246933	248525	-	530	530	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15935	WP_010993364.1	MGH1-like glycoside hydrolase domain-containing protein	NC_003228.3	3895357	3896949	-	530	530	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02685	WP_010992104.1	glycoside hydrolase family 43 protein	NC_003228.3	690764	692344	+	526	526	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS06960	WP_032536377.1	glycoside hydrolase	NC_003228.3	1768167	1769726	-	519	519	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15180	WP_032534552.1	glycoside hydrolase family 10 protein	NC_003228.3	3702963	3704483	+	506	506	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15155	WP_005814905.1	glycoside hydrolase family 10 protein	NC_003228.3	3695904	3697412	-	502	502	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01390	WP_005784087.1	glycoside hydrolase family 125 protein	NC_003228.3	351014	352480	+	488	488	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03085	WP_005784787.1	alpha-L-fucosidase	NC_003228.3	803179	804630	+	483	483	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS00140	WP_005783586.1	alpha-L-fucosidase	NC_003228.3	34462	35880	+	472	472	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS17320	WP_005798159.1	alpha-L-fucosidase	NC_003228.3	4235415	4236815	+	466	466	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS04340	WP_005785317.1	glycoside hydrolase family 57 protein	NC_003228.3	1152171	1153559	+	462	462	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03770	WP_005785074.1	alpha-L-fucosidase	NC_003228.3	984610	985992	-	460	460	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03800	WP_005785086.1	alpha-L-fucosidase	NC_003228.3	999068	1000417	+	449	449	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS02925	WP_032564227.1	glycoside hydrolase family 16 protein	NC_003228.3	766884	768206	+	440	440	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03580	WP_005813231.1	glycoside hydrolase 5 family protein	NC_003228.3	936457	937764	+	435	435	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15595	WP_008769537.1	alpha-L-fucosidase	NC_003228.3	3814937	3816241	-	434	434	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01535	WP_010991994.1	glycoside hydrolase family 88 protein	NC_003228.3	392456	393667	-	403	403	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS08350		alpha-L-fucosidase	NC_003228.3	2078766	2079971	-	402	402	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15955	WP_010993366.1	glycoside hydrolase family 76 protein	NC_003228.3	3903206	3904405	-	399	399	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01295	WP_005801858.1	glycoside hydrolase family 76 protein	NC_003228.3	314349	315515	-	388	388	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS17195	WP_005790726.1	glycoside hydrolase family 43 protein	NC_003228.3	4194419	4195546	+	375	375	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03610	WP_005785016.1	glycoside hydrolase family 26 protein	NC_003228.3	944105	945229	+	374	374	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01370	WP_010991976.1	glycoside hydrolase family 76 protein	NC_003228.3	342750	343868	+	372	372	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS03575	WP_010992187.1	glycoside hydrolase family 26 protein	NC_003228.3	935224	936339	+	371	371	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01315	WP_010991967.1	glycoside hydrolase family 43 protein	NC_003228.3	322047	323153	+	368	368	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01285	WP_005784046.1	glycoside hydrolase family 43 protein	NC_003228.3	310550	311626	-	358	358	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS06085	WP_005786048.1	glycoside hydrolase family 18	NC_003228.3	1575027	1576079	+	350	350	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS05565	WP_009291799.1	glycoside hydrolase family 43 protein	NC_003228.3	1459939	1460940	+	333	333	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS06105	WP_005786056.1	glycoside hydrolase family 130 protein	NC_003228.3	1579841	1580839	+	332	332	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS15940	WP_010993365.1	glycoside hydrolase family protein	NC_003228.3	3896955	3897941	-	328	328	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS00015	WP_010991844.1	glycoside hydrolase family protein	NC_003228.3	2211	3182	+	323	323	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS01410	WP_010991981.1	glycoside hydrolase family 43 protein	NC_003228.3	358188	359156	+	322	322	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS19730	WP_005822185.1	glycoside hydrolase family 16 protein	NC_003228.3	4777550	4778410	+	286	286	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS14055	WP_022347186.1	glycoside hydrolase family 25 protein	NC_003228.3	3405942	3406799	-	285	285	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS14935	WP_010993272.1	glycoside hydrolase family 16 protein	NC_003228.3	3634450	3635289	-	279	279	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS19720	WP_010993681.1	glycoside hydrolase family 16 protein	NC_003228.3	4774069	4774902	+	277	277	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS07350	WP_005786402.1	glycoside hydrolase family 16 protein	NC_003228.3	1857434	1858258	+	274	274	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS20140	WP_010993725.1	glycoside hydrolase family 16 protein	NC_003228.3	4873504	4874298	+	264	264	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS18515	WP_010993591.1	glycoside hydrolase family protein	NC_003228.3	4519886	4520536	-	216	216	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS18525	WP_010993593.1	glycoside hydrolase family protein	NC_003228.3	4521314	4521919	-	201	201	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS23315		beta-galactosidase	NC_003228.3	4778498	4779037	+	180	180	100.0	100.0	identical	none
+glycoside_hydrolase	metabolism	BF9343_RS23620		alpha-L-fucosidase C-terminal domain-containing protein	NC_003228.3	2016453	2016701	-	82	82	100.0	100.0	identical	none
+polysaccharide_lyase	metabolism	BF9343_RS07355	WP_010992593.1	polysaccharide lyase 8 family protein	NC_003228.3	1858273	1860297	-	674	674	100.0	100.0	identical	none
+polysaccharide_lyase	metabolism	BF9343_RS01540	WP_010991995.1	heparinase II/III family protein	NC_003228.3	393671	395578	-	635	635	100.0	100.0	identical	none
+polysaccharide_lyase	metabolism	BF9343_RS03500	WP_010992175.1	heparinase II/III domain-containing protein	NC_003228.3	911320	913194	+	624	624	100.0	100.0	identical	none
+cazyme_esterase	metabolism	BF9343_RS00080	WP_010991853.1	arylsulfatase	NC_003228.3	18198	19811	+	537	537	100.0	100.0	identical	none
+cazyme_esterase	metabolism	BF9343_RS00360	WP_005802003.1	arylsulfatase	NC_003228.3	79972	81552	+	526	526	100.0	100.0	identical	none
+cazyme_esterase	metabolism	BF9343_RS20760	WP_010993787.1	arylsulfatase	NC_003228.3	5063781	5065322	-	513	513	100.0	100.0	identical	none
+cazyme_esterase	metabolism	BF9343_RS14835	WP_005789275.1	arylsulfatase	NC_003228.3	3607751	3609265	-	504	504	100.0	100.0	identical	none
+cazyme_esterase	metabolism	BF9343_RS14800	WP_005789261.1	arylsulfatase	NC_003228.3	3595142	3596608	+	488	488	100.0	100.0	identical	none
+cazyme_esterase	metabolism	BF9343_RS02410	WP_005784467.1	arylsulfatase	NC_003228.3	608937	610397	+	486	486	100.0	100.0	identical	none

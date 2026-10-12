@@ -1,0 +1,68 @@
+genome	contig	start	end	strand	locus_tag	gene	product	element_class
+reference	NC_003228.3	127113	127367	+	BF9343_RS23850		DDE transposase	transposase
+reference	NC_003228.3	538950	539771	-	BF9343_RS24245		recombinase family protein	recombinase
+reference	NC_003228.3	542119	542706	+	BF9343_RS02165		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	910129	910764	-	BF9343_RS03495		transposase	transposase
+reference	NC_003228.3	1181029	1181127	-	BF9343_RS23880		transposase	transposase
+reference	NC_003228.3	1391502	1391921	-	BF9343_RS05235		plasmid mobilization protein	mobilization
+reference	NC_003228.3	1394799	1395914	-	BF9343_RS05255		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	1434974	1436017	-	BF9343_RS05475	recA	recombinase RecA	recombinase
+reference	NC_003228.3	1483022	1484260	+	BF9343_RS05660		site-specific integrase	integrase
+reference	NC_003228.3	1488014	1488248	-	BF9343_RS05700		TraQ conjugal transfer family protein	conjugal
+reference	NC_003228.3	1488231	1488353	+	BF9343_RS22170		TraQ conjugal transfer family protein	conjugal
+reference	NC_003228.3	1490826	1491404	-	BF9343_RS05720		conjugal transfer protein TraO	conjugal
+reference	NC_003228.3	1502674	1503111	+	BF9343_RS05795	mobA	conjugal transfer protein MobA	conjugal
+reference	NC_003228.3	1503096	1504334	+	BF9343_RS05800	mobB	conjugal transfer protein MobB	conjugal
+reference	NC_003228.3	1504355	1506355	+	BF9343_RS05805	mobC	conjugal transfer protein MobC	conjugal
+reference	NC_003228.3	1624098	1624289	+	BF9343_RS24285		ISAon1 family transposase N-terminal region protein	transposase
+reference	NC_003228.3	1783122	1784726	+	BF9343_RS07005	bfmC	pathogenicity island mobilization protein BfmC	mobilization
+reference	NC_003228.3	1784743	1785693	-	BF9343_RS07010	bfmB	pathogenicity island mobilization protein BfmB	mobilization
+reference	NC_003228.3	1785683	1786225	-	BF9343_RS07015	bfmA	pathogenicity island mobilization protein BfmA	mobilization
+reference	NC_003228.3	1794735	1795388	-	BF9343_RS07065		site-specific integrase	integrase
+reference	NC_003228.3	1795356	1797103	+	BF9343_RS07070	istA	IS21-like element ISBf1 family transposase	transposase
+reference	NC_003228.3	1799717	1800523	+	BF9343_RS07090		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	1962133	1963275	+	BF9343_RS07775		site-specific integrase	integrase
+reference	NC_003228.3	1968448	1968864	+	BF9343_RS07800	ruvX	Holliday junction resolvase RuvX	resolvase
+reference	NC_003228.3	2031374	2032504	+	BF9343_RS08045		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	2046307	2048313	-	BF9343_RS08145	mobC	conjugal transfer protein MobC	conjugal
+reference	NC_003228.3	2048637	2049932	-	BF9343_RS08150	mobB	conjugal transfer protein MobB	conjugal
+reference	NC_003228.3	2049929	2050357	-	BF9343_RS08155	mobA	conjugal transfer protein MobA	conjugal
+reference	NC_003228.3	2062804	2063385	+	BF9343_RS08230		conjugal transfer protein TraO	conjugal
+reference	NC_003228.3	2077209	2078504	-	BF9343_RS22415		site-specific integrase	integrase
+reference	NC_003228.3	2138890	2140122	+	BF9343_RS08525		site-specific integrase	integrase
+reference	NC_003228.3	2151160	2152077	+	BF9343_RS08575		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	2153557	2154771	+	BF9343_RS08585		site-specific integrase	integrase
+reference	NC_003228.3	2378646	2379750	+	BF9343_RS09515		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	2466577	2467800	+	BF9343_RS09905		site-specific integrase	integrase
+reference	NC_003228.3	2471247	2471696	+	BF9343_RS09935	mobA	conjugal transfer protein MobA	conjugal
+reference	NC_003228.3	2500319	2501266	-	BF9343_RS10095		IS30 family transposase	transposase
+reference	NC_003228.3	2677465	2678628	+	BF9343_RS10765		site-specific integrase	integrase
+reference	NC_003228.3	2725262	2725591	+	BF9343_RS11025		transposase	transposase
+reference	NC_003228.3	2836070	2837314	-	BF9343_RS11575		site-specific integrase	integrase
+reference	NC_003228.3	3346448	3347347	-	BF9343_RS13800		Rpn family recombination-promoting nuclease/putative transposase	transposase
+reference	NC_003228.3	3863607	3864823	+	BF9343_RS15795		site-specific integrase	integrase
+reference	NC_003228.3	3871545	3871928	+	BF9343_RS15835		MobC family plasmid mobilization relaxosome protein	mobilization
+reference	NC_003228.3	3871894	3872808	+	BF9343_RS15840		relaxase/mobilization nuclease domain-containing protein	relaxase
+reference	NC_003228.3	3930840	3932051	-	BF9343_RS16065		site-specific integrase	integrase
+reference	NC_003228.3	3965142	3965412	-	BF9343_RS24200		site-specific integrase	integrase
+reference	NC_003228.3	4524442	4524558	+	BF9343_RS24030		IS982 family transposase	transposase
+reference	NC_003228.3	4530338	4531567	+	BF9343_RS18570		site-specific integrase	integrase
+reference	NC_003228.3	4560357	4560779	+	BF9343_RS24035	mobA	conjugal transfer protein MobA	conjugal
+reference	NC_003228.3	4568032	4568978	-	BF9343_RS18755		IS30 family transposase	transposase
+reference	NC_003228.3	4670007	4670423	-	BF9343_RS19180		transposase	transposase
+reference	NC_003228.3	4727566	4728447	-	BF9343_RS19540	xerC	tyrosine recombinase XerC	recombinase
+reference	NC_003228.3	4749746	4750744	-	BF9343_RS19625		IS110 family RNA-guided transposase	transposase
+reference	NC_003228.3	4753082	4753192	+	BF9343_RS23305		site-specific integrase	integrase
+reference	NC_003228.3	4753603	4754267	+	BF9343_RS24065		transposase	transposase
+reference	NC_003228.3	4760316	4761875	-	BF9343_RS19680	istA	IS21-like element ISBf2 family transposase	transposase
+reference	NC_003228.3	4763923	4765554	+	BF9343_RS19690		IS1182-like element ISBf5 family transposase	transposase
+reference	NC_003228.3	4793620	4795207	-	BF9343_RS24235	istA	IS21 family transposase	transposase
+reference	NC_003228.3	4796985	4798526	-	BF9343_RS19810	mobV	MobV family relaxase	relaxase
+reference	NC_003228.3	4802485	4803843	-	BF9343_RS19835		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	4845303	4845506	+	BF9343_RS23360		recombinase	recombinase
+reference	NC_003228.3	4850051	4851279	+	BF9343_RS24080		tyrosine-type recombinase/integrase	integrase
+reference	NC_003228.3	5012284	5013525	-	BF9343_RS20620		site-specific integrase	integrase
+reference	NC_003228.3	5077429	5078382	+	BF9343_RS20810	xerD	site-specific tyrosine recombinase XerD	recombinase
+reference	NC_006873.1	129	722	+	BF9343_RS21315		recombinase family protein	recombinase
+reference	NC_006873.1	8217	8573	+	BF9343_RS21380		plasmid mobilization protein	mobilization
+reference	NC_006873.1	9008	10570	+	BF9343_RS21385		relaxase/mobilization nuclease domain-containing protein	relaxase

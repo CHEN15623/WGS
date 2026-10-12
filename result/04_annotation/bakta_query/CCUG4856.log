@@ -1,0 +1,48 @@
+17:39:28.415 - INFO - UTILS - version=1.11.4
+17:39:28.416 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
+17:39:28.416 - INFO - UTILS - command: /home/cz/miniconda3/envs/WGS/bin/bakta --db /home/cz/WGS/work/bakta_db --output /home/cz/WGS/result/04_annotation/bakta_query --prefix CCUG4856 --threads 32 --force --compliant /home/cz/WGS/seq/unzipped/query.fna
+17:39:28.416 - INFO - UTILS - local time: 2026-10-12 17:39:28
+17:39:28.417 - INFO - UTILS - machine: type=x86_64, cores=192
+17:39:28.417 - INFO - UTILS - system: type=Linux, release=7.0.0-30-generic
+17:39:28.417 - INFO - UTILS - python: version=3.11.17, implementation=CPython
+17:39:28.417 - INFO - CONFIG - threads=32
+17:39:28.417 - INFO - CONFIG - verbose=False
+17:39:28.417 - INFO - CONFIG - debug=False
+17:39:28.417 - INFO - CONFIG - database: type=parameter, path=/home/cz/WGS/work/bakta_db
+17:39:28.418 - INFO - CONFIG - tmp-path=/tmp/tmpxecop87f
+17:39:28.418 - INFO - CONFIG - genome-path=/home/cz/WGS/seq/unzipped/query.fna
+17:39:28.418 - INFO - CONFIG - min_contig_length=1
+17:39:28.418 - INFO - CONFIG - prefix=CCUG4856
+17:39:28.418 - INFO - CONFIG - output-path=/home/cz/WGS/result/04_annotation/bakta_query
+17:39:28.418 - INFO - CONFIG - force=True
+17:39:28.418 - INFO - CONFIG - genus=None
+17:39:28.418 - INFO - CONFIG - species=None
+17:39:28.418 - INFO - CONFIG - strain=None
+17:39:28.418 - INFO - CONFIG - plasmid=None
+17:39:28.418 - INFO - CONFIG - complete=False
+17:39:28.418 - INFO - CONFIG - prodigal_tf=None
+17:39:28.418 - INFO - CONFIG - translation_table=11
+17:39:28.418 - INFO - CONFIG - gram=?
+17:39:28.418 - INFO - CONFIG - compliant=True
+17:39:28.418 - INFO - CONFIG - compliant mode! min_contig_length=200
+17:39:28.418 - INFO - CONFIG - meta=False
+17:39:28.418 - INFO - CONFIG - locus=None
+17:39:28.418 - INFO - CONFIG - locus-tag=None
+17:39:28.418 - INFO - CONFIG - locus-tag-increment=1
+17:39:28.418 - INFO - CONFIG - keep_contig_headers=False
+17:39:28.418 - INFO - CONFIG - replicon-table=None
+17:39:28.418 - INFO - CONFIG - regions=None
+17:39:28.418 - INFO - CONFIG - skip-tRNA=False
+17:39:28.418 - INFO - CONFIG - skip-tmRNA=False
+17:39:28.418 - INFO - CONFIG - skip-rRNA=False
+17:39:28.418 - INFO - CONFIG - skip-ncRNA=False
+17:39:28.418 - INFO - CONFIG - skip-ncRNA-region=False
+17:39:28.418 - INFO - CONFIG - skip-CRISPR=False
+17:39:28.418 - INFO - CONFIG - skip-CDS=False
+17:39:28.418 - INFO - CONFIG - skip-pseudo=False
+17:39:28.418 - INFO - CONFIG - skip-sORF=False
+17:39:28.419 - INFO - CONFIG - skip-gap=False
+17:39:28.419 - INFO - CONFIG - skip-ori=False
+17:39:28.419 - INFO - CONFIG - skip-filter=False
+17:39:28.419 - INFO - CONFIG - skip-plot=False
+17:39:28.419 - ERROR - DB - version file not readable!

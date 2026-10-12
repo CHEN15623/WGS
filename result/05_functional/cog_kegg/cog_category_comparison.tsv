@@ -1,0 +1,26 @@
+COG_letter	COG_category	metabolism	reference_count	query_count	difference
+J	Translation, ribosomal structure and biogenesis	no	209	209	+0
+A	RNA processing and modification	no	0	0	+0
+K	Transcription	no	198	200	+2
+L	Replication, recombination and repair	no	172	182	+10
+B	Chromatin structure and dynamics	no	0	0	+0
+D	Cell cycle control, cell division, chromosome partitioning	no	50	50	+0
+Y	Nuclear structure	no	0	0	+0
+V	Defense mechanisms	no	144	147	+3
+T	Signal transduction mechanisms	no	187	189	+2
+M	Cell wall/membrane/envelope biogenesis	no	378	382	+4
+N	Cell motility	no	28	28	+0
+Z	Cytoskeleton	no	3	3	+0
+W	Extracellular structures	no	11	11	+0
+U	Intracellular trafficking, secretion, and vesicular transport	no	49	49	+0
+O	Post-translational modification, protein turnover, chaperones	no	136	136	+0
+C	Energy production and conversion	yes	155	155	+0
+G	Carbohydrate transport and metabolism	yes	244	248	+4
+E	Amino acid transport and metabolism	yes	188	189	+1
+F	Nucleotide transport and metabolism	yes	76	77	+1
+H	Coenzyme transport and metabolism	yes	179	179	+0
+I	Lipid transport and metabolism	yes	98	99	+1
+P	Inorganic ion transport and metabolism	yes	229	232	+3
+Q	Secondary metabolites biosynthesis, transport and catabolism	yes	23	23	+0
+R	General function prediction only	no	194	194	+0
+S	Function unknown	no	95	98	+3

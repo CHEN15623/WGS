@@ -1,0 +1,9 @@
+[bwa_index] Pack FASTA... 0.04 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 1.14 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.49 sec
+[main] Version: 0.7.19-r1273
+[main] CMD: bwa index /home/cz/WGS/reference/unzipped/reference.fna
+[main] Real time: 1.724 sec; CPU: 1.712 sec

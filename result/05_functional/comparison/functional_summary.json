@@ -1,0 +1,21 @@
+{
+  "reference_features": 4231,
+  "query_features": 4231,
+  "cog_categories": {},
+  "cog_categories_query": {},
+  "n_cog_ids_reference": 0,
+  "n_cog_ids_query": 0,
+  "n_kegg_ko_reference": 0,
+  "n_kegg_ko_query": 0,
+  "kegg_reference_only": [],
+  "kegg_query_only": [],
+  "n_go_reference": 1188,
+  "n_go_query": 1188,
+  "n_ec_reference": 0,
+  "n_ec_query": 0,
+  "abricate_calls": 0,
+  "abricate_differences": 0,
+  "amrfinder_calls": 1,
+  "amrfinder_differences": 0,
+  "cog_definitions_loaded": 4877
+}

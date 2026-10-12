@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.155*1.01] collected minimizers
+[M::mm_idx_gen::0.178*4.38] sorted minimizers
+[M::main::0.178*4.38] loaded/built the index for 2 target sequence(s)
+[M::mm_mapopt_update::0.188*4.19] mid_occ = 50
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 2
+[M::mm_idx_stat::0.195*4.08] distinct minimizers: 519512 (99.56% are singletons); average occurrences: 1.009; average spacing: 9.995; total length: 5241700
+[M::worker_pipeline::1.875*1.32] mapped 2 sequences
+[M::main] Version: 2.31-r1302
+[M::main] CMD: minimap2 -ax asm5 --eqx -t 32 /home/cz/WGS/reference/unzipped/reference.fna /home/cz/WGS/seq/unzipped/query.fna
+[M::main] Real time: 1.924 sec; CPU: 2.531 sec; Peak RSS: 0.098 GB

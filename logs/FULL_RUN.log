@@ -1,0 +1,1203 @@
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:27:35
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+------------------------------------------------------------------
+ toolchain check  (conda env: WGS)
+------------------------------------------------------------------
+  [ ok ]  samtools       /home/cz/miniconda3/envs/WGS/bin/samtools
+  [ ok ]  bcftools       /home/cz/miniconda3/envs/WGS/bin/bcftools
+  [ ok ]  bwa            /home/cz/miniconda3/envs/WGS/bin/bwa
+  [ ok ]  minimap2       /home/cz/miniconda3/envs/WGS/bin/minimap2
+  [ ok ]  nucmer         /home/cz/miniconda3/envs/WGS/bin/nucmer
+  [ ok ]  show-snps      /home/cz/miniconda3/envs/WGS/bin/show-snps
+  [ ok ]  python3        /home/cz/miniconda3/envs/WGS/bin/python3
+  [ ok ]  freebayes     
+  [ ok ]  dnadiff       
+  [ -- ]  prokka         optional, step will be skipped
+  [ ok ]  bakta         
+  [ ok ]  snpEff        
+  [ -- ]  abricate       optional, step will be skipped
+  [ ok ]  amrfinder     
+  [ ok ]  quast.py      
+  [ ok ]  seqkit        
+  [ -- ]  bandage        optional, step will be skipped
+  [ ok ]  mafft         
+  [ ok ]  iqtree        
+  [ ok ]  diamond       
+  [ -- ]  Rscript        optional, step will be skipped
+------------------------------------------------------------------
+ core toolchain complete
+
+###################################################################
+#  STEP 0  :  prepare
+#  script    :  /home/cz/WGS/scripts/01_prepare.sh
+#  started   :  2026-10-12 17:27:35
+###################################################################
+
+[1;34m==> 00-PREP: preparing inputs and workspace[0m
+
+[1;34m==> 00-PREP complete[0m
+  reference: 2 sequence(s), 5241700 bp
+  query    : 2 sequence(s), 5241693 bp
+--> STEP 0 (prepare) finished OK in 2s
+
+###################################################################
+#  STEP 1  :  qc
+#  script    :  /home/cz/WGS/scripts/01_qc.sh
+#  started   :  2026-10-12 17:27:37
+###################################################################
+
+[1;34m==> 01-QC (a): assembly statistics[0m
+[assembly_stats] reference_NCTC9343: 2 contigs, 5,241,700 bp, N50=5,205,140, GC=43.11%
+[assembly_stats] query_CCUG4856: 2 contigs, 5,241,693 bp, N50=5,205,133, GC=43.11%
+[qc] wrote /home/cz/WGS/result/01_qc/assembly_qc/assembly_stats_comparison.tsv
+
+[1;34m==> 01-QC (b): QUAST assembly reports[0m
+WARNING: Python locale settings can't be changed
+/home/cz/miniconda3/envs/WGS/bin/quast.py -o /home/cz/WGS/result/01_qc/quast/reference -t 32 --no-icarus --silent /home/cz/WGS/reference/unzipped/reference.fna
+
+
+System information:
+  OS: Linux-7.0.0-30-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.11.17
+  CPUs number: 192
+
+Started: 2026-10-12 17:27:38
+
+Logging to /home/cz/WGS/result/01_qc/quast/reference/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /home/cz/WGS
+Main parameters: 
+  MODE: default, threads: 32, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  /home/cz/WGS/reference/unzipped/reference.fna ==> reference
+
+2026-10-12 17:27:38
+Running Basic statistics processor...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-10-12 17:27:39
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done
+
+2026-10-12 17:27:39
+RESULTS:
+  Text versions of total report are saved to /home/cz/WGS/result/01_qc/quast/reference/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cz/WGS/result/01_qc/quast/reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  PDF version (tables and plots) is saved to /home/cz/WGS/result/01_qc/quast/reference/report.pdf
+  Log is saved to /home/cz/WGS/result/01_qc/quast/reference/quast.log
+
+Finished: 2026-10-12 17:27:39
+Elapsed time: 0:00:01.489216
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+   [ok]   quast_reference
+WARNING: Python locale settings can't be changed
+/home/cz/miniconda3/envs/WGS/bin/quast.py -o /home/cz/WGS/result/01_qc/quast/query -t 32 --no-icarus --silent /home/cz/WGS/seq/unzipped/query.fna
+
+
+System information:
+  OS: Linux-7.0.0-30-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.11.17
+  CPUs number: 192
+
+Started: 2026-10-12 17:27:39
+
+Logging to /home/cz/WGS/result/01_qc/quast/query/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /home/cz/WGS
+Main parameters: 
+  MODE: default, threads: 32, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  /home/cz/WGS/seq/unzipped/query.fna ==> query
+
+2026-10-12 17:27:40
+Running Basic statistics processor...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-10-12 17:27:41
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done
+
+2026-10-12 17:27:41
+RESULTS:
+  Text versions of total report are saved to /home/cz/WGS/result/01_qc/quast/query/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cz/WGS/result/01_qc/quast/query/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  PDF version (tables and plots) is saved to /home/cz/WGS/result/01_qc/quast/query/report.pdf
+  Log is saved to /home/cz/WGS/result/01_qc/quast/query/quast.log
+
+Finished: 2026-10-12 17:27:41
+Elapsed time: 0:00:01.471759
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+   [ok]   quast_query
+WARNING: Python locale settings can't be changed
+/home/cz/miniconda3/envs/WGS/bin/quast.py -o /home/cz/WGS/result/01_qc/quast/comparative -t 32 -r /home/cz/WGS/reference/unzipped/reference.fna --no-icarus --silent /home/cz/WGS/seq/unzipped/query.fna
+
+
+System information:
+  OS: Linux-7.0.0-30-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.11.17
+  CPUs number: 192
+
+Started: 2026-10-12 17:27:41
+
+Logging to /home/cz/WGS/result/01_qc/quast/comparative/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /home/cz/WGS
+Main parameters: 
+  MODE: default, threads: 32, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Reference:
+  /home/cz/WGS/reference/unzipped/reference.fna ==> reference
+
+Contigs:
+  Pre-processing...
+  /home/cz/WGS/seq/unzipped/query.fna ==> query
+
+2026-10-12 17:27:42
+Running Basic statistics processor...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done.
+
+2026-10-12 17:27:43
+Running Contig analyzer...
+WARNING: Version of installed minimap2 differs from its version in the QUAST package (2.28). Please make sure that you use an actual version of software.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done.
+
+2026-10-12 17:27:44
+Running NA-NGA calculation...
+Done.
+
+2026-10-12 17:27:44
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-10-12 17:27:45
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done
+
+2026-10-12 17:27:46
+RESULTS:
+  Text versions of total report are saved to /home/cz/WGS/result/01_qc/quast/comparative/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cz/WGS/result/01_qc/quast/comparative/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  PDF version (tables and plots) is saved to /home/cz/WGS/result/01_qc/quast/comparative/report.pdf
+  Log is saved to /home/cz/WGS/result/01_qc/quast/comparative/quast.log
+
+Finished: 2026-10-12 17:27:46
+Elapsed time: 0:00:04.767222
+NOTICEs: 4; WARNINGs: 2; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+   [ok]   quast_comparative
+WARNING: Python locale settings can't be changed
+/home/cz/miniconda3/envs/WGS/bin/quast.py -o /home/cz/WGS/result/01_qc/quast/comparative_genes -t 32 -r /home/cz/WGS/reference/unzipped/reference.fna -g /home/cz/WGS/reference/unzipped/reference.gff --no-icarus --silent /home/cz/WGS/seq/unzipped/query.fna
+
+
+System information:
+  OS: Linux-7.0.0-30-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.11.17
+  CPUs number: 192
+
+Started: 2026-10-12 17:27:46
+
+Logging to /home/cz/WGS/result/01_qc/quast/comparative_genes/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /home/cz/WGS
+Main parameters: 
+  MODE: default, threads: 32, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Reference:
+  /home/cz/WGS/reference/unzipped/reference.fna ==> reference
+
+Contigs:
+  Pre-processing...
+  /home/cz/WGS/seq/unzipped/query.fna ==> query
+
+2026-10-12 17:27:47
+Running Basic statistics processor...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done.
+
+2026-10-12 17:27:48
+Running Contig analyzer...
+WARNING: Version of installed minimap2 differs from its version in the QUAST package (2.28). Please make sure that you use an actual version of software.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done.
+
+2026-10-12 17:27:49
+Running NA-NGA calculation...
+Done.
+
+2026-10-12 17:27:49
+Running Genome analyzer...
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-10-12 17:27:50
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+Done
+
+2026-10-12 17:27:51
+RESULTS:
+  Text versions of total report are saved to /home/cz/WGS/result/01_qc/quast/comparative_genes/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/cz/WGS/result/01_qc/quast/comparative_genes/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  PDF version (tables and plots) is saved to /home/cz/WGS/result/01_qc/quast/comparative_genes/report.pdf
+  Log is saved to /home/cz/WGS/result/01_qc/quast/comparative_genes/quast.log
+
+Finished: 2026-10-12 17:27:51
+Elapsed time: 0:00:05.123942
+NOTICEs: 3; WARNINGs: 2; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+   [ok]   quast_comparative_genes
+
+[1;34m==> 01-QC (c): in-silico reads from the query assembly + read-level QC[0m
+processed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+[1A[Jprocessed files:  0 / 2 [------] ETA: 0s
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+/home/cz/WGS/work/reads/CCUG4856_SIM_R1.fastq	FASTQ	DNA	1747231	262084650	150	150.0	150	150	150	150	0	150	873616	100	0	23.00	43.15	0
+[1A[Jprocessed files:  1 / 2 [==>---] ETA: 0s
+/home/cz/WGS/work/reads/CCUG4856_SIM_R2.fastq	FASTQ	DNA	1747231	262084650	150	150.0	150	150	150	150	0	150	873616	100	0	23.00	43.14	0
+[1A[Jprocessed files:  2 / 2 [======] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+   [ok]   seqkit_stats_reads
+[WARNING] You can't use more than 4 threads per file - setting this many is a waste
+   [ok]   fastqc_reads
+Read1 before filtering:
+total reads: 1747231
+total bases: 262084650
+Q20 bases: 262084650(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 1747231
+total bases: 262084650
+Q20 bases: 262084650(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 1747201
+total bases: 262075930
+Q20 bases: 262075930(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 1747201
+total bases: 262075930
+Q20 bases: 262075930(100%)
+Q30 bases: 0(0%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 3494402
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads failed due to too short: 60
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 274
+bases trimmed due to adapters: 15208
+
+Duplication rate: 0.00228934%
+
+Insert size peak (evaluated by paired-end reads): 266
+
+JSON report: /home/cz/WGS/result/01_qc/reads_qc/fastp.json
+HTML report: /home/cz/WGS/result/01_qc/reads_qc/fastp.html
+
+fastp -i /home/cz/WGS/work/reads/CCUG4856_SIM_R1.fastq -I /home/cz/WGS/work/reads/CCUG4856_SIM_R2.fastq -o /home/cz/WGS/work/reads/CCUG4856_SIM_R1.clean.fq.gz -O /home/cz/WGS/work/reads/CCUG4856_SIM_R2.clean.fq.gz -j /home/cz/WGS/result/01_qc/reads_qc/fastp.json -h /home/cz/WGS/result/01_qc/reads_qc/fastp.html -w 32 -q 20 -u 30 -l 50 
+fastp v1.4.0, time used: 3 seconds
+   [ok]   fastp_reads
+
+[1;34m==> 01-QC (d): reference annotation QC[0m
+[qc] annotation features: {'gene': 4254, 'CDS': 4231, 'exon': 94, 'tRNA': 73, 'pseudogene': 70, 'rRNA': 19}
+
+[1;34m==> 01-QC complete -> /home/cz/WGS/result/01_qc[0m
+--> STEP 1 (qc) finished OK in 27s
+
+###################################################################
+#  STEP 2  :  alignment
+#  script    :  /home/cz/WGS/scripts/02_alignment.sh
+#  started   :  2026-10-12 17:28:04
+###################################################################
+
+[1;34m==> 02-ALN (0): index the reference[0m
+
+[1;34m==> 02-ALN (A): whole-genome alignment with NUCmer[0m
+   [ok]   show_coords
+   [ok]   show_coords_all
+   [ok]   show_align
+
+[1;34m==> 02-ALN (A2): structural rearrangements from the 1-to-1 blocks[0m
+[sv] 9 alignment blocks; 1 confirmed inversion(s), largest 88,340 bp; 1 replicon(s) with an origin shift
+
+[1;34m==> 02-ALN (B): dnadiff whole-genome difference report[0m
+
+[1;34m==> 02-ALN (C): contig-to-reference mapping (minimap2 asm5)[0m
+   [ok]   samtools_flagstat
+   [ok]   samtools_stats
+   [ok]   samtools_idxstats
+   [ok]   samtools_coverage
+   [ok]   samtools_depth
+
+[1;34m==> 02-ALN (D): simulated-read mapping (depth-supported confirmation layer)[0m
+   [ok]   samtools_flagstat_sim
+   [ok]   samtools_stats_sim
+   [ok]   samtools_coverage_sim
+   [ok]   samtools_depth_sim
+
+[1;34m==> 02-ALN (E): coverage / uncovered-region summary[0m
+[coverage] wrote /home/cz/WGS/result/02_alignment/coverage/coverage_report.tsv and /home/cz/WGS/result/02_alignment/coverage/uncovered_regions.tsv
+
+[1;34m==> 02-Alignment complete -> /home/cz/WGS/result/02_alignment[0m
+--> STEP 2 (alignment) finished OK in 167s
+
+###################################################################
+#  STEP 3  :  variants
+#  script    :  /home/cz/WGS/scripts/03_variants.sh
+#  started   :  2026-10-12 17:30:51
+###################################################################
+
+[1;34m==> 03-VAR (1): MUMmer show-snps (assembly-to-assembly)[0m
+   [ok]   show_snps
+   [ok]   show_snps_strict
+   [ok]   show_snps_repeatfiltered
+   [ok]   show_diff
+
+[1;34m==> 03-VAR (2): bcftools + freebayes on the contig (asm5) alignment[0m
+
+[1;34m==> 03-VAR (3): read-based calling on the deep SIM-read alignment[0m
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   bcftools_filter_sim
+
+[1;34m==> 03-VAR (4): merge callers into one reconciled variant table[0m
+[merge] repeat map built from 100 alignment blocks
+[merge] 223 distinct variants; HIGH=4 MEDIUM=0 LOW=219
+[merge] SNP=166 INS=18 DEL=34 MNV=5
+[merge] wrote /home/cz/WGS/result/03_variants/merged/variants_merged.tsv, /home/cz/WGS/result/03_variants/merged/variants_highconf.tsv, /home/cz/WGS/result/03_variants/merged/variants_highconf.vcf
+
+[1;34m==> 03-VAR (4b): verification -- reconstruct ref/query alleles, split confident vs ambiguous[0m
+[verify] wrote /home/cz/WGS/result/03_variants/verified/variants_confident.vcf
+[verify] confident=4  ambiguous=215
+[verify]   NC_003228.3:530487 G>GT (INS, 2 methods, alt=% of 86 reads)
+[verify]   NC_003228.3:669715 TTA>T (DEL, 2 methods, alt=% of 93 reads)
+[verify]   NC_003228.3:683862 G>A (SNP, 3 methods, alt=100.0% of 112 reads)
+[verify]   NC_003228.3:1709303 G>GT (INS, 2 methods, alt=% of 97 reads)
+
+[1;34m==> 03-VAR (5): variant statistics[0m
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_asm
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+   [ok]   stats_freebayes_asm
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_sim.snp
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_sim.indel
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+   [ok]   stats_freebayes_sim
+[vstats] confident events: 4 {'INS': 2, 'DEL': 1, 'SNP': 1}
+[vstats] 223 variants | types={'INS': 18, 'DEL': 34, 'SNP': 166, 'MNV': 5} | ts/tv=1.101 | genic=124 intergenic=99
+
+[1;34m==> 03-Variants complete -> /home/cz/WGS/result/03_variants[0m
+--> STEP 3 (variants) finished OK in 4s
+
+###################################################################
+#  STEP 4  :  annotation
+#  script    :  /home/cz/WGS/scripts/04_annotate.sh
+#  started   :  2026-10-12 17:30:55
+###################################################################
+
+[1;34m==> 04-ANN (1a): Prokka annotation of the query assembly[0m
+[1;33m[WARN] prokka not installed[0m
+
+[1;34m==> 04-ANN (1b): Bakta annotation of the query assembly (COG/KEGG/GO/EC)[0m
+ERROR: database version file (version.json) not readable!
+Please check if /home/cz/WGS/work/bakta_db is the correct path. Maybe there is another 'db' subdirectory?
+   [FAIL] bakta_query (rc=1) -- see /home/cz/WGS/logs/bakta_query.log
+[1;33m[WARN] bakta failed[0m
+ERROR: database version file (version.json) not readable!
+Please check if /home/cz/WGS/work/bakta_db is the correct path. Maybe there is another 'db' subdirectory?
+   [FAIL] bakta_reference (rc=1) -- see /home/cz/WGS/logs/bakta_reference.log
+[1;33m[WARN] bakta reference failed[0m
+
+[1;34m==> 04-ANN (1c): resolve which query annotation to use downstream[0m
+  query annotation : /home/cz/WGS/result/04_annotation/transferred/query.gff3
+  query proteins   : /home/cz/WGS/result/04_annotation/transferred/query.faa
+
+[1;34m==> 04-ANN (2a): snpEff custom database + variant effect prediction[0m
+00:00:00 SnpEff version SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+00:00:00 Command: 'build'
+00:00:00 Building database for 'Bfragilis_NCTC9343'
+00:00:00 Reading configuration file '/home/cz/WGS/work/snpeff.config'. Genome: 'Bfragilis_NCTC9343'
+00:00:00 Looking for config file: '/home/cz/WGS/work/snpeff.config'
+00:00:00 Reading config file: /home/cz/WGS/work/snpeff.config
+00:00:00 done
+00:00:00 Reading GFF3 data file  : '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff'
+00:00:00 Reading file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00005' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00005' for NC_003228.3	Protein Homology	CDS	66	593	+
+	dbxref : GenBank:WP_005782842.1,GeneID:60366500
+	gbkey : CDS
+	id : cds-WP_005782842.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_010535922.1
+	locus_tag : BF9343_RS00005
+	name : WP_005782842.1
+	parent : gene-BF9343_RS00005
+	product : RNA methyltransferase
+	protein_id : WP_005782842.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 12	'NC_003228.3	Protein Homology	CDS	67	594	.	+	0	ID=cds-WP_005782842.1;Parent=gene-BF9343_RS00005;Dbxref=GenBank:WP_005782842.1,GeneID:60366500;Name=WP_005782842.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010535922.1;locus_tag=BF9343_RS00005;product=RNA methyltransferase;protein_id=WP_005782842.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00010' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00010' for NC_003228.3	Protein Homology	CDS	748	2217	+
+	dbxref : GenBank:WP_010991843.1,GeneID:60368144
+	gbkey : CDS
+	go_function : efflux transmembrane transporter activity|0015562||IEA
+	go_process : transmembrane transport|0055085||IEA
+	id : cds-WP_010991843.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_009291294.1
+	locus_tag : BF9343_RS00010
+	name : WP_010991843.1
+	ontology_term : GO:0055085,GO:0015562
+	parent : gene-BF9343_RS00010
+	product : TolC family protein
+	protein_id : WP_010991843.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 14	'NC_003228.3	Protein Homology	CDS	749	2218	.	+	0	ID=cds-WP_010991843.1;Parent=gene-BF9343_RS00010;Dbxref=GenBank:WP_010991843.1,GeneID:60368144;Name=WP_010991843.1;Ontology_term=GO:0055085,GO:0015562;gbkey=CDS;go_function=efflux transmembrane transporter activity|0015562||IEA;go_process=transmembrane transport|0055085||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_009291294.1;locus_tag=BF9343_RS00010;product=TolC family protein;protein_id=WP_010991843.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00015' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00015' for NC_003228.3	Protein Homology	CDS	2210	3181	+
+	dbxref : GenBank:WP_010991844.1,GeneID:60368573
+	gbkey : CDS
+	id : cds-WP_010991844.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005797123.1
+	locus_tag : BF9343_RS00015
+	name : WP_010991844.1
+	parent : gene-BF9343_RS00015
+	product : glycoside hydrolase family protein
+	protein_id : WP_010991844.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 16	'NC_003228.3	Protein Homology	CDS	2211	3182	.	+	0	ID=cds-WP_010991844.1;Parent=gene-BF9343_RS00015;Dbxref=GenBank:WP_010991844.1,GeneID:60368573;Name=WP_010991844.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005797123.1;locus_tag=BF9343_RS00015;product=glycoside hydrolase family protein;protein_id=WP_010991844.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00020' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00020' for NC_003228.3	Protein Homology	CDS	3195	4034	+
+	dbxref : GenBank:WP_010991845.1,GeneID:60367975
+	gbkey : CDS
+	go_function : glycosyltransferase activity|0016757||IEA
+	id : cds-WP_010991845.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_010991845.1
+	locus_tag : BF9343_RS00020
+	name : WP_010991845.1
+	ontology_term : GO:0016757
+	parent : gene-BF9343_RS00020
+	product : glycosyltransferase family 2 protein
+	protein_id : WP_010991845.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 18	'NC_003228.3	Protein Homology	CDS	3196	4035	.	+	0	ID=cds-WP_010991845.1;Parent=gene-BF9343_RS00020;Dbxref=GenBank:WP_010991845.1,GeneID:60367975;Name=WP_010991845.1;Ontology_term=GO:0016757;gbkey=CDS;go_function=glycosyltransferase activity|0016757||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010991845.1;locus_tag=BF9343_RS00020;product=glycosyltransferase family 2 protein;protein_id=WP_010991845.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00025' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00025' for NC_003228.3	Protein Homology	CDS	4068	4601	+
+	dbxref : GenBank:WP_008657827.1,GeneID:60368507
+	gbkey : CDS
+	id : cds-WP_008657827.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_008657827.1
+	locus_tag : BF9343_RS00025
+	name : WP_008657827.1
+	parent : gene-BF9343_RS00025
+	product : hypothetical protein
+	protein_id : WP_008657827.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 20	'NC_003228.3	Protein Homology	CDS	4069	4602	.	+	0	ID=cds-WP_008657827.1;Parent=gene-BF9343_RS00025;Dbxref=GenBank:WP_008657827.1,GeneID:60368507;Name=WP_008657827.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_008657827.1;locus_tag=BF9343_RS00025;product=hypothetical protein;protein_id=WP_008657827.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00030' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00030' for NC_003228.3	Protein Homology	CDS	4662	6467	+
+	dbxref : GenBank:WP_010991846.1,GeneID:60368135
+	gbkey : CDS
+	go_function : carboxylic ester hydrolase activity|0052689||IEA
+	go_process : response to antibiotic|0046677||IEA
+	id : cds-WP_010991846.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_010991846.1
+	locus_tag : BF9343_RS00030
+	name : WP_010991846.1
+	ontology_term : GO:0046677,GO:0052689
+	parent : gene-BF9343_RS00030
+	product : erythromycin esterase family protein
+	protein_id : WP_010991846.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 22	'NC_003228.3	Protein Homology	CDS	4663	6468	.	+	0	ID=cds-WP_010991846.1;Parent=gene-BF9343_RS00030;Dbxref=GenBank:WP_010991846.1,GeneID:60368135;Name=WP_010991846.1;Ontology_term=GO:0046677,GO:0052689;gbkey=CDS;go_function=carboxylic ester hydrolase activity|0052689||IEA;go_process=response to antibiotic|0046677||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010991846.1;locus_tag=BF9343_RS00030;product=erythromycin esterase family protein;protein_id=WP_010991846.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00035' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00035' for NC_003228.3	Protein Homology	CDS	6657	8468	+
+	dbxref : GenBank:WP_010991847.1,GeneID:60367872
+	gbkey : CDS
+	go_function : carboxylic ester hydrolase activity|0052689||IEA
+	go_process : response to antibiotic|0046677||IEA
+	id : cds-WP_010991847.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_010991847.1
+	locus_tag : BF9343_RS00035
+	name : WP_010991847.1
+	ontology_term : GO:0046677,GO:0052689
+	parent : gene-BF9343_RS00035
+	product : erythromycin esterase family protein
+	protein_id : WP_010991847.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 24	'NC_003228.3	Protein Homology	CDS	6658	8469	.	+	0	ID=cds-WP_010991847.1;Parent=gene-BF9343_RS00035;Dbxref=GenBank:WP_010991847.1,GeneID:60367872;Name=WP_010991847.1;Ontology_term=GO:0046677,GO:0052689;gbkey=CDS;go_function=carboxylic ester hydrolase activity|0052689||IEA;go_process=response to antibiotic|0046677||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010991847.1;locus_tag=BF9343_RS00035;product=erythromycin esterase family protein;protein_id=WP_010991847.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00040' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00040' for NC_003228.3	Protein Homology	CDS	8624	9742	+
+	dbxref : GenBank:WP_010991848.1,GeneID:60368134
+	gbkey : CDS
+	go_function : glycosyltransferase activity|0016757||IEA
+	go_process : glycoprotein biosynthetic process|0009101||IEA
+	id : cds-WP_010991848.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005814002.1
+	locus_tag : BF9343_RS00040
+	name : WP_010991848.1
+	ontology_term : GO:0009101,GO:0016757
+	parent : gene-BF9343_RS00040
+	product : glycosyltransferase family 4 protein
+	protein_id : WP_010991848.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 26	'NC_003228.3	Protein Homology	CDS	8625	9743	.	+	0	ID=cds-WP_010991848.1;Parent=gene-BF9343_RS00040;Dbxref=GenBank:WP_010991848.1,GeneID:60368134;Name=WP_010991848.1;Ontology_term=GO:0009101,GO:0016757;gbkey=CDS;go_function=glycosyltransferase activity|0016757||IEA;go_process=glycoprotein biosynthetic process|0009101||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005814002.1;locus_tag=BF9343_RS00040;product=glycosyltransferase family 4 protein;protein_id=WP_010991848.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00045' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00045' for NC_003228.3	Protein Homology	CDS	9723	10391	+
+	dbxref : GenBank:WP_005814001.1,GeneID:60367860
+	gbkey : CDS
+	id : cds-WP_005814001.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_008657834.1
+	locus_tag : BF9343_RS00045
+	name : WP_005814001.1
+	parent : gene-BF9343_RS00045
+	product : glycosyltransferase family 25 protein
+	protein_id : WP_005814001.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 28	'NC_003228.3	Protein Homology	CDS	9724	10392	.	+	0	ID=cds-WP_005814001.1;Parent=gene-BF9343_RS00045;Dbxref=GenBank:WP_005814001.1,GeneID:60367860;Name=WP_005814001.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_008657834.1;locus_tag=BF9343_RS00045;product=glycosyltransferase family 25 protein;protein_id=WP_005814001.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00050' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00050' for NC_003228.3	Protein Homology	CDS	10388	11746	+
+	dbxref : GenBank:WP_005797109.1,GeneID:60368631
+	gbkey : CDS
+	id : cds-WP_005797109.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005813999.1
+	locus_tag : BF9343_RS00050
+	name : WP_005797109.1
+	parent : gene-BF9343_RS00050
+	product : HlyD family efflux transporter periplasmic adaptor subunit
+	protein_id : WP_005797109.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 30	'NC_003228.3	Protein Homology	CDS	10389	11747	.	+	0	ID=cds-WP_005797109.1;Parent=gene-BF9343_RS00050;Dbxref=GenBank:WP_005797109.1,GeneID:60368631;Name=WP_005797109.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005813999.1;locus_tag=BF9343_RS00050;product=HlyD family efflux transporter periplasmic adaptor subunit;protein_id=WP_005797109.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00055' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00055' for NC_003228.3	Protein Homology	CDS	11751	13934	+
+	dbxref : GenBank:WP_005813997.1,GeneID:60368040
+	gbkey : CDS
+	go_component : ATP-binding cassette (ABC) transporter complex%2C substrate-binding subunit-containing|0055052||IEA
+	go_function : ATP binding|0005524||IEA,peptidase activity|0008233||IEA,ATP hydrolysis activity|0016887||IEA,ATPase-coupled transmembrane transporter activity|0042626||IEA,ABC-type transporter activity|0140359||IEA
+	id : cds-WP_005813997.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_011201835.1
+	locus_tag : BF9343_RS00055
+	name : WP_005813997.1
+	ontology_term : GO:0005524,GO:0008233,GO:0016887,GO:0042626,GO:0140359,GO:0055052
+	parent : gene-BF9343_RS00055
+	product : peptidase domain-containing ABC transporter
+	protein_id : WP_005813997.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 32	'NC_003228.3	Protein Homology	CDS	11752	13935	.	+	0	ID=cds-WP_005813997.1;Parent=gene-BF9343_RS00055;Dbxref=GenBank:WP_005813997.1,GeneID:60368040;Name=WP_005813997.1;Ontology_term=GO:0005524,GO:0008233,GO:0016887,GO:0042626,GO:0140359,GO:0055052;gbkey=CDS;go_component=ATP-binding cassette (ABC) transporter complex%2C substrate-binding subunit-containing|0055052||IEA;go_function=ATP binding|0005524||IEA,peptidase activity|0008233||IEA,ATP hydrolysis activity|0016887||IEA,ATPase-coupled transmembrane transporter activity|0042626||IEA,ABC-type transporter activity|0140359||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_011201835.1;locus_tag=BF9343_RS00055;product=peptidase domain-containing ABC transporter;protein_id=WP_005813997.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00060' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00060' for NC_003228.3	Protein Homology	CDS	14051	14650	-
+	dbxref : GenBank:WP_005802042.1,GeneID:60368143
+	gbkey : CDS
+	id : cds-WP_005802042.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005797105.1
+	locus_tag : BF9343_RS00060
+	name : WP_005802042.1
+	parent : gene-BF9343_RS00060
+	product : DUF4294 domain-containing protein
+	protein_id : WP_005802042.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 34	'NC_003228.3	Protein Homology	CDS	14052	14651	.	-	0	ID=cds-WP_005802042.1;Parent=gene-BF9343_RS00060;Dbxref=GenBank:WP_005802042.1,GeneID:60368143;Name=WP_005802042.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005797105.1;locus_tag=BF9343_RS00060;product=DUF4294 domain-containing protein;protein_id=WP_005802042.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00065' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00065' for NC_003228.3	Protein Homology	CDS	14770	16797	+
+	dbxref : GenBank:WP_010991850.1,GeneID:60367843
+	gbkey : CDS
+	id : cds-WP_010991850.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005797103.1
+	locus_tag : BF9343_RS00065
+	name : WP_010991850.1
+	parent : gene-BF9343_RS00065
+	product : helix-hairpin-helix domain-containing protein
+	protein_id : WP_010991850.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 36	'NC_003228.3	Protein Homology	CDS	14771	16798	.	+	0	ID=cds-WP_010991850.1;Parent=gene-BF9343_RS00065;Dbxref=GenBank:WP_010991850.1,GeneID:60367843;Name=WP_010991850.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005797103.1;locus_tag=BF9343_RS00065;product=helix-hairpin-helix domain-containing protein;protein_id=WP_010991850.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00070' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00070' for NC_003228.3	Protein Homology	CDS	16855	17628	+
+	dbxref : GenBank:WP_010991851.1,GeneID:60368136
+	gbkey : CDS
+	go_function : catalytic activity|0003824||IEA,4 iron%2C 4 sulfur cluster binding|0051539||IEA
+	id : cds-WP_010991851.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_011108683.1
+	locus_tag : BF9343_RS00070
+	name : WP_010991851.1
+	ontology_term : GO:0003824,GO:0051539
+	parent : gene-BF9343_RS00070
+	product : radical SAM protein
+	protein_id : WP_010991851.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 38	'NC_003228.3	Protein Homology	CDS	16856	17629	.	+	0	ID=cds-WP_010991851.1;Parent=gene-BF9343_RS00070;Dbxref=GenBank:WP_010991851.1,GeneID:60368136;Name=WP_010991851.1;Ontology_term=GO:0003824,GO:0051539;gbkey=CDS;go_function=catalytic activity|0003824||IEA,4 iron%2C 4 sulfur cluster binding|0051539||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_011108683.1;locus_tag=BF9343_RS00070;product=radical SAM protein;protein_id=WP_010991851.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00075' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00075' for NC_003228.3	Protein Homology	CDS	17670	18179	+
+	dbxref : GenBank:WP_010991852.1,GeneID:60368662
+	gbkey : CDS
+	go_function : FMN binding|0010181||IEA,oxidoreductase activity|0016491||IEA
+	id : cds-WP_010991852.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_010991852.1
+	locus_tag : BF9343_RS00075
+	name : WP_010991852.1
+	ontology_term : GO:0010181,GO:0016491
+	parent : gene-BF9343_RS00075
+	product : flavin reductase family protein
+	protein_id : WP_010991852.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 40	'NC_003228.3	Protein Homology	CDS	17671	18180	.	+	0	ID=cds-WP_010991852.1;Parent=gene-BF9343_RS00075;Dbxref=GenBank:WP_010991852.1,GeneID:60368662;Name=WP_010991852.1;Ontology_term=GO:0010181,GO:0016491;gbkey=CDS;go_function=FMN binding|0010181||IEA,oxidoreductase activity|0016491||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010991852.1;locus_tag=BF9343_RS00075;product=flavin reductase family protein;protein_id=WP_010991852.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00080' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00080' for NC_003228.3	Protein Homology	CDS	18197	19810	+
+	dbxref : GenBank:WP_010991853.1,GeneID:60367797
+	gbkey : CDS
+	go_function : arylsulfatase activity|0004065||IEA,phosphoric diester hydrolase activity|0008081||IEA,metal ion binding|0046872||IEA
+	id : cds-WP_010991853.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005783562.1
+	locus_tag : BF9343_RS00080
+	name : WP_010991853.1
+	ontology_term : GO:0004065,GO:0008081,GO:0046872
+	parent : gene-BF9343_RS00080
+	product : arylsulfatase
+	protein_id : WP_010991853.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 42	'NC_003228.3	Protein Homology	CDS	18198	19811	.	+	0	ID=cds-WP_010991853.1;Parent=gene-BF9343_RS00080;Dbxref=GenBank:WP_010991853.1,GeneID:60367797;Name=WP_010991853.1;Ontology_term=GO:0004065,GO:0008081,GO:0046872;gbkey=CDS;go_function=arylsulfatase activity|0004065||IEA,phosphoric diester hydrolase activity|0008081||IEA,metal ion binding|0046872||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005783562.1;locus_tag=BF9343_RS00080;product=arylsulfatase;protein_id=WP_010991853.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00085' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00085' for NC_003228.3	Protein Homology	CDS	19914	20540	-
+	dbxref : GenBank:WP_005797095.1,GeneID:60368132
+	gbkey : CDS
+	go_component : membrane|0016020||IEA
+	id : cds-WP_005797095.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_008769102.1
+	locus_tag : BF9343_RS00085
+	name : WP_005797095.1
+	ontology_term : GO:0016020
+	parent : gene-BF9343_RS00085
+	product : PepSY-associated TM helix domain-containing protein
+	protein_id : WP_005797095.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 44	'NC_003228.3	Protein Homology	CDS	19915	20541	.	-	0	ID=cds-WP_005797095.1;Parent=gene-BF9343_RS00085;Dbxref=GenBank:WP_005797095.1,GeneID:60368132;Name=WP_005797095.1;Ontology_term=GO:0016020;gbkey=CDS;go_component=membrane|0016020||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_008769102.1;locus_tag=BF9343_RS00085;product=PepSY-associated TM helix domain-containing protein;protein_id=WP_005797095.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00090' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00090' for NC_003228.3	Protein Homology	CDS	20541	22955	-
+	dbxref : GenBank:WP_005783566.1,GeneID:60369852
+	gbkey : CDS
+	go_component : cell outer membrane|0009279||IEA
+	go_function : siderophore-iron transmembrane transporter activity|0015343||IEA,signaling receptor activity|0038023||IEA
+	go_process : siderophore transport|0015891||IEA
+	id : cds-WP_005783566.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005797093.1
+	locus_tag : BF9343_RS00090
+	name : WP_005783566.1
+	ontology_term : GO:0015891,GO:0015343,GO:0038023,GO:0009279
+	parent : gene-BF9343_RS00090
+	product : TonB-dependent receptor
+	protein_id : WP_005783566.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 46	'NC_003228.3	Protein Homology	CDS	20542	22956	.	-	0	ID=cds-WP_005783566.1;Parent=gene-BF9343_RS00090;Dbxref=GenBank:WP_005783566.1,GeneID:60369852;Name=WP_005783566.1;Ontology_term=GO:0015891,GO:0015343,GO:0038023,GO:0009279;gbkey=CDS;go_component=cell outer membrane|0009279||IEA;go_function=siderophore-iron transmembrane transporter activity|0015343||IEA,signaling receptor activity|0038023||IEA;go_process=siderophore transport|0015891||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005797093.1;locus_tag=BF9343_RS00090;product=TonB-dependent receptor;protein_id=WP_005783566.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00095' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00095' for NC_003228.3	Protein Homology	CDS	23156	24835	-
+	dbxref : GenBank:WP_010991855.1,GeneID:60368239
+	gbkey : CDS
+	go_component : membrane|0016020||IEA
+	go_function : transmembrane transporter activity|0022857||IEA
+	id : cds-WP_010991855.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_008657841.1
+	locus_tag : BF9343_RS00095
+	name : WP_010991855.1
+	ontology_term : GO:0022857,GO:0016020
+	parent : gene-BF9343_RS00095
+	product : SulP family inorganic anion transporter
+	protein_id : WP_010991855.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 48	'NC_003228.3	Protein Homology	CDS	23157	24836	.	-	0	ID=cds-WP_010991855.1;Parent=gene-BF9343_RS00095;Dbxref=GenBank:WP_010991855.1,GeneID:60368239;Name=WP_010991855.1;Ontology_term=GO:0022857,GO:0016020;gbkey=CDS;go_component=membrane|0016020||IEA;go_function=transmembrane transporter activity|0022857||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_008657841.1;locus_tag=BF9343_RS00095;product=SulP family inorganic anion transporter;protein_id=WP_010991855.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00100' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00100' for NC_003228.3	Protein Homology	CDS	25096	25674	+
+	dbxref : GenBank:WP_005783570.1,GeneID:60368286
+	gbkey : CDS
+	gene : rbr
+	go_function : electron transfer activity|0009055||IEA,NADH peroxidase activity|0016692||IEA
+	id : cds-WP_005783570.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_007216470.1
+	locus_tag : BF9343_RS00100
+	name : WP_005783570.1
+	ontology_term : GO:0009055,GO:0016692
+	parent : gene-BF9343_RS00100
+	product : rubrerythrin
+	protein_id : WP_005783570.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 50	'NC_003228.3	Protein Homology	CDS	25097	25675	.	+	0	ID=cds-WP_005783570.1;Parent=gene-BF9343_RS00100;Dbxref=GenBank:WP_005783570.1,GeneID:60368286;Name=WP_005783570.1;Ontology_term=GO:0009055,GO:0016692;gbkey=CDS;gene=rbr;go_function=electron transfer activity|0009055||IEA,NADH peroxidase activity|0016692||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_007216470.1;locus_tag=BF9343_RS00100;product=rubrerythrin;protein_id=WP_005783570.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00105' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00105' for NC_003228.3	Protein Homology	CDS	25758	27329	-
+	dbxref : GenBank:WP_010991856.1,GeneID:60367856
+	gbkey : CDS
+	gene : nadB
+	go_function : L-aspartate oxidase activity|0008734||IEA
+	go_process : NAD+ biosynthetic process|0009435||IEA
+	id : cds-WP_010991856.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_010991856.1
+	locus_tag : BF9343_RS00105
+	name : WP_010991856.1
+	ontology_term : GO:0009435,GO:0008734
+	parent : gene-BF9343_RS00105
+	product : L-aspartate oxidase
+	protein_id : WP_010991856.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 52	'NC_003228.3	Protein Homology	CDS	25759	27330	.	-	0	ID=cds-WP_010991856.1;Parent=gene-BF9343_RS00105;Dbxref=GenBank:WP_010991856.1,GeneID:60367856;Name=WP_010991856.1;Ontology_term=GO:0009435,GO:0008734;gbkey=CDS;gene=nadB;go_function=L-aspartate oxidase activity|0008734||IEA;go_process=NAD+ biosynthetic process|0009435||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_010991856.1;locus_tag=BF9343_RS00105;product=L-aspartate oxidase;protein_id=WP_010991856.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00110' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00110' for NC_003228.3	Protein Homology	CDS	27437	27835	+
+	dbxref : GenBank:WP_005783575.1,GeneID:60368532
+	gbkey : CDS
+	go_process : bacteriocin immunity|0030153||IEA
+	id : cds-WP_005783575.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005802032.1
+	locus_tag : BF9343_RS00110
+	name : WP_005783575.1
+	ontology_term : GO:0030153
+	parent : gene-BF9343_RS00110
+	product : PH domain-containing protein
+	protein_id : WP_005783575.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 54	'NC_003228.3	Protein Homology	CDS	27438	27836	.	+	0	ID=cds-WP_005783575.1;Parent=gene-BF9343_RS00110;Dbxref=GenBank:WP_005783575.1,GeneID:60368532;Name=WP_005783575.1;Ontology_term=GO:0030153;gbkey=CDS;go_process=bacteriocin immunity|0030153||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005802032.1;locus_tag=BF9343_RS00110;product=PH domain-containing protein;protein_id=WP_005783575.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00115' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00115' for NC_003228.3	Protein Homology	CDS	27842	29185	+
+	dbxref : GenBank:WP_005797088.1,GeneID:60368551
+	gbkey : CDS
+	gene : lpdA
+	go_function : dihydrolipoyl dehydrogenase (NADH) activity|0004148||IEA,flavin adenine dinucleotide binding|0050660||IEA
+	id : cds-WP_005797088.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005797088.1
+	locus_tag : BF9343_RS00115
+	name : WP_005797088.1
+	ontology_term : GO:0004148,GO:0050660
+	parent : gene-BF9343_RS00115
+	product : dihydrolipoyl dehydrogenase
+	protein_id : WP_005797088.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 56	'NC_003228.3	Protein Homology	CDS	27843	29186	.	+	0	ID=cds-WP_005797088.1;Parent=gene-BF9343_RS00115;Dbxref=GenBank:WP_005797088.1,GeneID:60368551;Name=WP_005797088.1;Ontology_term=GO:0004148,GO:0050660;gbkey=CDS;gene=lpdA;go_function=dihydrolipoyl dehydrogenase (NADH) activity|0004148||IEA,flavin adenine dinucleotide binding|0050660||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005797088.1;locus_tag=BF9343_RS00115;product=dihydrolipoyl dehydrogenase;protein_id=WP_005797088.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00120' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00120' for NC_003228.3	Protein Homology	CDS	29289	30698	+
+	dbxref : GenBank:WP_010991857.1,GeneID:60368214
+	gbkey : CDS
+	gene : dacB
+	go_function : endopeptidase activity|0004175||IEA,serine-type D-Ala-D-Ala carboxypeptidase activity|0009002||IEA
+	go_process : peptidoglycan biosynthetic process|0009252||IEA
+	id : cds-WP_010991857.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_009291305.1
+	locus_tag : BF9343_RS00120
+	name : WP_010991857.1
+	ontology_term : GO:0009252,GO:0004175,GO:0009002
+	parent : gene-BF9343_RS00120
+	product : D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine endopeptidase
+	protein_id : WP_010991857.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 58	'NC_003228.3	Protein Homology	CDS	29290	30699	.	+	0	ID=cds-WP_010991857.1;Parent=gene-BF9343_RS00120;Dbxref=GenBank:WP_010991857.1,GeneID:60368214;Name=WP_010991857.1;Ontology_term=GO:0009252,GO:0004175,GO:0009002;gbkey=CDS;gene=dacB;go_function=endopeptidase activity|0004175||IEA,serine-type D-Ala-D-Ala carboxypeptidase activity|0009002||IEA;go_process=peptidoglycan biosynthetic process|0009252||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_009291305.1;locus_tag=BF9343_RS00120;product=D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine endopeptidase;protein_id=WP_010991857.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00125' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00125' for NC_003228.3	Protein Homology	CDS	30774	32273	-
+	dbxref : GenBank:WP_005797086.1,GeneID:60368242
+	gbkey : CDS
+	go_function : acetate CoA-transferase activity|0008775||IEA
+	go_process : acetate metabolic process|0006083||IEA,acetyl-CoA metabolic process|0006084||IEA
+	id : cds-WP_005797086.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_005797086.1
+	locus_tag : BF9343_RS00125
+	name : WP_005797086.1
+	ontology_term : GO:0006083,GO:0006084,GO:0008775
+	parent : gene-BF9343_RS00125
+	product : acetyl-CoA hydrolase/transferase family protein
+	protein_id : WP_005797086.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 60	'NC_003228.3	Protein Homology	CDS	30775	32274	.	-	0	ID=cds-WP_005797086.1;Parent=gene-BF9343_RS00125;Dbxref=GenBank:WP_005797086.1,GeneID:60368242;Name=WP_005797086.1;Ontology_term=GO:0006083,GO:0006084,GO:0008775;gbkey=CDS;go_function=acetate CoA-transferase activity|0008775||IEA;go_process=acetate metabolic process|0006083||IEA,acetyl-CoA metabolic process|0006084||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_005797086.1;locus_tag=BF9343_RS00125;product=acetyl-CoA hydrolase/transferase family protein;protein_id=WP_005797086.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Exon's parent 'gene-BF9343_RS00130' is a Gene instead of a transcript. Created transcript 'TRANSCRIPT_gene-BF9343_RS00130' for NC_003228.3	Protein Homology	CDS	32310	32639	-
+	dbxref : GenBank:WP_005783583.1,GeneID:60368567
+	gbkey : CDS
+	id : cds-WP_005783583.1
+	inference : COORDINATES: similar to AA sequence:RefSeq:WP_008769105.1
+	locus_tag : BF9343_RS00130
+	name : WP_005783583.1
+	parent : gene-BF9343_RS00130
+	product : hypothetical protein
+	protein_id : WP_005783583.1
+	source : Protein Homology
+	transl_table : 11
+	type : CDS
+. File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 62	'NC_003228.3	Protein Homology	CDS	32311	32640	.	-	0	ID=cds-WP_005783583.1;Parent=gene-BF9343_RS00130;Dbxref=GenBank:WP_005783583.1,GeneID:60368567;Name=WP_005783583.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_008769105.1;locus_tag=BF9343_RS00130;product=hypothetical protein;protein_id=WP_005783583.1;transl_table=11'
+WARNING_TRANSCRIPT_NOT_FOUND: Too many 'WARNING_TRANSCRIPT_NOT_FOUND' warnings, no further warnings will be shown.
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS23850' (NC_003228.3:127113-127367). Created new gene 'null.2' (NC_003228.3:127113-127367). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 236	'NC_003228.3	RefSeq	pseudogene	127113	127367	.	+	.	ID=gene-BF9343_RS23850;Dbxref=GeneID:92940697;Name=BF9343_RS23850;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS23850;partial=true;pseudo=true;start_range=.,127113'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS24135' (NC_003228.3:209195-209420). Created new gene 'null.3' (NC_003228.3:209195-209420). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 368	'NC_003228.3	RefSeq	pseudogene	209195	209420	.	+	.	ID=gene-BF9343_RS24135;Dbxref=GeneID:92940741;Name=BF9343_RS24135;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS24135;pseudo=true'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS23550' (NC_003228.3:361328-361553). Created new gene 'null.4' (NC_003228.3:361328-361553). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 589	'NC_003228.3	RefSeq	pseudogene	361328	361553	.	+	.	ID=gene-BF9343_RS23550;Dbxref=GeneID:92940651;Name=BF9343_RS23550;end_range=361553,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS23550;partial=true;pseudo=true;start_range=.,361328'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS01605' (NC_003228.3:417116-417972). Created new gene 'null.5' (NC_003228.3:417116-417972). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 660	'NC_003228.3	RefSeq	pseudogene	417116	417972	.	+	.	ID=gene-BF9343_RS01605;Dbxref=GeneID:60368713;Name=BF9343_RS01605;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS01605;old_locus_tag=BF9343_0337;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS01905' (NC_003228.3:493869-494157). Created new gene 'null.6' (NC_003228.3:493869-494157). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 785	'NC_003228.3	RefSeq	pseudogene	493869	494157	.	+	.	ID=gene-BF9343_RS01905;Dbxref=GeneID:60369436;Name=BF9343_RS01905;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS01905;old_locus_tag=BF9343_0394;partial=true;pseudo=true;start_range=.,493869'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS02095' (NC_003228.3:527950-530585). Created new gene 'null.7' (NC_003228.3:527950-530585). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 859	'NC_003228.3	RefSeq	pseudogene	527950	530585	.	-	.	ID=gene-BF9343_RS02095;Dbxref=GeneID:60368638;Name=BF9343_RS02095;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS02095;old_locus_tag=BF9343_0431;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS24245' (NC_003228.3:538950-539771). Created new gene 'null.8' (NC_003228.3:538950-539771). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 883	'NC_003228.3	RefSeq	pseudogene	538950	539771	.	-	.	ID=gene-BF9343_RS24245;Dbxref=GeneID:96991327;Name=BF9343_RS24245;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS24245;partial=true;pseudo=true;start_range=.,538950'
+.....WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS23880' (NC_003228.3:1181029-1181127). Created new gene 'null.9' (NC_003228.3:1181029-1181127). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 1822	'NC_003228.3	RefSeq	pseudogene	1181029	1181127	.	-	.	ID=gene-BF9343_RS23880;Dbxref=GeneID:92940702;Name=BF9343_RS23880;end_range=1181127,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS23880;partial=true;pseudo=true;start_range=.,1181029'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS24255' (NC_003228.3:1342530-1342598). Created new gene 'null.10' (NC_003228.3:1342530-1342598). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2069	'NC_003228.3	RefSeq	pseudogene	1342530	1342598	.	+	.	ID=gene-BF9343_RS24255;Dbxref=GeneID:96991329;Name=BF9343_RS24255;end_range=1342598,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS24255;partial=true;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS05085' (NC_003228.3:1346598-1346750). Created new gene 'null.11' (NC_003228.3:1346598-1346750). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2079	'NC_003228.3	RefSeq	pseudogene	1346598	1346750	.	-	.	ID=gene-BF9343_RS05085;Dbxref=GeneID:60368205;Name=BF9343_RS05085;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS05085;partial=true;pseudo=true;start_range=.,1346598'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS05135' (NC_003228.3:1360028-1360282). Created new gene 'null.12' (NC_003228.3:1360028-1360282). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2097	'NC_003228.3	RefSeq	pseudogene	1360028	1360282	.	+	.	ID=gene-BF9343_RS05135;Dbxref=GeneID:60368247;Name=BF9343_RS05135;end_range=1360282,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS05135;old_locus_tag=BF9343_1051;partial=true;pseudo=true'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS05700' (NC_003228.3:1488014-1488248). Created new gene 'null.13' (NC_003228.3:1488014-1488248). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2325	'NC_003228.3	RefSeq	pseudogene	1488014	1488248	.	-	.	ID=gene-BF9343_RS05700;Dbxref=GeneID:60369224;Name=BF9343_RS05700;end_range=1488248,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS05700;old_locus_tag=BF9343_1166;partial=true;pseudo=true'
+..WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS24160' (NC_003228.3:1634007-1634194). Created new gene 'null.14' (NC_003228.3:1634007-1634194). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2575	'NC_003228.3	RefSeq	pseudogene	1634007	1634194	.	-	.	ID=gene-BF9343_RS24160;Dbxref=GeneID:92940746;Name=BF9343_RS24160;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS24160;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS06435' (NC_003228.3:1659379-1660530). Created new gene 'null.15' (NC_003228.3:1659379-1660530). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2628	'NC_003228.3	RefSeq	pseudogene	1659379	1660530	.	+	.	ID=gene-BF9343_RS06435;Dbxref=GeneID:60367247;Name=BF9343_RS06435;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS06435;old_locus_tag=BF9343_1323;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS06655' (NC_003228.3:1708538-1709787). Created new gene 'null.16' (NC_003228.3:1708538-1709787). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2712	'NC_003228.3	RefSeq	pseudogene	1708538	1709787	.	+	.	ID=gene-BF9343_RS06655;Dbxref=GeneID:60367400;Name=BF9343_RS06655;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS06655;old_locus_tag=BF9343_1368;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS06690' (NC_003228.3:1718628-1719977). Created new gene 'null.17' (NC_003228.3:1718628-1719977). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2726	'NC_003228.3	RefSeq	pseudogene	1718628	1719977	.	+	.	ID=gene-BF9343_RS06690;Dbxref=GeneID:60368900;Name=BF9343_RS06690;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS06690;old_locus_tag=BF9343_1376;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS22295' (NC_003228.3:1726326-1726659). Created new gene 'null.18' (NC_003228.3:1726326-1726659). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2736	'NC_003228.3	RefSeq	pseudogene	1726326	1726659	.	-	.	ID=gene-BF9343_RS22295;Dbxref=GeneID:60368905;Name=BF9343_RS22295;end_range=1726659,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS22295;partial=true;pseudo=true;start_range=.,1726326'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS07035' (NC_003228.3:1788555-1789295). Created new gene 'null.19' (NC_003228.3:1788555-1789295). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2860	'NC_003228.3	RefSeq	pseudogene	1788555	1789295	.	+	.	ID=gene-BF9343_RS07035;Dbxref=GeneID:60369001;Name=BF9343_RS07035;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS07035;old_locus_tag=BF9343_1451;partial=true;pseudo=true;start_range=.,1788555'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS07065' (NC_003228.3:1794735-1795388). Created new gene 'null.20' (NC_003228.3:1794735-1795388). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 2872	'NC_003228.3	RefSeq	pseudogene	1794735	1795388	.	-	.	ID=gene-BF9343_RS07065;Dbxref=GeneID:60369005;Name=BF9343_RS07065;end_range=1795388,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS07065;old_locus_tag=BF9343_1457;partial=true;pseudo=true;start_range=.,1794735'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS07750' (NC_003228.3:1956002-1956364). Created new gene 'null.21' (NC_003228.3:1956002-1956364). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 3147	'NC_003228.3	RefSeq	pseudogene	1956002	1956364	.	-	.	ID=gene-BF9343_RS07750;Dbxref=GeneID:60369962;Name=BF9343_RS07750;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS07750;old_locus_tag=BF9343_1599;partial=true;pseudo=true;start_range=.,1956002'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS07935' (NC_003228.3:1999994-2003323). Created new gene 'null.22' (NC_003228.3:1999994-2003323). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 3224	'NC_003228.3	RefSeq	pseudogene	1999994	2003323	.	+	.	ID=gene-BF9343_RS07935;Dbxref=GeneID:60369589;Name=BF9343_RS07935;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS07935;old_locus_tag=BF9343_1635;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS23915' (NC_003228.3:2016252-2016347). Created new gene 'null.23' (NC_003228.3:2016252-2016347). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 3236	'NC_003228.3	RefSeq	pseudogene	2016252	2016347	.	+	.	ID=gene-BF9343_RS23915;Dbxref=GeneID:92940707;Name=BF9343_RS23915;end_range=2016347,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS23915;partial=true;pseudo=true'
+WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS23620' (NC_003228.3:2016453-2016701). Created new gene 'null.24' (NC_003228.3:2016453-2016701). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 3238	'NC_003228.3	RefSeq	pseudogene	2016453	2016701	.	-	.	ID=gene-BF9343_RS23620;Dbxref=GeneID:92940664;Name=BF9343_RS23620;end_range=2016701,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS23620;old_locus_tag=BF9343_1641;partial=true;pseudo=true'
+.WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS08350' (NC_003228.3:2078766-2079971). Created new gene 'null.25' (NC_003228.3:2078766-2079971). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 3396	'NC_003228.3	RefSeq	pseudogene	2078766	2079971	.	-	.	ID=gene-BF9343_RS08350;Dbxref=GeneID:60368463;Name=BF9343_RS08350;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS08350;old_locus_tag=BF9343_1714;partial=true;pseudo=true;start_range=.,2078766'
+..WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS09515' (NC_003228.3:2378646-2379750). Created new gene 'null.26' (NC_003228.3:2378646-2379750). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 3872	'NC_003228.3	RefSeq	pseudogene	2378646	2379750	.	+	.	ID=gene-BF9343_RS09515;Dbxref=GeneID:60366244;Name=BF9343_RS09515;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS09515;old_locus_tag=BF9343_1950;pseudo=true'
+....WARNING_GENE_NOT_FOUND: Gene 'null' (NC_003228.3:42808-43641) does not include 'gene-BF9343_RS23955' (NC_003228.3:2797745-2798056). Created new gene 'null.27' (NC_003228.3:2797745-2798056). File '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/genes.gff' line 4622	'NC_003228.3	RefSeq	pseudogene	2797745	2798056	.	-	.	ID=gene-BF9343_RS23955;Dbxref=GeneID:92940713;Name=BF9343_RS23955;end_range=2798056,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=BF9343_RS23955;partial=true;pseudo=true'
+WARNING_GENE_NOT_FOUND: Too many 'WARNING_GENE_NOT_FOUND' warnings, no further warnings will be shown.
+......................00:00:00 
+	Total: 4510 markers added.
+00:00:00 Create exons from CDS (if needed): 
+.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................00:00:00 Exons created for 4230 transcripts.
+00:00:00 Deleting redundant exons (if needed): 
+00:00:00 	Total transcripts with deleted exons: 0
+00:00:00 Collapsing zero length introns (if needed): 
+00:00:00 	Total collapsed transcripts: 0
+00:00:00 	Reading sequences   :
+00:00:00 	FASTA file: '/home/cz/WGS/work/snpeff_data/genomes/Bfragilis_NCTC9343.fa' not found.
+00:00:00 	Reading FASTA file: '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/sequences.fa'
+00:00:00 		Reading sequence 'NC_003228.3', length: 5205140
+00:00:00 		Adding genomic sequences to genes: 
+00:00:00 	Done (3842 sequences added).
+00:00:00 		Adding genomic sequences to exons: 
+00:00:00 	Done (4278 sequences added, 0 ignored).
+00:00:00 		Reading sequence 'NC_006873.1', length: 36560
+00:00:00 		Adding genomic sequences to genes: 
+00:00:00 	Done (37 sequences added).
+00:00:00 		Adding genomic sequences to exons: 
+00:00:00 	Done (47 sequences added, 0 ignored).
+00:00:00 	Total: 4325 sequences added, 0 sequences ignored.
+00:00:00 Finishing up genome
+00:00:00 Adjusting transcripts: 
+00:00:00 Adjusting genes: 
+00:00:00 Adjusting chromosomes lengths: 
+00:00:00 Ranking exons: 
+00:00:00 Create UTRs from CDS (if needed): 
+00:00:00 Correcting exons based on frame information.
+	
+WARNING_FRAMES_ZERO: All frames are zero! This seems rather odd, please check that 'frame' information in your 'genes' file is accurate.
+00:00:00 
+00:00:00 Remove empty chromosomes: 
+00:00:00 Marking as 'coding' from CDS information: 
+00:00:00 Done: 0 transcripts marked
+00:00:00 
+00:00:00 #-----------------------------------------------
+# Genome name                : 'Bacteroides fragilis NCTC9343'
+# Genome version             : 'Bfragilis_NCTC9343'
+# Genome ID                  : 'Bfragilis_NCTC9343[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 4326
+# Protein coding genes       : 4233
+#-----------------------------------------------
+# Transcripts                : 4324
+# Avg. transcripts per gene  : 1.00
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 4233
+#              Length errors :     57 ( 1.35% )
+#  STOP codons in CDS errors :     13 ( 0.31% )
+#         START codon errors :    204 ( 4.82% )
+#        STOP codon warnings :     16 ( 0.38% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    204 ( 4.82% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 4231
+# Exons                      : 4325
+# Exons with sequence        : 4325
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 1.00
+# WARNING                    : No mitochondrion chromosome found
+#-----------------------------------------------
+# Number of chromosomes      : 2
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'NC_003228.3'	5205140	Standard
+#		'NC_006873.1'	36560	Standard
+#-----------------------------------------------
+
+	00:00:01 Caracterizing exons by splicing (stage 1) : 
+....
+	00:00:01 Caracterizing exons by splicing (stage 2) : 
+....00:00:01 done.
+00:00:01 [Optional] Rare amino acid annotations
+WARNING_FILE_NOT_FOUND: Rare Amino Acid analysis: Cannot read protein sequence file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/protein.fa', nothing done.
+00:00:01 Saving database
+00:00:02 Saving sequences for chromosome 'NC_003228.3' to file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/sequence.NC_003228.3.bin'
+00:00:03 Saving sequences for small chromosmes to file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/sequence.bin'
+00:00:03 [Optional] Reading regulation elements: GFF
+WARNING_FILE_NOT_FOUND: Cannot read optional regulation file '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/regulation.gff', nothing done.
+00:00:03 [Optional] Reading regulation elements: BED 
+00:00:03 Cannot find optional regulation dir '/home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/regulation.bed/', nothing done.
+00:00:03 [Optional] Reading motifs: GFF
+WARNING_FILE_NOT_FOUND: Cannot open PWMs file /home/cz/WGS/work/snpeff_data/Bfragilis_NCTC9343/pwms.bin. Nothing done
+00:00:03 Done
+00:00:03 Done.
+   [ok]   snpeff_build
+   [ok]   snpeff_annotate
+   [ok]   snpeff_genes
+
+[1;34m==> 04-ANN (2b): bcftools csq (independent consequence caller)[0m
+   [ok]   bcftools_csq
+
+[1;34m==> 04-ANN (2c): allele-aware custom annotation (reference + query protein)[0m
+[annot] 4 variants annotated; 3 genes affected
+[annot] effects: {'frameshift_variant': 2, 'upstream_gene_variant': 1, 'missense_variant': 1}
+[annot] impacts: {'HIGH': 2, 'LOW': 1, 'MODERATE': 1}
+[annot] wrote /home/cz/WGS/result/04_annotation/variant_effect/variant_annotation.tsv, /home/cz/WGS/result/04_annotation/variant_effect/gene_impact.tsv, /home/cz/WGS/result/04_annotation/variant_effect/affected_genes.faa(3 seqs)
+
+[1;34m==> 04-ANN (2d): full query annotation by alignment projection[0m
+[transfer] reference_CDS=4231, projected_and_written=4231, identical_protein=4226, protein_differs=5, query_ORF_restored=2, query_ORF_disrupted=0, sequence_differs_but_intact_in_both=3, disrupted_in_both=0, partial_projection=0, non_coding_transferred=94, min_projection_fraction=0.9
+
+[1;34m==> 04-ANN (3): reference vs query gene-content comparison[0m
+[genecontent] reference CDS: 4231, query CDS: 4231
+[genecontent] covered reference positions: {'NC_003228.3': 5205026, 'NC_006873.1': 36560}
+[genecontent] covered query positions    : {'NZ_CP036555.1': 8, 'NZ_CP036556.1': 2}
+[genecontent] protein identity for 4199 query proteins
+[genecontent] reference genes absent/partial in query: 0; query genes absent/partial in reference: 43
+
+[1;34m==> 04-Annotation complete -> /home/cz/WGS/result/04_annotation[0m
+--> STEP 4 (annotation) finished OK in 59s
+
+###################################################################
+#  STEP 5  :  functional
+#  script    :  /home/cz/WGS/scripts/05_functional.sh
+#  started   :  2026-10-12 17:31:54
+###################################################################
+
+[1;34m==> 05-FUN (1): ABRicate screens on both genomes[0m
+[1;33m[WARN] abricate not installed[0m
+
+[1;34m==> 05-FUN (2): NCBI AMRFinderPlus on both genomes[0m
+  AMRFinderPlus database: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/
+
+[1;34m==> 05-FUN (3): curated B. fragilis determinant scan (both proteomes)[0m
+  using query annotation: /home/cz/WGS/result/04_annotation/transferred/query.gff3
+[curated] catalogue=39, ref genes examined=750, genes with AA changes=2
+[curated] determinants in reference only: []
+
+[1;34m==> 05-FUN (4): metabolic / functional category comparison (Bakta COG-KEGG-GO)[0m
+[func] reference features with functional evidence: 4231
+[func] query features with functional evidence    : 4231
+[func] COG ids ref=0 qry=0; KEGG KO ref=0 qry=0
+[func] ABRicate calls=0 differences=0; AMRFinderPlus calls=1
+
+[1;34m==> 05-FUN (5): COG functional-category profiling (NCBI COG2020, via DIAMOND)[0m
+
+[1;34m==>   reference proteome : /home/cz/WGS/reference/unzipped/reference.faa[0m
+
+[1;34m==>   query proteome     : /home/cz/WGS/result/04_annotation/transferred/query.faa[0m
+[cog] protein->COG mappings: 3,213,019
+[cog] reference: 2783/2884 proteins assigned a COG
+[cog] query: 2821/2922 proteins assigned a COG
+[cog] metabolism-category assignments: reference=1192 query=1202
+
+[1;34m==> 05-FUN (6): GO / EC profile comparison[0m
+[go_ec] reference CDS=4231 GO=1188 EC=0
+[go_ec] query     CDS=4231 GO=1188 EC=0
+[go_ec] GO reference-only=0, query-only=0; EC reference-only=0, query-only=0
+
+[1;34m==> 05-Functional analysis complete -> /home/cz/WGS/result/05_functional[0m
+--> STEP 5 (functional) finished OK in 18s
+
+###################################################################
+#  STEP 6  :  extra
+#  script    :  /home/cz/WGS/scripts/06_extra.sh
+#  started   :  2026-10-12 17:32:12
+###################################################################
+
+[1;34m==> 06-EX (a): plasmid comparison (reference plasmid vs query plasmid)[0m
+[plasmid] ref NC_006873.1 36,560 bp vs qry NZ_CP036556.1 36,560 bp; orientation=reverse_complement; identity=100.0%; differences=0
+
+[1;34m==> 06-EX (b): prophage detection[0m
+   [FAIL] phispy_reference (rc=2) -- see /home/cz/WGS/logs/phispy_reference.log
+[1;33m[WARN] phispy reference failed[0m
+   [FAIL] phispy_query (rc=2) -- see /home/cz/WGS/logs/phispy_query.log
+[1;33m[WARN] phispy query failed[0m
+
+[1;34m==> 06-EX (c): CRISPR arrays and cas genes[0m
+   [ok]   minced_reference
+   [ok]   minced_query
+[crispr] 6 cas-like genes
+
+[1;34m==> 06-EX (d): mobile genetic elements / transposase landscape[0m
+[mobile] 67 mobile-element genes
+
+[1;34m==> 06-EX (e): phylogenomic placement among B. fragilis genomes[0m
+
+[1;34m==>   downloading B. fragilis RefSeq assemblies ...[0m
+[1;33m[WARN] not enough genomes downloaded -- phylogenomics skipped[0m
+
+[1;34m==> 06-EX (f): pan-genome statistics[0m
+
+[1;34m==> 06-Extra analyses complete -> /home/cz/WGS/result/06_extra[0m
+--> STEP 6 (extra) finished OK in 7s
+
+###################################################################
+#  STEP 7  :  visualize
+#  script    :  /home/cz/WGS/scripts/07_visualize.sh
+#  started   :  2026-10-12 17:32:19
+###################################################################
+
+[1;34m==> 07-VIZ: generating figures[0m
+  [fig] /home/cz/WGS/result/07_visualization/fig01_assembly_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig02_read_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig03_synteny_dotplot.png
+  [fig] /home/cz/WGS/result/07_visualization/fig04_structural_variants.png
+  [fig] /home/cz/WGS/result/07_visualization/fig05_genome_circos.png
+  [fig] /home/cz/WGS/result/07_visualization/fig06_coverage.png
+  [fig] /home/cz/WGS/result/07_visualization/fig07_variant_landscape.png
+  [fig] /home/cz/WGS/result/07_visualization/fig08_variant_confidence.png
+  [fig] /home/cz/WGS/result/07_visualization/fig09_substitution_spectrum.png
+  [fig] /home/cz/WGS/result/07_visualization/fig10_variant_verification.png
+  [fig] /home/cz/WGS/result/07_visualization/fig11_gene_impact.png
+  [fig] /home/cz/WGS/result/07_visualization/fig12_functional_profile.png
+  [fig] /home/cz/WGS/result/07_visualization/fig13_amr_determinants.png
+[figures] 13/13 figures written to /home/cz/WGS/result/07_visualization
+
+[1;34m==> 07-Visualisation complete: 13 figure(s) -> /home/cz/WGS/result/07_visualization[0m
+--> STEP 7 (visualize) finished OK in 29s
+
+###################################################################
+#  STEP 8  :  report
+#  script    :  /home/cz/WGS/scripts/08_report.sh
+#  started   :  2026-10-12 17:32:48
+###################################################################
+
+[1;34m==> 08-REPORT: assembling the final report[0m
+[report] wrote /home/cz/WGS/result/08_report/WGS_report.md (25961 bytes) and WGS_report.html
+[report] key findings: 9
+
+[1;34m==> 08-Report complete -> /home/cz/WGS/result/08_report/WGS_report.html[0m
+-rw-rw-r-- 1 cz cz 5776589 10月 12 17:32 /home/cz/WGS/result/08_report/WGS_report.html
+-rw-rw-r-- 1 cz cz   26021 10月 12 17:32 /home/cz/WGS/result/08_report/WGS_report.md
+--> STEP 8 (report) finished OK in 0s
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           OK               27
+ alignment    OK               167
+ variants     OK               4
+ annotation   OK               59
+ functional   OK               18
+ extra        OK               7
+ visualize    OK               29
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 313 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:32:48
+===================================================================

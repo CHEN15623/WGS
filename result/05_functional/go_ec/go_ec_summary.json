@@ -1,0 +1,32 @@
+{
+  "reference_CDS": 4231,
+  "query_CDS": 4231,
+  "reference_go_terms": 1188,
+  "query_go_terms": 1188,
+  "reference_ec_numbers": 0,
+  "query_ec_numbers": 0,
+  "ec_class_totals": {
+    "reference": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "query": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    }
+  },
+  "go_reference_only": [],
+  "go_query_only": [],
+  "ec_reference_only": [],
+  "ec_query_only": []
+}

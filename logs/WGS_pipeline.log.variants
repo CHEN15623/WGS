@@ -1,0 +1,104 @@
+
+[1;34m==> 03-VAR (1): MUMmer show-snps (assembly-to-assembly)[0m
+   [ok]   show_snps
+   [ok]   show_snps_strict
+   [ok]   show_snps_repeatfiltered
+   [ok]   show_diff
+
+[1;34m==> 03-VAR (2): bcftools + freebayes on the contig (asm5) alignment[0m
+
+[1;34m==> 03-VAR (3): read-based calling on the deep SIM-read alignment[0m
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   bcftools_filter_sim
+
+[1;34m==> 03-VAR (4): merge callers into one reconciled variant table[0m
+[merge] repeat map built from 100 alignment blocks
+[merge] 223 distinct variants; HIGH=4 MEDIUM=0 LOW=219
+[merge] SNP=166 INS=18 DEL=34 MNV=5
+[merge] wrote /home/cz/WGS/result/03_variants/merged/variants_merged.tsv, /home/cz/WGS/result/03_variants/merged/variants_highconf.tsv, /home/cz/WGS/result/03_variants/merged/variants_highconf.vcf
+
+[1;34m==> 03-VAR (4b): verification -- reconstruct ref/query alleles, split confident vs ambiguous[0m
+[verify] wrote /home/cz/WGS/result/03_variants/verified/variants_confident.vcf
+[verify] confident=4  ambiguous=215
+[verify]   NC_003228.3:530487 G>GT (INS, 2 methods, alt=% of 86 reads)
+[verify]   NC_003228.3:669715 TTA>T (DEL, 2 methods, alt=% of 93 reads)
+[verify]   NC_003228.3:683862 G>A (SNP, 3 methods, alt=100.0% of 112 reads)
+[verify]   NC_003228.3:1709303 G>GT (INS, 2 methods, alt=% of 97 reads)
+
+[1;34m==> 03-VAR (5): variant statistics[0m
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_asm
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+   [ok]   stats_freebayes_asm
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_sim.snp
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_sim.indel
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+   [ok]   stats_freebayes_sim
+[vstats] confident events: 4 {'INS': 2, 'DEL': 1, 'SNP': 1}
+[vstats] 223 variants | types={'INS': 18, 'DEL': 34, 'SNP': 166, 'MNV': 5} | ts/tv=1.101 | genic=124 intergenic=99
+
+[1;34m==> 03-Variants complete -> /home/cz/WGS/result/03_variants[0m
+
+[1;34m==> 03-VAR (1): MUMmer show-snps (assembly-to-assembly)[0m
+   [ok]   show_snps
+   [ok]   show_snps_strict
+   [ok]   show_snps_repeatfiltered
+   [ok]   show_diff
+
+[1;34m==> 03-VAR (2): bcftools + freebayes on the contig (asm5) alignment[0m
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 100000
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+Lines   total/split/joined/realigned/mismatch_removed/dup_removed/skipped:	35/0/0/0/0/0/0
+   [ok]   bcftools_call_asm
+   [ok]   freebayes_asm
+
+[1;34m==> 03-VAR (3): read-based calling on the deep SIM-read alignment[0m
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 100000
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+Lines   total/split/joined/realigned/mismatch_removed/dup_removed/skipped:	1/0/0/0/0/0/0
+   [ok]   bcftools_sim_snp
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 100000
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+Lines   total/split/joined/realigned/mismatch_removed/dup_removed/skipped:	5/0/0/2/0/0/0
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   bcftools_sim_indel
+   [ok]   freebayes_sim
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   bcftools_filter_sim
+
+[1;34m==> 03-VAR (4): merge callers into one reconciled variant table[0m
+[merge] repeat map built from 100 alignment blocks
+[merge] 223 distinct variants; HIGH=4 MEDIUM=0 LOW=219
+[merge] SNP=166 INS=18 DEL=34 MNV=5
+[merge] wrote /home/cz/WGS/result/03_variants/merged/variants_merged.tsv, /home/cz/WGS/result/03_variants/merged/variants_highconf.tsv, /home/cz/WGS/result/03_variants/merged/variants_highconf.vcf
+
+[1;34m==> 03-VAR (4b): verification -- reconstruct ref/query alleles, split confident vs ambiguous[0m
+[verify] wrote /home/cz/WGS/result/03_variants/verified/variants_confident.vcf
+[verify] confident=4  ambiguous=215
+[verify]   NC_003228.3:530487 G>GT (INS, 2 methods, alt=% of 86 reads)
+[verify]   NC_003228.3:669715 TTA>T (DEL, 2 methods, alt=% of 93 reads)
+[verify]   NC_003228.3:683862 G>A (SNP, 3 methods, alt=100.0% of 112 reads)
+[verify]   NC_003228.3:1709303 G>GT (INS, 2 methods, alt=% of 97 reads)
+
+[1;34m==> 03-VAR (5): variant statistics[0m
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_asm
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+   [ok]   stats_freebayes_asm
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_sim.snp
+[W::bcf_hdr_check_sanity] MQ should be declared as Type=Float
+   [ok]   stats_bcftools_sim.indel
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+   [ok]   stats_freebayes_sim
+[vstats] confident events: 4 {'INS': 2, 'DEL': 1, 'SNP': 1}
+[vstats] 223 variants | types={'INS': 18, 'DEL': 34, 'SNP': 166, 'MNV': 5} | ts/tv=1.101 | genic=124 intergenic=99
+
+[1;34m==> 03-Variants complete -> /home/cz/WGS/result/03_variants[0m

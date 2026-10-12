@@ -1,0 +1,24 @@
+{
+  "total_variants": 223,
+  "types": {
+    "INS": 18,
+    "DEL": 34,
+    "SNP": 166,
+    "MNV": 5
+  },
+  "transitions": 87,
+  "transversions": 79,
+  "ts_tv_ratio": 1.101,
+  "genic": 124,
+  "intergenic": 99,
+  "cds_forward": 62,
+  "cds_reverse": 62,
+  "per_contig": {
+    "NC_003228.3": 223
+  },
+  "confidence": {
+    "HIGH": 4,
+    "LOW": 219
+  },
+  "window_size": 10000
+}

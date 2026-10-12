@@ -1,0 +1,13 @@
+feature_type	count
+gene	4254
+CDS	4231
+exon	94
+tRNA	73
+pseudogene	70
+rRNA	19
+riboswitch	9
+region	2
+direct_repeat	2
+tmRNA	1
+RNase_P_RNA	1
+CDS_with_product_annotation	4231

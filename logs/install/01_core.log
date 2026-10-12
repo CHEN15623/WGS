@@ -1,0 +1,73 @@
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64          Using cache
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch          Using cache
+warning  libmamba 'repo.anaconda.com', a commercial channel hosted by Anaconda.com, is used.
+    
+warning  libmamba Please make sure you understand Anaconda Terms of Services.
+    
+warning  libmamba See: https://legal.anaconda.com/policies/en/
+
+
+Transaction
+
+  Prefix: /home/cz/miniconda3/envs/WGS
+
+  Updating specs:
+
+   - bwa
+   - minimap2
+   - bedtools
+   - seqtk
+   - pigz
+   - seqkit
+
+
+  Package                    Version  Build       Channel           Size
+──────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────
+
+  + bedtools                  2.31.1  h13024bc_3  bioconda        Cached
+  + bwa                       0.7.19  h577a1d6_1  bioconda         654kB
+  + k8                           1.2  he8db53b_6  bioconda           8MB
+  + kernel-headers_linux-64   6.12.0  he073ed8_6  conda-forge     Cached
+  + minimap2                    2.31  h118bc1c_0  bioconda           1MB
+  + pigz                         2.8  h421ea60_2  conda-forge       81kB
+  + seqkit                    2.14.0  hb192632_0  bioconda        Cached
+  + seqtk                        1.5  h577a1d6_1  bioconda         142kB
+  + sysroot_linux-64            2.39  hc4b9eeb_6  conda-forge     Cached
+  + tzdata                     2026c  h151e31d_0  conda-forge     Cached
+
+  Summary:
+
+  Install: 10 packages
+
+  Total download: 9MB
+
+──────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking bedtools-2.31.1-h13024bc_3
+Linking bwa-0.7.19-h577a1d6_1
+Linking seqkit-2.14.0-hb192632_0
+Linking seqtk-1.5-h577a1d6_1
+Linking pigz-2.8-h421ea60_2
+Linking kernel-headers_linux-64-6.12.0-he073ed8_6
+Linking tzdata-2026c-h151e31d_0
+Linking sysroot_linux-64-2.39-hc4b9eeb_6
+Linking k8-1.2-he8db53b_6
+Linking minimap2-2.31-h118bc1c_0
+
+Transaction finished
+

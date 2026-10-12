@@ -1,0 +1,19 @@
+{
+  "total_distinct_variants": 223,
+  "high_confidence": 4,
+  "medium_confidence": 0,
+  "low_confidence": 219,
+  "SNPs": 166,
+  "insertions": 18,
+  "deletions": 34,
+  "MNV": 5,
+  "mummer_raw_calls": 203,
+  "per_caller": {
+    "mummer": 199,
+    "bcftools_asm": 35,
+    "freebayes_asm": 31,
+    "bcftools_sim_indel": 4,
+    "bcftools_sim_snp": 1,
+    "freebayes_sim": 4
+  }
+}

@@ -1,0 +1,175 @@
+===================================================================
+ WGS comparative genomics pipeline
+ query     : /home/cz/WGS/seq/unzipped/query.fna
+ reference : /home/cz/WGS/reference/unzipped/reference.fna
+ started   : 2026-10-12 17:43:37
+ host      : gy-PR4865P-N-A, 192 cores
+===================================================================
+------------------------------------------------------------------
+ toolchain check  (conda env: WGS)
+------------------------------------------------------------------
+  [ ok ]  samtools       /home/cz/miniconda3/envs/WGS/bin/samtools
+  [ ok ]  bcftools       /home/cz/miniconda3/envs/WGS/bin/bcftools
+  [ ok ]  bwa            /home/cz/miniconda3/envs/WGS/bin/bwa
+  [ ok ]  minimap2       /home/cz/miniconda3/envs/WGS/bin/minimap2
+  [ ok ]  nucmer         /home/cz/miniconda3/envs/WGS/bin/nucmer
+  [ ok ]  show-snps      /home/cz/miniconda3/envs/WGS/bin/show-snps
+  [ ok ]  python3        /home/cz/miniconda3/envs/WGS/bin/python3
+  [ ok ]  freebayes     
+  [ ok ]  dnadiff       
+  [ -- ]  prokka         optional, step will be skipped
+  [ ok ]  bakta         
+  [ ok ]  snpEff        
+  [ -- ]  abricate       optional, step will be skipped
+  [ ok ]  amrfinder     
+  [ ok ]  quast.py      
+  [ ok ]  seqkit        
+  [ -- ]  bandage        optional, step will be skipped
+  [ ok ]  mafft         
+  [ ok ]  iqtree        
+  [ ok ]  diamond       
+  [ -- ]  Rscript        optional, step will be skipped
+------------------------------------------------------------------
+ core toolchain complete
+-- skipping step 0 (prepare)
+-- skipping step 1 (qc)
+
+###################################################################
+#  STEP 2  :  alignment
+#  script    :  /home/cz/WGS/scripts/02_alignment.sh
+#  started   :  2026-10-12 17:43:37
+###################################################################
+
+[1;34m==> 02-ALN (0): index the reference[0m
+
+[1;34m==> 02-ALN (A): whole-genome alignment with NUCmer[0m
+   [ok]   show_coords
+   [ok]   show_coords_all
+   [ok]   show_align
+
+[1;34m==> 02-ALN (A2): structural rearrangements from the 1-to-1 blocks[0m
+[sv] 9 alignment blocks; 1 confirmed inversion(s), largest 88,340 bp; 1 replicon(s) with an origin shift
+
+[1;34m==> 02-ALN (B): dnadiff whole-genome difference report[0m
+
+[1;34m==> 02-ALN (C): contig-to-reference mapping (minimap2 asm5)[0m
+   [ok]   samtools_flagstat
+   [ok]   samtools_stats
+   [ok]   samtools_idxstats
+   [ok]   samtools_coverage
+   [ok]   samtools_depth
+
+[1;34m==> 02-ALN (D): simulated-read mapping (depth-supported confirmation layer)[0m
+   [ok]   samtools_flagstat_sim
+   [ok]   samtools_stats_sim
+   [ok]   samtools_coverage_sim
+   [ok]   samtools_depth_sim
+
+[1;34m==> 02-ALN (E): coverage / uncovered-region summary[0m
+[coverage] wrote /home/cz/WGS/result/02_alignment/coverage/coverage_report.tsv and /home/cz/WGS/result/02_alignment/coverage/uncovered_regions.tsv
+
+[1;34m==> 02-Alignment complete -> /home/cz/WGS/result/02_alignment[0m
+--> STEP 2 (alignment) finished OK in 168s
+-- skipping step 3 (variants)
+-- skipping step 4 (annotation)
+
+###################################################################
+#  STEP 5  :  functional
+#  script    :  /home/cz/WGS/scripts/05_functional.sh
+#  started   :  2026-10-12 17:46:25
+###################################################################
+
+[1;34m==> 05-FUN (1): ABRicate screens on both genomes[0m
+[1;33m[WARN] abricate not installed[0m
+
+[1;34m==> 05-FUN (2): NCBI AMRFinderPlus on both genomes[0m
+  AMRFinderPlus database: /home/cz/miniconda3/envs/WGS/bin/data/2026-08-07.1/
+
+[1;34m==> 05-FUN (3): curated B. fragilis determinant scan (both proteomes)[0m
+  using query annotation: /home/cz/WGS/reference/unzipped/reference.gff
+[curated] catalogue=39, ref genes examined=750, genes with AA changes=2
+[curated] determinants in reference only: []
+
+[1;34m==> 05-FUN (4): metabolic / functional category comparison (Bakta COG-KEGG-GO)[0m
+[func] reference features with functional evidence: 4231
+[func] query features with functional evidence    : 4231
+[func] COG ids ref=0 qry=0; KEGG KO ref=0 qry=0
+[func] ABRicate calls=0 differences=0; AMRFinderPlus calls=1
+
+[1;34m==> 05-FUN (5): COG functional-category profiling (NCBI COG2020, via DIAMOND)[0m
+
+[1;34m==>   reference proteome : /home/cz/WGS/reference/unzipped/reference.faa[0m
+
+[1;34m==>   query proteome     : /home/cz/WGS/result/04_annotation/transferred/query.faa[0m
+[cog] protein->COG mappings: 3,213,019
+[cog] reference: 2783/2884 proteins assigned a COG
+[cog] query: 2821/2922 proteins assigned a COG
+[cog] metabolism-category assignments: reference=1192 query=1202
+
+[1;34m==> 05-FUN (6): GO / EC profile comparison[0m
+[go_ec] reference CDS=4231 GO=1188 EC=0
+[go_ec] query     CDS=4231 GO=1188 EC=0
+[go_ec] GO reference-only=0, query-only=0; EC reference-only=0, query-only=0
+
+[1;34m==> 05-Functional analysis complete -> /home/cz/WGS/result/05_functional[0m
+--> STEP 5 (functional) finished OK in 32s
+-- skipping step 6 (extra)
+
+###################################################################
+#  STEP 7  :  visualize
+#  script    :  /home/cz/WGS/scripts/07_visualize.sh
+#  started   :  2026-10-12 17:46:57
+###################################################################
+
+[1;34m==> 07-VIZ: generating figures[0m
+  [fig] /home/cz/WGS/result/07_visualization/fig01_assembly_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig02_read_qc.png
+  [fig] /home/cz/WGS/result/07_visualization/fig03_synteny_dotplot.png
+  [fig] /home/cz/WGS/result/07_visualization/fig04_structural_variants.png
+  [fig] /home/cz/WGS/result/07_visualization/fig05_genome_circos.png
+  [fig] /home/cz/WGS/result/07_visualization/fig06_coverage.png
+  [fig] /home/cz/WGS/result/07_visualization/fig07_variant_landscape.png
+  [fig] /home/cz/WGS/result/07_visualization/fig08_variant_confidence.png
+  [fig] /home/cz/WGS/result/07_visualization/fig09_substitution_spectrum.png
+  [fig] /home/cz/WGS/result/07_visualization/fig10_variant_verification.png
+  [fig] /home/cz/WGS/result/07_visualization/fig11_gene_impact.png
+  [fig] /home/cz/WGS/result/07_visualization/fig12_functional_profile.png
+  [fig] /home/cz/WGS/result/07_visualization/fig13_amr_determinants.png
+[figures] 13/13 figures written to /home/cz/WGS/result/07_visualization
+
+[1;34m==> 07-Visualisation complete: 13 figure(s) -> /home/cz/WGS/result/07_visualization[0m
+--> STEP 7 (visualize) finished OK in 29s
+
+###################################################################
+#  STEP 8  :  report
+#  script    :  /home/cz/WGS/scripts/08_report.sh
+#  started   :  2026-10-12 17:47:26
+###################################################################
+
+[1;34m==> 08-REPORT: assembling the final report[0m
+[report] wrote /home/cz/WGS/result/08_report/WGS_report.md (25963 bytes) and WGS_report.html
+[report] key findings: 9
+
+[1;34m==> 08-Report complete -> /home/cz/WGS/result/08_report/WGS_report.html[0m
+-rw-rw-r-- 1 cz cz 5775219 10月 12 17:47 /home/cz/WGS/result/08_report/WGS_report.html
+-rw-rw-r-- 1 cz cz   26023 10月 12 17:47 /home/cz/WGS/result/08_report/WGS_report.md
+--> STEP 8 (report) finished OK in 0s
+
+===================================================================
+ PIPELINE SUMMARY
+===================================================================
+ STEP         STATUS           SECONDS
+ qc           not run          
+ alignment    OK               168
+ variants     not run          
+ annotation   not run          
+ functional   OK               32
+ extra        not run          
+ visualize    OK               29
+ report       OK               0
+-------------------------------------------------------------------
+ total wall time: 229 s
+ results        : /home/cz/WGS/result
+ report         : /home/cz/WGS/result/08_report/WGS_report.html
+ finished       : 2026-10-12 17:47:26
+===================================================================

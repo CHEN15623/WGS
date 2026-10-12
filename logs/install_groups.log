@@ -1,0 +1,15 @@
+=== install groups started 2026年 10月 12日 星期一 16:08:57 CST ===
+### GROUP 01_core : bwa minimap2 bedtools seqtk pigz seqkit ###
+OK      01_core
+### GROUP 02_var : freebayes snp-sites mummer4 ###
+OK      02_var
+### GROUP 03_quast : quast ###
+FAILED  03_quast
+         error    libmamba Could not solve for environment specs
+                │  └─ python [=2.7 *|>=2.7,<2.8.0a0 *], which conflicts with any installable versions previously reported;
+                │  └─ python >=3.5,<3.6.0a0 *, which conflicts with any installable versions previously reported;
+                │  └─ python >=3.6,<3.7.0a0 *, which conflicts with any installable versions previously reported;
+                │  └─ python >=3.7,<3.8.0a0 *, which conflicts with any installable versions previously reported;
+### GROUP 04_python : python=3.11 numpy pandas scipy matplotlib pysam biopython ###
+OK      04_python
+### GROUP 05_prokka : prokka ###
